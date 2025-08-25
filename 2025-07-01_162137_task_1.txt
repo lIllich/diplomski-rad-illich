@@ -1,0 +1,77 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši 10 riječi takvih da svaka riječ sadrži minimalno 50% fonema koji pripadaju klasi Niski (N), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I have this task to create 10 Croatian words where each word has at least 50% of its phonemes from the Low (N) class. The Low class includes the phonemes /m/, /n/, /nj/, /b/, /p/, and /u/. I need to make sure that each word I come up with meets this criterion. Let me think about how to approach this.
+
+First, I should understand what each of these phonemes sounds like in Croatian. /m/ is like the'm' in "mama," /n/ is like 'n' in "noga," /nj/ is a bit trickier, like the 'nj' in "kunjenja," /b/ is the 'b' sound, /p/ is the 'p' sound, and /u/ is the 'u' vowel.
+
+Now, I need to construct words where at least half of the phonemes are from this Low class. Since the words can vary in length, I should aim for words that are at least two or three syllables long to make it easier to include multiple Low phonemes.
+
+Let me start by brainstorming some possible words. Maybe I can think of common words that have multiple N, M, B, P, or U sounds.
+
+1. "Mama" – This word has two'm's and an 'a'. The'm's are from the Low class. So, out of three phonemes, two are Low. That's 66%, which meets the requirement.
+
+2. "Baba" – This has two 'b's and an 'a'. The 'b's are Low. So, two out of three, which is 66%.
+
+3. "Papuč" – This word has 'p', 'a', 'p', 'u', 'č'. The 'p's and 'u' are Low. So, three out of five, which is 60%.
+
+4. "Njive" – 'Nj', 'i', 'v', 'e'. 'Nj' is Low. So, one out of four, which is 25%. That doesn't meet the requirement. Maybe I can think of another word with more Low phonemes.
+
+Wait, "njive" might not be the best example. Let me think of another one.
+
+5. "Mnog" – This has'm', 'n', 'o', 'g'. 'M' and 'n' are Low. So, two out of four, 50%. That's acceptable.
+
+6. "Bun" – 'B', 'u', 'n'. All three are Low. So, 100%, which is great.
+
+7. "Pun" – Similar to "bun," 'p', 'u', 'n'. All three are Low. 100%.
+
+8. "Mnog" – Wait, I already did that. Maybe "mnogo" –'m', 'n', 'o', 'g', 'o'. 'M' and 'n' are Low. So, two out of five, 40%. Doesn't meet.
+
+Hmm, maybe "mnog" is better as it's four letters, two Low.
+
+9. "Babuš" – 'B', 'a', 'b', 'u', 'š'. 'B's and 'u' are Low. So, three out of five, 60%.
+
+10. "Pup" – 'P', 'u', 'p'. All three are Low. 100%.
+
+Wait, "pup" might be a bit short, but it's valid. Alternatively, "pupić" – 'p', 'u', 'p', 'i', 'ć'. 'P's and 'u' are Low. Three out of five, 60%.
+
+I think I have a good list now. Let me make sure each word meets the 50% Low phoneme requirement.
+</think>
+
+Here is a list of 10 Croatian words, each containing at least 50% of phonemes from the Low (N) class:
+
+1. **Mama** - Phonemes: m, a, m (66% Low)
+2. **Baba** - Phonemes: b, a, b (66% Low)
+3. **Papuč** - Phonemes: p, a, p, u, č (60% Low)
+4. **Mnog** - Phonemes: m, n, o, g (50% Low)
+5. **Bun** - Phonemes: b, u, n (100% Low)
+6. **Pun** - Phonemes: p, u, n (100% Low)
+7. **Babuš** - Phonemes: b, a, b
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši 10 riječi takvih da svaka riječ sadrži minimalno 50% fonema koji pripadaju klasi Niski (N), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I have this task to create 10 Croatian words where each word has at least 50% of its phonemes from the Low (N) class. The Low class includes the phonemes /m/, /n/, /nj/, /b/, /p/, and /u/. I need to make sure that each word I come up with meets this criterion. Let me think about how to approach this.\n\nFirst, I should understand what each of these phonemes sounds like in Croatian. /m/ is like the'm' in \"mama,\" /n/ is like 'n' in \"noga,\" /nj/ is a bit trickier, like the 'nj' in \"kunjenja,\" /b/ is the 'b' sound, /p/ is the 'p' sound, and /u/ is the 'u' vowel.\n\nNow, I need to construct words where at least half of the phonemes are from this Low class. Since the words can vary in length, I should aim for words that are at least two or three syllables long to make it easier to include multiple Low phonemes.\n\nLet me start by brainstorming some possible words. Maybe I can think of common words that have multiple N, M, B, P, or U sounds.\n\n1. \"Mama\" – This word has two'm's and an 'a'. The'm's are from the Low class. So, out of three phonemes, two are Low. That's 66%, which meets the requirement.\n\n2. \"Baba\" – This has two 'b's and an 'a'. The 'b's are Low. So, two out of three, which is 66%.\n\n3. \"Papuč\" – This word has 'p', 'a', 'p', 'u', 'č'. The 'p's and 'u' are Low. So, three out of five, which is 60%.\n\n4. \"Njive\" – 'Nj', 'i', 'v', 'e'. 'Nj' is Low. So, one out of four, which is 25%. That doesn't meet the requirement. Maybe I can think of another word with more Low phonemes.\n\nWait, \"njive\" might not be the best example. Let me think of another one.\n\n5. \"Mnog\" – This has'm', 'n', 'o', 'g'. 'M' and 'n' are Low. So, two out of four, 50%. That's acceptable.\n\n6. \"Bun\" – 'B', 'u', 'n'. All three are Low. So, 100%, which is great.\n\n7. \"Pun\" – Similar to \"bun,\" 'p', 'u', 'n'. All three are Low. 100%.\n\n8. \"Mnog\" – Wait, I already did that. Maybe \"mnogo\" –'m', 'n', 'o', 'g', 'o'. 'M' and 'n' are Low. So, two out of five, 40%. Doesn't meet.\n\nHmm, maybe \"mnog\" is better as it's four letters, two Low.\n\n9. \"Babuš\" – 'B', 'a', 'b', 'u', 'š'. 'B's and 'u' are Low. So, three out of five, 60%.\n\n10. \"Pup\" – 'P', 'u', 'p'. All three are Low. 100%.\n\nWait, \"pup\" might be a bit short, but it's valid. Alternatively, \"pupić\" – 'p', 'u', 'p', 'i', 'ć'. 'P's and 'u' are Low. Three out of five, 60%.\n\nI think I have a good list now. Let me make sure each word meets the 50% Low phoneme requirement.\n</think>\n\nHere is a list of 10 Croatian words, each containing at least 50% of phonemes from the Low (N) class:\n\n1. **Mama** - Phonemes: m, a, m (66% Low)\n2. **Baba** - Phonemes: b, a, b (66% Low)\n3. **Papuč** - Phonemes: p, a, p, u, č (60% Low)\n4. **Mnog** - Phonemes: m, n, o, g (50% Low)\n5. **Bun** - Phonemes: b, u, n (100% Low)\n6. **Pun** - Phonemes: p, u, n (100% Low)\n7. **Babuš** - Phonemes: b, a, b"
+  }
+]

@@ -1,0 +1,83 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 50% fonema koji pripadaju klasi Srednji (S), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I need to help the user create a sentence in Croatian that's at least 100 characters long and has at least 50% of the phonemes from the Srednji (S) class. Let me break this down.
+
+First, I should recall the classes of phonemes in Croatian. The Srednji (S) class includes /a/, /k/, /r/, /d/, /dž/, /f/, /ž/. So, any word that contains these sounds will contribute to the 50% requirement.
+
+I need to construct a sentence that's meaningful and grammatically correct. Maybe start with a common phrase or situation. Perhaps something about weather or daily activities since those are easy to build upon.
+
+Let me think of some words. "Danas je lep dan" – that's a good start. It means "Today is a nice day." Let's check the phonemes: "Danas" has /d/, /a/, /n/, /a/, /s/. So /d/ and /a/ are in S class. "lep" has /l/, /e/, /p/. /l/ is SN, /e/ is SV, /p/ is N. "dan" has /d/, /a/, /n/. So, in this part, "Danas je lep dan" – I can count how many phonemes are S class. 
+
+Wait, maybe I should count each phoneme in the entire sentence to ensure at least 50%. Let me plan a longer sentence. Maybe include more verbs or descriptions.
+
+How about adding more details: "Danas je lep dan, sunce siječe nad poljima punima cvjeta." That translates to "Today is a nice day, the sun is shining over the fields full of flowers." Let's see the phonemes here.
+
+Breaking it down:
+- "Danas" – /d/, /a/, /n/, /a/, /s/
+- "je" – /j/, /e/
+- "lep" – /l/, /e/, /p/
+- "dan" – /d/, /a/, /n/
+- "sunce" – /s/, /u/, /n/, /t/, /s/, /e/
+- "siječe" – /s/, /i/, /j/, /e/, /t/, /s/, /e/
+- "nad" – /n/, /a/, /d/
+- "poljima" – /p/, /o/, /l/, /j/, /i/, /m/, /a/
+- "punima" – /p/, /u/, /n/, /i/, /m/, /a/
+- "cvjeta" – /c/, /v/, /j/, /e/, /t/, /a/
+
+Now, I'll go through each word and count the S class phonemes. Let's list them:
+
+S class phonemes are: /a/, /k/, /r/, /d/, /dž/, /f/, /ž/.
+
+Looking at each word:
+
+- "Danas": /d/, /a/ (both S)
+- "je": /j/ (SV), /e/ (SV)
+- "lep": /l/ (SN), /e/ (SV), /p/ (N)
+- "dan": /d/, /a/ (both S)
+- "sunce": /s/ (V), /u/ (N), /n/ (N), /t/ (SV), /s/ (V), /e/ (SV)
+- "siječe": /s/ (V), /i/ (V), /j/ (SV), /e/ (SV), /t/ (SV), /s/ (V), /e/ (SV)
+- "nad": /n/ (N), /a/ (S), /d/ (S)
+- "poljima": /p/ (N), /o/ (SN), /l/ (SN), /j/ (SV), /i/ (V), /m/ (N), /a/ (S)
+- "punima": /p/ (N), /u/ (N), /n/ (N), /i/ (V), /m/ (N), /a/ (S)
+- "cvjeta": /c/ (V), /v/ (SN), /j/ (SV), /e/ (SV), /t/ (SV), /a/ (S)
+
+Now, let's count the total number of phonemes and how many are S class.
+
+Total phonemes:
+
+"Danas" – 5
+"je" – 2
+"lep" – 3
+"dan" – 3
+"sunce" – 6
+"siječe" – 7
+"
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 50% fonema koji pripadaju klasi Srednji (S), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I need to help the user create a sentence in Croatian that's at least 100 characters long and has at least 50% of the phonemes from the Srednji (S) class. Let me break this down.\n\nFirst, I should recall the classes of phonemes in Croatian. The Srednji (S) class includes /a/, /k/, /r/, /d/, /dž/, /f/, /ž/. So, any word that contains these sounds will contribute to the 50% requirement.\n\nI need to construct a sentence that's meaningful and grammatically correct. Maybe start with a common phrase or situation. Perhaps something about weather or daily activities since those are easy to build upon.\n\nLet me think of some words. \"Danas je lep dan\" – that's a good start. It means \"Today is a nice day.\" Let's check the phonemes: \"Danas\" has /d/, /a/, /n/, /a/, /s/. So /d/ and /a/ are in S class. \"lep\" has /l/, /e/, /p/. /l/ is SN, /e/ is SV, /p/ is N. \"dan\" has /d/, /a/, /n/. So, in this part, \"Danas je lep dan\" – I can count how many phonemes are S class. \n\nWait, maybe I should count each phoneme in the entire sentence to ensure at least 50%. Let me plan a longer sentence. Maybe include more verbs or descriptions.\n\nHow about adding more details: \"Danas je lep dan, sunce siječe nad poljima punima cvjeta.\" That translates to \"Today is a nice day, the sun is shining over the fields full of flowers.\" Let's see the phonemes here.\n\nBreaking it down:\n- \"Danas\" – /d/, /a/, /n/, /a/, /s/\n- \"je\" – /j/, /e/\n- \"lep\" – /l/, /e/, /p/\n- \"dan\" – /d/, /a/, /n/\n- \"sunce\" – /s/, /u/, /n/, /t/, /s/, /e/\n- \"siječe\" – /s/, /i/, /j/, /e/, /t/, /s/, /e/\n- \"nad\" – /n/, /a/, /d/\n- \"poljima\" – /p/, /o/, /l/, /j/, /i/, /m/, /a/\n- \"punima\" – /p/, /u/, /n/, /i/, /m/, /a/\n- \"cvjeta\" – /c/, /v/, /j/, /e/, /t/, /a/\n\nNow, I'll go through each word and count the S class phonemes. Let's list them:\n\nS class phonemes are: /a/, /k/, /r/, /d/, /dž/, /f/, /ž/.\n\nLooking at each word:\n\n- \"Danas\": /d/, /a/ (both S)\n- \"je\": /j/ (SV), /e/ (SV)\n- \"lep\": /l/ (SN), /e/ (SV), /p/ (N)\n- \"dan\": /d/, /a/ (both S)\n- \"sunce\": /s/ (V), /u/ (N), /n/ (N), /t/ (SV), /s/ (V), /e/ (SV)\n- \"siječe\": /s/ (V), /i/ (V), /j/ (SV), /e/ (SV), /t/ (SV), /s/ (V), /e/ (SV)\n- \"nad\": /n/ (N), /a/ (S), /d/ (S)\n- \"poljima\": /p/ (N), /o/ (SN), /l/ (SN), /j/ (SV), /i/ (V), /m/ (N), /a/ (S)\n- \"punima\": /p/ (N), /u/ (N), /n/ (N), /i/ (V), /m/ (N), /a/ (S)\n- \"cvjeta\": /c/ (V), /v/ (SN), /j/ (SV), /e/ (SV), /t/ (SV), /a/ (S)\n\nNow, let's count the total number of phonemes and how many are S class.\n\nTotal phonemes:\n\n\"Danas\" – 5\n\"je\" – 2\n\"lep\" – 3\n\"dan\" – 3\n\"sunce\" – 6\n\"siječe\" – 7\n\""
+  }
+]

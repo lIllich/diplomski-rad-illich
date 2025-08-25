@@ -1,0 +1,201 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 50% fonema koji pripadaju klasi Srednjeniski (SN), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I need to help the user generate a sentence in Croatian that's at least 100 characters long and has at least 50% of its phonemes from the Srednjeniski (SN) class. Let me break this down.
+
+First, I should understand the phoneme classes. The SN class includes /v/, /g/, /o/, /h/, /l/, /lj/. I need to make sure that at least half of the phonemes in the sentence are from this group.
+
+Next, I should think about how to structure the sentence. It should be meaningful and grammatically correct. Maybe a descriptive sentence about a scene or an activity.
+
+I'll start by brainstorming words that contain SN phonemes. For example, "vjetar" (wind) has /v/, "gust" (thick) has /g/, "oči" (eyes) has /o/, "hladno" (cold) has /h/, "ljes" (flame) has /l/, and "ljubav" (love) has /lj/.
+
+Now, I need to combine these words into a coherent sentence. Let's try something like describing a windy day. "Vjetar gura leš iz očiju." This translates to "The wind blows soot from the eyes." It's a bit poetic and meets the criteria.
+
+Let me check the phoneme count. The sentence is "Vjetar gura leš iz očiju." Breaking it down:
+- Vjetar: v, j, e, t, a, r
+- gura: g, u, r, a
+- leš: l, e, š
+- iz: i, z
+- očiju: o, č, i, j, u
+
+Now, count the SN phonemes: v, g, o, l. Each occurrence counts. I'll count each word's SN phonemes:
+- Vjetar: v (SN)
+- gura: g (SN)
+- leš: l (SN)
+- iz: none
+- očiju: o (SN)
+
+So, the SN phonemes are v, g, l, o. Each word contributes one SN phoneme, so four in total. The total number of phonemes is the sum of all phonemes in each word. Let me count:
+Vjetar: 6 phonemes
+gura: 4
+leš: 3
+iz: 2
+očiju: 5
+Total: 6+4+3+2+5 = 20 phonemes
+SN phonemes: 4
+So, 4/20 = 20%, which is less than 50%. Oops, that's not enough.
+
+I need to adjust the sentence to include more SN phonemes. Maybe add more words with SN phonemes. Let's try: "Vjetar gura leš iz očiju, a gusar šepču." This adds "a gusar šepču" (and the rook whispers). Now, let's count the SN phonemes.
+
+Breaking down the new sentence:
+Vjetar: v
+gura: g
+leš: l
+iz: none
+očiju: o
+a: a (not SN)
+gusar: g, s (s is Visoki, not SN)
+šepču: š (Srednjevisoki), e, p, č, u
+
+Wait, "gusar" has g (SN) and s (Visoki). "šepču" has š (SV), e (SV), p (N), č (SV), u (N). So, SN phonemes are v, g, l, o, g. So that's five SN phonemes.
+
+Total phonemes: Let's count each word:
+Vjetar: 6
+gura: 4
+leš: 3
+iz: 2
+očiju: 5
+a: 1
+gusar: 5
+šepču: 5
+Total: 6+4+3+2+5+1+5+5 = 31 phonemes
+SN phonemes: 5
+5/31 ≈ 16%, still too low.
+
+Hmm, maybe I need a longer sentence with more SN phonemes. Let's try adding more words with SN phonemes. For example, "Vjetar gura leš iz očiju, a gusar šepču, dok voda gurguriše." This adds "dok voda gurguriše" (while the water gurgles). Now, let's count.
+
+Breaking down:
+Vjetar: v
+gura: g
+leš: l
+iz: none
+očiju: o
+a: a
+gusar: g
+šepču: none
+dok: none
+voda: v (SN)
+gurguriše: g, r, g, u, r, i, š, e (g is SN)
+So, SN phonemes: v, g, l, o, g, v, g. That's seven SN phonemes.
+
+Total phonemes: Let's count each word:
+Vjetar:6
+gura:4
+leš:3
+iz:2
+očiju:5
+a:1
+gusar:5
+šepču:5
+dok:3
+voda:4
+gurguriše:8
+Total:6+4+3+2+5+1+5+5+3+4+8= 46 phonemes
+SN phonemes:7
+7/46 ≈15%, still not enough.
+
+I need to find a way to increase the SN phoneme percentage. Maybe using more words with multiple SN phonemes. For example, using "ljubav" which has lj (SN). Let's try: "Vjetar gura leš iz očiju, a ljubav šepču." Now, let's count.
+
+SN phonemes: v, g, l, o, lj. That's five SN phonemes.
+
+Total phonemes: Let's count each word:
+Vjetar:6
+gura:4
+leš:3
+iz:2
+očiju:5
+a:1
+ljubav:6
+šepču:5
+Total:6+4+3+2+5+1+6+5=32
+SN phonemes:5
+5/32 ≈15.6%, still low.
+
+Maybe using "gust" (thick) which has g. Let's try: "Vjetar gura gusti leš iz očiju, a gusar šepču." Now, SN phonemes: v, g, g, l, o, g. Six SN phonemes.
+
+Total phonemes: Let's count:
+Vjetar:6
+gura:4
+gusti:5
+leš:3
+iz:2
+očiju:5
+a:1
+gusar:5
+šepču:5
+Total:6+4+5+3+2+5+1+5+5=36
+SN phonemes:6
+6/36=16.67%, still below 50%.
+
+I need to find a way to have more SN phonemes. Maybe using words with multiple SN phonemes. For example, "golub" (dove) has g and l (both SN). Let's try: "Golub vježuje guraći iz očiju." Translates to "The dove practices flying from the eyes." Now, SN phonemes: g, l, g, o. Four SN phonemes.
+
+Total phonemes: Let's count:
+Golub:5
+vježuje:6
+guraći:5
+iz:2
+očiju:5
+Total:5+6+5+2+5=23
+SN phonemes:4
+4/23≈17.39%, still low.
+
+Maybe I should focus on using more SN phonemes in each word. Let's try "Vjetar gura leš iz očiju, a golub šepču." SN phonemes: v, g, l, o, g. Five SN phonemes.
+
+Total phonemes: Let's count:
+Vjetar:6
+gura:4
+leš:3
+iz:2
+očiju:5
+a:1
+golub:5
+šepču:5
+Total:6+4+3+2+5+1+5+5=31
+SN phonemes:5
+5/31≈16.13%, still not enough.
+
+I'm struggling to reach 50%. Maybe I need to use more words with multiple SN phonemes. Let's try: "Vjetar gura leš iz očiju, a golub šepču, dok gusar gurguriše." Now, let's count.
+
+SN phonemes: v, g, l, o, g, g. Six SN phonemes.
+
+Total phonemes: Let's count each word:
+Vjetar:6
+gura:4
+leš:3
+iz:2
+očiju:5
+a:1
+golub:5
+šepču:5
+dok:3
+gusar:5
+gurguriše:8
+Total
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 50% fonema koji pripadaju klasi Srednjeniski (SN), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I need to help the user generate a sentence in Croatian that's at least 100 characters long and has at least 50% of its phonemes from the Srednjeniski (SN) class. Let me break this down.\n\nFirst, I should understand the phoneme classes. The SN class includes /v/, /g/, /o/, /h/, /l/, /lj/. I need to make sure that at least half of the phonemes in the sentence are from this group.\n\nNext, I should think about how to structure the sentence. It should be meaningful and grammatically correct. Maybe a descriptive sentence about a scene or an activity.\n\nI'll start by brainstorming words that contain SN phonemes. For example, \"vjetar\" (wind) has /v/, \"gust\" (thick) has /g/, \"oči\" (eyes) has /o/, \"hladno\" (cold) has /h/, \"ljes\" (flame) has /l/, and \"ljubav\" (love) has /lj/.\n\nNow, I need to combine these words into a coherent sentence. Let's try something like describing a windy day. \"Vjetar gura leš iz očiju.\" This translates to \"The wind blows soot from the eyes.\" It's a bit poetic and meets the criteria.\n\nLet me check the phoneme count. The sentence is \"Vjetar gura leš iz očiju.\" Breaking it down:\n- Vjetar: v, j, e, t, a, r\n- gura: g, u, r, a\n- leš: l, e, š\n- iz: i, z\n- očiju: o, č, i, j, u\n\nNow, count the SN phonemes: v, g, o, l. Each occurrence counts. I'll count each word's SN phonemes:\n- Vjetar: v (SN)\n- gura: g (SN)\n- leš: l (SN)\n- iz: none\n- očiju: o (SN)\n\nSo, the SN phonemes are v, g, l, o. Each word contributes one SN phoneme, so four in total. The total number of phonemes is the sum of all phonemes in each word. Let me count:\nVjetar: 6 phonemes\ngura: 4\nleš: 3\niz: 2\nočiju: 5\nTotal: 6+4+3+2+5 = 20 phonemes\nSN phonemes: 4\nSo, 4/20 = 20%, which is less than 50%. Oops, that's not enough.\n\nI need to adjust the sentence to include more SN phonemes. Maybe add more words with SN phonemes. Let's try: \"Vjetar gura leš iz očiju, a gusar šepču.\" This adds \"a gusar šepču\" (and the rook whispers). Now, let's count the SN phonemes.\n\nBreaking down the new sentence:\nVjetar: v\ngura: g\nleš: l\niz: none\nočiju: o\na: a (not SN)\ngusar: g, s (s is Visoki, not SN)\nšepču: š (Srednjevisoki), e, p, č, u\n\nWait, \"gusar\" has g (SN) and s (Visoki). \"šepču\" has š (SV), e (SV), p (N), č (SV), u (N). So, SN phonemes are v, g, l, o, g. So that's five SN phonemes.\n\nTotal phonemes: Let's count each word:\nVjetar: 6\ngura: 4\nleš: 3\niz: 2\nočiju: 5\na: 1\ngusar: 5\nšepču: 5\nTotal: 6+4+3+2+5+1+5+5 = 31 phonemes\nSN phonemes: 5\n5/31 ≈ 16%, still too low.\n\nHmm, maybe I need a longer sentence with more SN phonemes. Let's try adding more words with SN phonemes. For example, \"Vjetar gura leš iz očiju, a gusar šepču, dok voda gurguriše.\" This adds \"dok voda gurguriše\" (while the water gurgles). Now, let's count.\n\nBreaking down:\nVjetar: v\ngura: g\nleš: l\niz: none\nočiju: o\na: a\ngusar: g\nšepču: none\ndok: none\nvoda: v (SN)\ngurguriše: g, r, g, u, r, i, š, e (g is SN)\nSo, SN phonemes: v, g, l, o, g, v, g. That's seven SN phonemes.\n\nTotal phonemes: Let's count each word:\nVjetar:6\ngura:4\nleš:3\niz:2\nočiju:5\na:1\ngusar:5\nšepču:5\ndok:3\nvoda:4\ngurguriše:8\nTotal:6+4+3+2+5+1+5+5+3+4+8= 46 phonemes\nSN phonemes:7\n7/46 ≈15%, still not enough.\n\nI need to find a way to increase the SN phoneme percentage. Maybe using more words with multiple SN phonemes. For example, using \"ljubav\" which has lj (SN). Let's try: \"Vjetar gura leš iz očiju, a ljubav šepču.\" Now, let's count.\n\nSN phonemes: v, g, l, o, lj. That's five SN phonemes.\n\nTotal phonemes: Let's count each word:\nVjetar:6\ngura:4\nleš:3\niz:2\nočiju:5\na:1\nljubav:6\nšepču:5\nTotal:6+4+3+2+5+1+6+5=32\nSN phonemes:5\n5/32 ≈15.6%, still low.\n\nMaybe using \"gust\" (thick) which has g. Let's try: \"Vjetar gura gusti leš iz očiju, a gusar šepču.\" Now, SN phonemes: v, g, g, l, o, g. Six SN phonemes.\n\nTotal phonemes: Let's count:\nVjetar:6\ngura:4\ngusti:5\nleš:3\niz:2\nočiju:5\na:1\ngusar:5\nšepču:5\nTotal:6+4+5+3+2+5+1+5+5=36\nSN phonemes:6\n6/36=16.67%, still below 50%.\n\nI need to find a way to have more SN phonemes. Maybe using words with multiple SN phonemes. For example, \"golub\" (dove) has g and l (both SN). Let's try: \"Golub vježuje guraći iz očiju.\" Translates to \"The dove practices flying from the eyes.\" Now, SN phonemes: g, l, g, o. Four SN phonemes.\n\nTotal phonemes: Let's count:\nGolub:5\nvježuje:6\nguraći:5\niz:2\nočiju:5\nTotal:5+6+5+2+5=23\nSN phonemes:4\n4/23≈17.39%, still low.\n\nMaybe I should focus on using more SN phonemes in each word. Let's try \"Vjetar gura leš iz očiju, a golub šepču.\" SN phonemes: v, g, l, o, g. Five SN phonemes.\n\nTotal phonemes: Let's count:\nVjetar:6\ngura:4\nleš:3\niz:2\nočiju:5\na:1\ngolub:5\nšepču:5\nTotal:6+4+3+2+5+1+5+5=31\nSN phonemes:5\n5/31≈16.13%, still not enough.\n\nI'm struggling to reach 50%. Maybe I need to use more words with multiple SN phonemes. Let's try: \"Vjetar gura leš iz očiju, a golub šepču, dok gusar gurguriše.\" Now, let's count.\n\nSN phonemes: v, g, l, o, g, g. Six SN phonemes.\n\nTotal phonemes: Let's count each word:\nVjetar:6\ngura:4\nleš:3\niz:2\nočiju:5\na:1\ngolub:5\nšepču:5\ndok:3\ngusar:5\ngurguriše:8\nTotal"
+  }
+]

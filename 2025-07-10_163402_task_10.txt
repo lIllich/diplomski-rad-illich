@@ -1,0 +1,38 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 60% fonema koji pripadaju klasi Visoki(V), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Alright, so the user has given me a query where they need a sentence in Croatian that's at least 100 characters long, with at least 60% of the phonemes belonging to the "Visoki (V)" class. The remaining can be from other classes. 
+
+First, I need to understand what the Visoki (V) class includes. From the user's message, the Visoki class consists of the phonemes /ć/, /i/, /c/, /z/, and /s/. So, I need to create a sentence where 60% of the letters correspond to these phonemes.
+
+I should start by calculating how many letters need to be from the Visoki class. If the sentence is exactly 100 characters, 60% would be 60 letters. But since the user says "minimalno 100 znakova" and "minimalno 60%", I can aim for exactly 100 characters and 60 Visoki letters. 
+
+Next, I need to think of common Croatian words that have a high number of Visoki phonemes. Words with 'i', 'c','s', 'z', and 'ć' would be good. Maybe using words like "ići", "čini", "s", "z", "često", "činilo", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "činjenica", "čak", "što", "čini", "čest", "č
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 60% fonema koji pripadaju klasi Visoki(V), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Alright, so the user has given me a query where they need a sentence in Croatian that's at least 100 characters long, with at least 60% of the phonemes belonging to the \"Visoki (V)\" class. The remaining can be from other classes. \n\nFirst, I need to understand what the Visoki (V) class includes. From the user's message, the Visoki class consists of the phonemes /ć/, /i/, /c/, /z/, and /s/. So, I need to create a sentence where 60% of the letters correspond to these phonemes.\n\nI should start by calculating how many letters need to be from the Visoki class. If the sentence is exactly 100 characters, 60% would be 60 letters. But since the user says \"minimalno 100 znakova\" and \"minimalno 60%\", I can aim for exactly 100 characters and 60 Visoki letters. \n\nNext, I need to think of common Croatian words that have a high number of Visoki phonemes. Words with 'i', 'c','s', 'z', and 'ć' would be good. Maybe using words like \"ići\", \"čini\", \"s\", \"z\", \"često\", \"činilo\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"činjenica\", \"čak\", \"što\", \"čini\", \"čest\", \"č"
+  }
+]

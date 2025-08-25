@@ -1,0 +1,77 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 80% fonema koji pripadaju klasi Visoki(V), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I need to create a sentence in Croatian that's at least 100 characters long, and at least 80% of the phonemes should belong to the "Visoki (V)" class. The other 20% can be from any other classes. 
+
+First, let me recall what the "Visoki (V)" phonemes are: /ć/, /i/, /c/, /z/, /s/. So, I need to make sure that most of the letters in the sentence are from these. 
+
+I should start by thinking of words that have a lot of these sounds. Maybe words with's', 'c', 'z', 'i', 'ć'. Let's see, words like "šest" (six) has 'š' which is not in V, so maybe not. "Cesta" (road) has 'c' and's', which are good. 
+
+I need to construct a sentence. Maybe something like "Ćest će biti cest s cestom." Hmm, that's a bit forced. Let me check the phonemes: 
+
+Ćest: /ć/, /e/, /s/, /t/ – 'ć' and's' are V, 'e' is SV, 't' is SV. 
+će: /ć/, /e/ – 'ć' is V, 'e' is SV. 
+biti: /b/, /i/, /t/, /i/ – 'i' is V, 'b' is N, 't' is SV. 
+cest: /c/, /e/, /s/, /t/ – 'c' and's' are V, 'e' and 't' are SV. 
+s: /s/ – V. 
+cestom: /c/, /e/, /s/, /t/, /o/, /m/ – 'c' and's' are V, others are SV and N. 
+
+Wait, that might not be enough V phonemes. Maybe I need to use more words with 'i','s', 'c', 'z', 'ć'. 
+
+Let me try again: "Ćeli sući cesteći." Let's break it down: 
+
+Ćeli: /ć/, /e/, /l/, /i/ – 'ć' and 'i' are V, 'e' and 'l' are SV and SN. 
+sući: /s/, /u/, /ć/, /i/ –'s' and 'ć' and 'i' are V, 'u' is N. 
+cesteći: /c/, /e/, /s/, /t/, /e/, /ć/, /i/ – 'c','s', 'ć', 'i' are V, others are SV. 
+
+But this might not be a proper sentence. Maybe I should make it a question or a statement. Let's try a question: "Ćest ćeš čestiti čestićima?" 
+
+Breaking it down: 
+
+Ćest: /ć/, /e/, /s/, /t/ – 'ć' and's' are V, others SV. 
+ćeš: /ć/, /e/, /š/ – 'ć' is V, others SV. 
+čestiti: /č/, /e/, /s/, /t/, /i/ –'s' and 'i' are V, others SV. 
+čestićima: /č/, /e/, /s/, /t/, /i/, /ć/, /i/, /m/, /a/ –'s', 'i', 'ć' are V, others SV and N. 
+
+This might not reach 100 characters. Maybe I can make it longer by adding more words. 
+
+Alternatively, maybe using "ić" endings, which have 'i' and 'ć'. Words like "ručić", "kuća", "ići". 
+
+Let me try: "Ćeli sući cesteći kuću." 
+
+Ćeli: /ć/, /e/, /l/, /i/ – 'ć' and 'i' V. 
+sući: /s/, /u/, /ć/, /i/ –'s', 'ć', 'i' V. 
+cesteći: /c/, /e/, /s/, /t/, /e/, /ć/, /i/ – 'c','s', 'ć', 'i' V. 
+kuću: /k/, /u/, /ć/, /u/ – 'ć' V, others N and SV. 
+
+This might not be a proper sentence either. Maybe I need to focus on using as many V phonemes as possible in each word. 
+
+Perhaps using the word "čić" which is a term for a small boy, but 'č' is SV. Hmm. Maybe "
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 80% fonema koji pripadaju klasi Visoki(V), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I need to create a sentence in Croatian that's at least 100 characters long, and at least 80% of the phonemes should belong to the \"Visoki (V)\" class. The other 20% can be from any other classes. \n\nFirst, let me recall what the \"Visoki (V)\" phonemes are: /ć/, /i/, /c/, /z/, /s/. So, I need to make sure that most of the letters in the sentence are from these. \n\nI should start by thinking of words that have a lot of these sounds. Maybe words with's', 'c', 'z', 'i', 'ć'. Let's see, words like \"šest\" (six) has 'š' which is not in V, so maybe not. \"Cesta\" (road) has 'c' and's', which are good. \n\nI need to construct a sentence. Maybe something like \"Ćest će biti cest s cestom.\" Hmm, that's a bit forced. Let me check the phonemes: \n\nĆest: /ć/, /e/, /s/, /t/ – 'ć' and's' are V, 'e' is SV, 't' is SV. \nće: /ć/, /e/ – 'ć' is V, 'e' is SV. \nbiti: /b/, /i/, /t/, /i/ – 'i' is V, 'b' is N, 't' is SV. \ncest: /c/, /e/, /s/, /t/ – 'c' and's' are V, 'e' and 't' are SV. \ns: /s/ – V. \ncestom: /c/, /e/, /s/, /t/, /o/, /m/ – 'c' and's' are V, others are SV and N. \n\nWait, that might not be enough V phonemes. Maybe I need to use more words with 'i','s', 'c', 'z', 'ć'. \n\nLet me try again: \"Ćeli sući cesteći.\" Let's break it down: \n\nĆeli: /ć/, /e/, /l/, /i/ – 'ć' and 'i' are V, 'e' and 'l' are SV and SN. \nsući: /s/, /u/, /ć/, /i/ –'s' and 'ć' and 'i' are V, 'u' is N. \ncesteći: /c/, /e/, /s/, /t/, /e/, /ć/, /i/ – 'c','s', 'ć', 'i' are V, others are SV. \n\nBut this might not be a proper sentence. Maybe I should make it a question or a statement. Let's try a question: \"Ćest ćeš čestiti čestićima?\" \n\nBreaking it down: \n\nĆest: /ć/, /e/, /s/, /t/ – 'ć' and's' are V, others SV. \nćeš: /ć/, /e/, /š/ – 'ć' is V, others SV. \nčestiti: /č/, /e/, /s/, /t/, /i/ –'s' and 'i' are V, others SV. \nčestićima: /č/, /e/, /s/, /t/, /i/, /ć/, /i/, /m/, /a/ –'s', 'i', 'ć' are V, others SV and N. \n\nThis might not reach 100 characters. Maybe I can make it longer by adding more words. \n\nAlternatively, maybe using \"ić\" endings, which have 'i' and 'ć'. Words like \"ručić\", \"kuća\", \"ići\". \n\nLet me try: \"Ćeli sući cesteći kuću.\" \n\nĆeli: /ć/, /e/, /l/, /i/ – 'ć' and 'i' V. \nsući: /s/, /u/, /ć/, /i/ –'s', 'ć', 'i' V. \ncesteći: /c/, /e/, /s/, /t/, /e/, /ć/, /i/ – 'c','s', 'ć', 'i' V. \nkuću: /k/, /u/, /ć/, /u/ – 'ć' V, others N and SV. \n\nThis might not be a proper sentence either. Maybe I need to focus on using as many V phonemes as possible in each word. \n\nPerhaps using the word \"čić\" which is a term for a small boy, but 'č' is SV. Hmm. Maybe \""
+  }
+]

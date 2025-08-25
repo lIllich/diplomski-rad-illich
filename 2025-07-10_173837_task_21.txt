@@ -1,0 +1,82 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 90% fonema koji pripadaju klasi Niski (N), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I need to help the user create a sentence in Croatian that's at least 100 characters long and contains at least 90% of the phonemes from the Low (N) class. The Low class includes /m/, /n/, /nj/, /b/, /p/, /u/. The remaining 10% can be from other classes. 
+
+First, I should list the Low class phonemes and think of words that use these. Maybe start with words that have multiple Low phonemes. For example, "mama" has /m/, "nana" has /n/, "banan" has /b/ and /n/. 
+
+I need to make sure the sentence flows naturally. Let me try combining some words. Maybe something like "Mama nana jede bananu." That's "Mama nana eats banana." Let me check the phonemes: M, A, M, A, N, A, N, A, J, E, D, E, B, A, N, A, N, U. Hmm, that's a good start, but I need more Low phonemes.
+
+Maybe add more words. "Mama nana jede bananu i puno manda." That adds "i puno manda." Now, I have more /m/, /n/, and /b/. Let me count the phonemes. The sentence is: "Mama nana jede bananu i puno manda." That's 35 characters, but I need 100. I need to extend it further.
+
+Perhaps add more actions or descriptions. "Mama nana jede bananu i puno manda, a baba jede puno marmela." Now, "a baba jede puno marmela." Adds more /b/, /m/, and /n/. Let me check the phonemes again. 
+
+Now, I need to ensure that at least 90% of the phonemes are from the Low class. Let me count each phoneme. 
+
+"Mama nana jede bananu i puno manda, a baba jede puno marmela." 
+
+Breaking it down:
+- M, A, M, A
+- N, A, N, A
+- J, E, D, E
+- B, A, N, A, N, U
+- I
+- P, U, N, O
+- M, A, N, D, A
+- A
+- B, A, B, A
+- J, E, D, E
+- P, U, N, O
+- M, A, R, M, E, L, A
+
+Now, count how many are Low (N) class: /m/, /n/, /b/, /p/, /u/. 
+
+Looking through each word:
+- "Mama": M, A, M, A → M, M (Low)
+- "nana": N, A, N, A → N, N (Low)
+- "jede": J, E, D, E → J, D (Srednji)
+- "bananu": B, A, N, A, N, U → B, N, N, U (Low)
+- "i": I (Visoki)
+- "puno": P, U, N, O → P, U, N (Low)
+- "manda": M, A, N, D, A → M, N (Low)
+- "a": A (Srednji)
+- "baba": B, A, B, A → B, B (Low)
+- "jede": J, E, D, E → J, D (Srednji)
+- "puno": P, U, N, O → P, U, N (Low)
+- "marmela": M, A, R, M, E, L, A → M, M (Low)
+
+Now, count the total phonemes and how many are Low. 
+
+Total characters: Let's count. The sentence is "Mama nana jede bananu i puno manda, a baba jede puno marmela." That's 59 characters including spaces and comma. Wait, but the user asked for at least 100 characters. Hmm, I need to make it longer.
+
+Maybe add more details. "Mama nana jede bananu i puno manda, a baba jede puno marmela i pije mlijeko." Now, "pije mlijeko" adds more Low phonemes: P, I, J, E, M, L, J, E, K, O. Wait, but /p/ and /m/ are Low, but /l/ and /j/ are from other classes.
+
+Alternatively, "Mama nana jede
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 90% fonema koji pripadaju klasi Niski (N), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I need to help the user create a sentence in Croatian that's at least 100 characters long and contains at least 90% of the phonemes from the Low (N) class. The Low class includes /m/, /n/, /nj/, /b/, /p/, /u/. The remaining 10% can be from other classes. \n\nFirst, I should list the Low class phonemes and think of words that use these. Maybe start with words that have multiple Low phonemes. For example, \"mama\" has /m/, \"nana\" has /n/, \"banan\" has /b/ and /n/. \n\nI need to make sure the sentence flows naturally. Let me try combining some words. Maybe something like \"Mama nana jede bananu.\" That's \"Mama nana eats banana.\" Let me check the phonemes: M, A, M, A, N, A, N, A, J, E, D, E, B, A, N, A, N, U. Hmm, that's a good start, but I need more Low phonemes.\n\nMaybe add more words. \"Mama nana jede bananu i puno manda.\" That adds \"i puno manda.\" Now, I have more /m/, /n/, and /b/. Let me count the phonemes. The sentence is: \"Mama nana jede bananu i puno manda.\" That's 35 characters, but I need 100. I need to extend it further.\n\nPerhaps add more actions or descriptions. \"Mama nana jede bananu i puno manda, a baba jede puno marmela.\" Now, \"a baba jede puno marmela.\" Adds more /b/, /m/, and /n/. Let me check the phonemes again. \n\nNow, I need to ensure that at least 90% of the phonemes are from the Low class. Let me count each phoneme. \n\n\"Mama nana jede bananu i puno manda, a baba jede puno marmela.\" \n\nBreaking it down:\n- M, A, M, A\n- N, A, N, A\n- J, E, D, E\n- B, A, N, A, N, U\n- I\n- P, U, N, O\n- M, A, N, D, A\n- A\n- B, A, B, A\n- J, E, D, E\n- P, U, N, O\n- M, A, R, M, E, L, A\n\nNow, count how many are Low (N) class: /m/, /n/, /b/, /p/, /u/. \n\nLooking through each word:\n- \"Mama\": M, A, M, A → M, M (Low)\n- \"nana\": N, A, N, A → N, N (Low)\n- \"jede\": J, E, D, E → J, D (Srednji)\n- \"bananu\": B, A, N, A, N, U → B, N, N, U (Low)\n- \"i\": I (Visoki)\n- \"puno\": P, U, N, O → P, U, N (Low)\n- \"manda\": M, A, N, D, A → M, N (Low)\n- \"a\": A (Srednji)\n- \"baba\": B, A, B, A → B, B (Low)\n- \"jede\": J, E, D, E → J, D (Srednji)\n- \"puno\": P, U, N, O → P, U, N (Low)\n- \"marmela\": M, A, R, M, E, L, A → M, M (Low)\n\nNow, count the total phonemes and how many are Low. \n\nTotal characters: Let's count. The sentence is \"Mama nana jede bananu i puno manda, a baba jede puno marmela.\" That's 59 characters including spaces and comma. Wait, but the user asked for at least 100 characters. Hmm, I need to make it longer.\n\nMaybe add more details. \"Mama nana jede bananu i puno manda, a baba jede puno marmela i pije mlijeko.\" Now, \"pije mlijeko\" adds more Low phonemes: P, I, J, E, M, L, J, E, K, O. Wait, but /p/ and /m/ are Low, but /l/ and /j/ are from other classes.\n\nAlternatively, \"Mama nana jede"
+  }
+]

@@ -1,0 +1,88 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 50% fonema koji pripadaju klasi Niski (N), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I need to help the user create a sentence in Croatian that's at least 100 characters long, with at least 50% of the phonemes from the 'Niski' (Low) class. The Niski class includes /m/, /n/, /nj/, /b/, /p/, and /u/. 
+
+First, I should understand the structure of a typical Croatian sentence. It usually has a subject, verb, and object. Maybe starting with a simple sentence about someone doing an action with an object.
+
+I need to maximize the use of Niski phonemes. Words that start or have these sounds would help. For example, "mama" has /m/, "baca" has /b/, "pjeva" has /p/, "unese" has /n/ and /u/, etc.
+
+I'll start by listing some words with Niski phonemes and see how they can fit into a sentence. Maybe a family scene: mother, father, child, etc. Actions like singing, dancing, reading, sleeping can be verbs with Niski sounds.
+
+Let me try constructing a sentence. "Mama i baba pjevaju pjesmu koju njihovi djeca i prapreci šuškaju." 
+
+Breaking it down:
+- Mama (m, m) - two Niski
+- i - not Niski
+- baba (b, b, a) - two Niski
+- pjevaju (p, j, e, v, a, j, u) - p and j (but j is Visoki, so only p is Niski)
+Wait, p is Niski, so that's one.
+- pjesmu (p, j, e, s, m, u) - p and m are Niski
+- koju (k, o, j, u) - none, since k is Srednji and o is Srednjeniski
+- njihovi (n, j, i, h, o, v, i) - n is Niski
+- djeca (d, j, e, c, a) - none, d is Srednji
+- i - not Niski
+- prapreci (p, r, a, p, r, e, c, i) - p is Niski
+- šuškaju (š, u, š, k, a, j, u) - u is Niski, but š is Visoki
+
+Wait, I might have missed some Niski phonemes. Let me count the phonemes in the sentence.
+
+"Mama i baba pjevaju pjesmu koju njihovi djeca i prapreci šuškaju."
+
+Phonemes breakdown:
+Mama: /m/, /a/, /m/, /a/ → 2 Niski
+i: /i/ → Visoki
+baba: /b/, /a/, /b/, /a/ → 2 Niski
+pjevaju: /p/, /j/, /e/, /v/, /a/, /j/, /u/ → p is Niski, u is Niski → 2 Niski
+pjesmu: /p/, /j/, /e/, /s/, /m/, /u/ → p and m are Niski → 2 Niski
+koju: /k/, /o/, /j/, /u/ → u is Niski → 1
+njihovi: /n/, /j/, /i/, /h/, /o/, /v/, /i/ → n is Niski → 1
+djeca: /d/, /j/, /e/, /c/, /a/ → none
+i: /i/ → Visoki
+prapreci: /p/, /r/, /a/, /p/, /r/, /e/, /c/, /i/ → p is Niski → 2
+šuškaju: /š/, /u/, /š/, /k/, /a/, /j/, /u/ → u is Niski → 2
+
+Total Niski phonemes: 2+2+2+2+1+1+2+2 = 14
+Total phonemes: Let's count each word's phonemes.
+
+Mama: 4
+i:1
+baba:4
+pjevaju:7
+pjesmu:6
+koju:4
+njihovi:7
+djeca:5
+i:1
+prapreci:8
+šuškaju:7
+
+Total: 4+1+4+7+6+4+7+5
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 50% fonema koji pripadaju klasi Niski (N), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I need to help the user create a sentence in Croatian that's at least 100 characters long, with at least 50% of the phonemes from the 'Niski' (Low) class. The Niski class includes /m/, /n/, /nj/, /b/, /p/, and /u/. \n\nFirst, I should understand the structure of a typical Croatian sentence. It usually has a subject, verb, and object. Maybe starting with a simple sentence about someone doing an action with an object.\n\nI need to maximize the use of Niski phonemes. Words that start or have these sounds would help. For example, \"mama\" has /m/, \"baca\" has /b/, \"pjeva\" has /p/, \"unese\" has /n/ and /u/, etc.\n\nI'll start by listing some words with Niski phonemes and see how they can fit into a sentence. Maybe a family scene: mother, father, child, etc. Actions like singing, dancing, reading, sleeping can be verbs with Niski sounds.\n\nLet me try constructing a sentence. \"Mama i baba pjevaju pjesmu koju njihovi djeca i prapreci šuškaju.\" \n\nBreaking it down:\n- Mama (m, m) - two Niski\n- i - not Niski\n- baba (b, b, a) - two Niski\n- pjevaju (p, j, e, v, a, j, u) - p and j (but j is Visoki, so only p is Niski)\nWait, p is Niski, so that's one.\n- pjesmu (p, j, e, s, m, u) - p and m are Niski\n- koju (k, o, j, u) - none, since k is Srednji and o is Srednjeniski\n- njihovi (n, j, i, h, o, v, i) - n is Niski\n- djeca (d, j, e, c, a) - none, d is Srednji\n- i - not Niski\n- prapreci (p, r, a, p, r, e, c, i) - p is Niski\n- šuškaju (š, u, š, k, a, j, u) - u is Niski, but š is Visoki\n\nWait, I might have missed some Niski phonemes. Let me count the phonemes in the sentence.\n\n\"Mama i baba pjevaju pjesmu koju njihovi djeca i prapreci šuškaju.\"\n\nPhonemes breakdown:\nMama: /m/, /a/, /m/, /a/ → 2 Niski\ni: /i/ → Visoki\nbaba: /b/, /a/, /b/, /a/ → 2 Niski\npjevaju: /p/, /j/, /e/, /v/, /a/, /j/, /u/ → p is Niski, u is Niski → 2 Niski\npjesmu: /p/, /j/, /e/, /s/, /m/, /u/ → p and m are Niski → 2 Niski\nkoju: /k/, /o/, /j/, /u/ → u is Niski → 1\nnjihovi: /n/, /j/, /i/, /h/, /o/, /v/, /i/ → n is Niski → 1\ndjeca: /d/, /j/, /e/, /c/, /a/ → none\ni: /i/ → Visoki\nprapreci: /p/, /r/, /a/, /p/, /r/, /e/, /c/, /i/ → p is Niski → 2\nšuškaju: /š/, /u/, /š/, /k/, /a/, /j/, /u/ → u is Niski → 2\n\nTotal Niski phonemes: 2+2+2+2+1+1+2+2 = 14\nTotal phonemes: Let's count each word's phonemes.\n\nMama: 4\ni:1\nbaba:4\npjevaju:7\npjesmu:6\nkoju:4\nnjihovi:7\ndjeca:5\ni:1\nprapreci:8\nšuškaju:7\n\nTotal: 4+1+4+7+6+4+7+5"
+  }
+]

@@ -1,0 +1,107 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši 10 riječi takvih da svaka riječ sadrži minimalno 90% fonema koji pripadaju klasi Visoki(V), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I need to create 10 Croatian words where each word has at least 90% of its phonemes from the Visoki (V) class. The V class includes /ć/, /i/, /c/, /z/, /s/. 
+
+First, I should recall the structure of Croatian words. Typically, they have consonants and vowels. The V class has consonants and vowels, so I need to ensure that most of the letters in each word are from this class.
+
+Let me think about possible combinations. Since 90% is a high percentage, each word can have at most one or two letters from other classes if the word is longer. For example, a 5-letter word can have at most one letter from a different class.
+
+I should start by listing possible letters from the V class: Ć, I, C, Z, S. Also, vowels like I and maybe others. Wait, in the V class, vowels are only /i/, right? Because /e/ is in Srednjevisoki (SV), and /a/ is Srednji (S). So, vowels should be I to be in V.
+
+So, consonants can be Ć, C, Z, S. Vowels can be I. Maybe other vowels if they are from V, but according to the initial list, only /i/ is in V.
+
+Wait, the user's initial list had the V class as /ć/, /i/, /c/, /z/, /s/. So vowels in V are only /i/. So in the words, the vowels should be I.
+
+Now, let's think of possible word structures. For example, starting with a consonant from V, then a vowel, then another consonant, etc.
+
+Let me think of some examples:
+
+1. "Ćić" – this is a word meaning "chick." It has Ć and I. Both are in V. So 100% V. Good.
+
+2. "Cic" – but that's similar to "Ćić." Maybe "Cic" is another form, but I think it's the same.
+
+Wait, maybe I can think of longer words. Let's try 4 letters.
+
+3. "Cizi" – meaning "strange." C, I, Z, I. All consonants and vowels are in V. So 100%.
+
+4. "Sić" – meaning "thorn." S, I, Ć. All V. 100%.
+
+5. "Zic" – meaning "sow." Z, I, C. All V. 100%.
+
+6. "Cvić" – but wait, C, V, I, Ć. V is in Srednjeniski (SN), so that's not allowed. So I can't use that.
+
+Hmm, maybe "Cvić" is not suitable. Let's think of another.
+
+7. "Sic" – meaning "so." S, I, C. All V. 100%.
+
+8. "Ćiz" – meaning "sow" or "she." Ć, I, Z. All V. 100%.
+
+9. "Zić" – meaning "sow" or "she." Z, I, Ć. All V. 100%.
+
+10. "Cić" – meaning "sow." C, I, Ć. All V. 100%.
+
+Wait, but some of these might be the same words. Let me check if I have 10 unique words.
+
+1. Ćić
+2. Cizi
+3. Sić
+4. Zic
+5. Cic
+6. Sic
+7. Ćiz
+8. Zić
+9. Ćić (again)
+10. Cić
+
+Hmm, I might be repeating some words. Maybe I need to find more unique ones.
+
+Alternatively, I can think of longer words. Let's try 5 letters.
+
+11. "Cicic" – but that's not a real word. Maybe "Cicica" – but that's a name, not a standard word.
+
+Wait, maybe "Cic" is a real word, but I'm not sure. Let me think of other possibilities.
+
+Perhaps "Zicic" – but again, not sure if it's a real word.
+
+Alternatively, maybe "Cvijeć" – but that has V, which is not allowed.
+
+Wait, perhaps "Ćićić" – but that's a longer version of "Ćić," which is a real word.
+
+So, maybe:
+
+10. Ćićić
+
+But I'm not sure if that's commonly used. It might be a dialect form.
+
+Alternatively, maybe "Cicin" – but that has N, which is not in V. So that's not allowed.
+
+Hmm, this
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši 10 riječi takvih da svaka riječ sadrži minimalno 90% fonema koji pripadaju klasi Visoki(V), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I need to create 10 Croatian words where each word has at least 90% of its phonemes from the Visoki (V) class. The V class includes /ć/, /i/, /c/, /z/, /s/. \n\nFirst, I should recall the structure of Croatian words. Typically, they have consonants and vowels. The V class has consonants and vowels, so I need to ensure that most of the letters in each word are from this class.\n\nLet me think about possible combinations. Since 90% is a high percentage, each word can have at most one or two letters from other classes if the word is longer. For example, a 5-letter word can have at most one letter from a different class.\n\nI should start by listing possible letters from the V class: Ć, I, C, Z, S. Also, vowels like I and maybe others. Wait, in the V class, vowels are only /i/, right? Because /e/ is in Srednjevisoki (SV), and /a/ is Srednji (S). So, vowels should be I to be in V.\n\nSo, consonants can be Ć, C, Z, S. Vowels can be I. Maybe other vowels if they are from V, but according to the initial list, only /i/ is in V.\n\nWait, the user's initial list had the V class as /ć/, /i/, /c/, /z/, /s/. So vowels in V are only /i/. So in the words, the vowels should be I.\n\nNow, let's think of possible word structures. For example, starting with a consonant from V, then a vowel, then another consonant, etc.\n\nLet me think of some examples:\n\n1. \"Ćić\" – this is a word meaning \"chick.\" It has Ć and I. Both are in V. So 100% V. Good.\n\n2. \"Cic\" – but that's similar to \"Ćić.\" Maybe \"Cic\" is another form, but I think it's the same.\n\nWait, maybe I can think of longer words. Let's try 4 letters.\n\n3. \"Cizi\" – meaning \"strange.\" C, I, Z, I. All consonants and vowels are in V. So 100%.\n\n4. \"Sić\" – meaning \"thorn.\" S, I, Ć. All V. 100%.\n\n5. \"Zic\" – meaning \"sow.\" Z, I, C. All V. 100%.\n\n6. \"Cvić\" – but wait, C, V, I, Ć. V is in Srednjeniski (SN), so that's not allowed. So I can't use that.\n\nHmm, maybe \"Cvić\" is not suitable. Let's think of another.\n\n7. \"Sic\" – meaning \"so.\" S, I, C. All V. 100%.\n\n8. \"Ćiz\" – meaning \"sow\" or \"she.\" Ć, I, Z. All V. 100%.\n\n9. \"Zić\" – meaning \"sow\" or \"she.\" Z, I, Ć. All V. 100%.\n\n10. \"Cić\" – meaning \"sow.\" C, I, Ć. All V. 100%.\n\nWait, but some of these might be the same words. Let me check if I have 10 unique words.\n\n1. Ćić\n2. Cizi\n3. Sić\n4. Zic\n5. Cic\n6. Sic\n7. Ćiz\n8. Zić\n9. Ćić (again)\n10. Cić\n\nHmm, I might be repeating some words. Maybe I need to find more unique ones.\n\nAlternatively, I can think of longer words. Let's try 5 letters.\n\n11. \"Cicic\" – but that's not a real word. Maybe \"Cicica\" – but that's a name, not a standard word.\n\nWait, maybe \"Cic\" is a real word, but I'm not sure. Let me think of other possibilities.\n\nPerhaps \"Zicic\" – but again, not sure if it's a real word.\n\nAlternatively, maybe \"Cvijeć\" – but that has V, which is not allowed.\n\nWait, perhaps \"Ćićić\" – but that's a longer version of \"Ćić,\" which is a real word.\n\nSo, maybe:\n\n10. Ćićić\n\nBut I'm not sure if that's commonly used. It might be a dialect form.\n\nAlternatively, maybe \"Cicin\" – but that has N, which is not in V. So that's not allowed.\n\nHmm, this"
+  }
+]
