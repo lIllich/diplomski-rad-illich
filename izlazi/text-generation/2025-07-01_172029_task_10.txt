@@ -1,0 +1,72 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši 10 riječi takvih da svaka riječ sadrži minimalno 60% fonema koji pripadaju klasi Visoki(V), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I need to help this user by generating 10 Croatian words where each word has at least 60% of its phonemes from the 'High' (V) class. Let me first understand the phoneme classes again to make sure I'm on the right track.
+
+The High (V) class includes: /ć/, /i/, /c/, /z/, /s/. So any word that uses these phonemes will contribute to the 60% requirement. The other classes are Lower, Mid-Low, Mid, Mid-High, and High. But for this task, only the High class matters for the majority.
+
+Now, the user mentioned that each word should have minimal 60% of V class phonemes. So if a word has 5 phonemes, 3 must be from V. If it's 4 phonemes, at least 3 must be V. Wait, 60% of 4 is 2.4, so we round up to 3. Similarly, for 3 phonemes, 2 must be V. For 2 phonemes, both need to be V. And for 1 phoneme, it must be V, but that's probably not useful here.
+
+I should start by brainstorming words that have multiple V class phonemes. Let me think of some common endings or roots that include these sounds. For example, words ending with 'ć' or's' might be good candidates.
+
+Let me list some possible words and check their phonemes:
+
+1. **Ići** - Phonemes: /i/, /c/, /j/ (Wait, /j/ is Mid-High, so only two V phonemes out of three. That's 66%, which meets the requirement. Wait, but /c/ is V, /i/ is V, and /j/ is SV. So two V out of three, which is 66%. So this works.
+
+2. **Ćelo** - Phonemes: /ć/, /e/, /l/, /o/. /ć/ is V, but /e/, /l/, /o/ are not. So only 25%, which doesn't meet the requirement. So this word is out.
+
+3. **Izvi** - Phonemes: /i/, /z/, /v/, /i/. /i/ and /z/ are V, /v/ is Mid-Low, so three V out of four. 75%, which is good.
+
+4. **Svi** - Phonemes: /s/, /v/, /i/. /s/ and /i/ are V, /v/ is Mid-Low. So two V out of three. 66%, which is acceptable.
+
+5. **Ići** - Wait, I already did that. Maybe another similar word.
+
+6. **Izvi** - Already listed.
+
+7. **Izgo** - Wait, /g/ is Mid-Low, /o/ is Mid-Low. So only /i/ and /z/ are V. Two out of four, which is 50%. Doesn't meet 60%.
+
+8. **Izvići** - Let's see: /i/, /z/, /v/, /i/, /ć/. /i/, /z/, /i/, /ć/ are V. So four V out of five. 80%, which is great.
+
+9. **Izvižu** - Phonemes: /i/, /z/, /v/, /ž/, /u/. /i/, /z/, /ž/ (Wait, /ž/ is Mid), so only two V out of five. 40%, which is too low.
+
+10. **Izviše** - Phonemes: /i/, /z/, /v/, /i/, /š/, /e/. /i/, /z/, /i/ are V. So three V out of six. 50%, which is below 60%.
+
+Hmm, maybe I need to find longer words or words where more letters correspond to V phonemes. Let me think of some other possibilities.
+
+11. **Izviđa** - Phonemes: /i/, /z/, /v/, /đ/, /i/, /a/. /i/, /z/, /i/ are V. Three V out of six. 50%, still not enough.
+
+12. **Izviđe** - Similar to above, maybe not enough.
+
+13. **Izviđu** - Same issue.
+
+14. **Izvižu** - Already checked.
+
+15. **Izvižić** - Phonemes: /i/, /z/, /v/, /ž/, /i/, /ć/. /i/, /z/, /i/, /ć/ are V. So four V
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši 10 riječi takvih da svaka riječ sadrži minimalno 60% fonema koji pripadaju klasi Visoki(V), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I need to help this user by generating 10 Croatian words where each word has at least 60% of its phonemes from the 'High' (V) class. Let me first understand the phoneme classes again to make sure I'm on the right track.\n\nThe High (V) class includes: /ć/, /i/, /c/, /z/, /s/. So any word that uses these phonemes will contribute to the 60% requirement. The other classes are Lower, Mid-Low, Mid, Mid-High, and High. But for this task, only the High class matters for the majority.\n\nNow, the user mentioned that each word should have minimal 60% of V class phonemes. So if a word has 5 phonemes, 3 must be from V. If it's 4 phonemes, at least 3 must be V. Wait, 60% of 4 is 2.4, so we round up to 3. Similarly, for 3 phonemes, 2 must be V. For 2 phonemes, both need to be V. And for 1 phoneme, it must be V, but that's probably not useful here.\n\nI should start by brainstorming words that have multiple V class phonemes. Let me think of some common endings or roots that include these sounds. For example, words ending with 'ć' or's' might be good candidates.\n\nLet me list some possible words and check their phonemes:\n\n1. **Ići** - Phonemes: /i/, /c/, /j/ (Wait, /j/ is Mid-High, so only two V phonemes out of three. That's 66%, which meets the requirement. Wait, but /c/ is V, /i/ is V, and /j/ is SV. So two V out of three, which is 66%. So this works.\n\n2. **Ćelo** - Phonemes: /ć/, /e/, /l/, /o/. /ć/ is V, but /e/, /l/, /o/ are not. So only 25%, which doesn't meet the requirement. So this word is out.\n\n3. **Izvi** - Phonemes: /i/, /z/, /v/, /i/. /i/ and /z/ are V, /v/ is Mid-Low, so three V out of four. 75%, which is good.\n\n4. **Svi** - Phonemes: /s/, /v/, /i/. /s/ and /i/ are V, /v/ is Mid-Low. So two V out of three. 66%, which is acceptable.\n\n5. **Ići** - Wait, I already did that. Maybe another similar word.\n\n6. **Izvi** - Already listed.\n\n7. **Izgo** - Wait, /g/ is Mid-Low, /o/ is Mid-Low. So only /i/ and /z/ are V. Two out of four, which is 50%. Doesn't meet 60%.\n\n8. **Izvići** - Let's see: /i/, /z/, /v/, /i/, /ć/. /i/, /z/, /i/, /ć/ are V. So four V out of five. 80%, which is great.\n\n9. **Izvižu** - Phonemes: /i/, /z/, /v/, /ž/, /u/. /i/, /z/, /ž/ (Wait, /ž/ is Mid), so only two V out of five. 40%, which is too low.\n\n10. **Izviše** - Phonemes: /i/, /z/, /v/, /i/, /š/, /e/. /i/, /z/, /i/ are V. So three V out of six. 50%, which is below 60%.\n\nHmm, maybe I need to find longer words or words where more letters correspond to V phonemes. Let me think of some other possibilities.\n\n11. **Izviđa** - Phonemes: /i/, /z/, /v/, /đ/, /i/, /a/. /i/, /z/, /i/ are V. Three V out of six. 50%, still not enough.\n\n12. **Izviđe** - Similar to above, maybe not enough.\n\n13. **Izviđu** - Same issue.\n\n14. **Izvižu** - Already checked.\n\n15. **Izvižić** - Phonemes: /i/, /z/, /v/, /ž/, /i/, /ć/. /i/, /z/, /i/, /ć/ are V. So four V"
+  }
+]

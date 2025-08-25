@@ -1,0 +1,160 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši 10 riječi takvih da svaka riječ sadrži minimalno 70% fonema koji pripadaju klasi Niski (N), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I need to create 10 Croatian words where each word has at least 70% of its phonemes from the Low (N) class. The Low class includes /m/, /n/, /nj/, /b/, /p/, /u/. 
+
+First, I should figure out what 70% means in terms of the number of phonemes. If a word has, say, 3 phonemes, 70% would mean at least 2.1, so 2 phonemes. For 4 phonemes, it's 2.8, so 3 phonemes. For 5 phonemes, 3.5, so 4. Hmm, but words can vary in length, so I need to ensure that the majority of the phonemes in each word are from the Low class.
+
+I should also remember the structure of Croatian words, which often have consonant clusters, especially at the beginning. For example, words starting with'mn' or 'bl' would be good because both consonants are from the Low class.
+
+Let me think of some words. 
+
+1. "Mnogo" – M, N, O, G, O. Wait, O is from the Middle-Low class. So M and N are Low, but G is Middle-Low. So M and N are two out of five phonemes. That's 40%, which is below 70%. So maybe "Mnogo" isn't suitable. Maybe I need a shorter word or one with more Low phonemes.
+
+2. "Mama" – M, A, M, A. M is Low, but A is Middle. So only two Low phonemes out of four, which is 50%. Still not enough.
+
+3. "Babu" – B, A, B, U. B and U are Low. So three Low phonemes out of four. 75%, which is good. So "Babu" could work.
+
+4. "Bunja" – B, U, N, J, A. B, U, N are Low. That's three out of five, which is 60%. Close, but not 70%.
+
+5. "Mlaka" – M, L, A, K, A. M is Low, but L is Middle-Low. So only one Low phoneme. Not enough.
+
+6. "Mnem" – M, N, E, M. M and N are Low, but E is Middle-High. So two out of four, which is 50%. Not enough.
+
+7. "Bumb" – B, U, M, B. All consonants are Low. So four out of four, 100%. Perfect.
+
+8. "Mnau" – M, N, A, U. M and N are Low, U is Low. So three out of four, 75%. Good.
+
+9. "Mum" – M, U, M. All Low. 100%.
+
+10. "Babum" – B, A, B, U, M. B, U, M are Low. Three out of five, which is 60%. Hmm, not enough. Maybe "Babum" isn't suitable. Alternatively, "Bubam" – B, U, B, A, M. B, U, M are Low. Three out of five, still 60%.
+
+Wait, maybe I need to find words with more Low phonemes. Let me think again.
+
+11. "Mnemo" – M, N, E, M, O. M and N are Low, O is Middle-Low. So two Low out of five, 40%. Not enough.
+
+12. "Bunja" – As before, three Low out of five. Maybe I can adjust it. "Bunju" – B, U, N, J, U. B, U, N are Low. Three out of five, still 60%.
+
+13. "Mlada" – M, L, A, D, A. M is Low, but L is Middle-Low. So one Low. Not enough.
+
+14. "Mama" – As before, only two Low. Not enough.
+
+15. "Mmam" – M, M, A, M. M is Low. Three out of four, 75%. But "Mmam" isn't a real word. Maybe "Mmam" is a typo or a made-up word.
+
+Wait, perhaps I should focus on shorter words with more consonants from the Low class.
+
+16. "Bum" – B, U, M. All Low. 100%.
+
+17. "Mn" – Not a word. Maybe "Mn" is not valid.
+
+18. "Mbm" – M, B, M. All Low. But "Mbm" isn't a real word.
+
+19. "Bbb" – Not a word.
+
+20. "Mmm" – Not a word.
+
+Hmm, perhaps I need to think of more common words that fit the criteria.
+
+Let me try "Babu" – B, A, B, U. B and U are Low. So two out of four, 50%. Not enough.
+
+Wait, maybe "Bubu" – B, U, B, U. All consonants are Low. So four out of four, 100%. But "Bubu" might not be a standard word, though it's a common term for "doll" in some dialects.
+
+Alternatively, "Bubam" – B, U, B, A, M. B, U, M are Low. Three out of five, 60%.
+
+Wait, maybe I'm overcomplicating. Let me list the words I have so far that meet the criteria:
+
+- "Babu" – 75%
+- "Bumb" – 100%
+- "Mnau" – 75%
+- "Mum" – 100%
+
+I need 10 words. Let me think of more.
+
+21. "Mbn" – Not a word.
+
+22. "Bbm" – Not a word.
+
+23. "Mbm" – Not a word.
+
+24. "Bub" – B, U, B. All Low. 100%.
+
+25. "Bubu" – As above, 100%.
+
+26. "Mbm" – Not a word.
+
+27. "Mn" – Not a word.
+
+28. "Mbm" – Not a word.
+
+Wait, perhaps I should look for real words that fit. Let me think of some real Croatian words.
+
+- "Mama" – M, A, M, A. M is Low. Two out of four, 50%. Not enough.
+
+- "Tata" – T is Middle-High. Not suitable.
+
+- "Baba" – B, A, B, A. B is Low. Two out of four, 50%.
+
+- "Buk" – B, U, K. B and U are Low. Two out of three, 66.6%. Close, but not 70%.
+
+- "Bukva" – B, U, K, V, A. B and U are Low. Two out of five, 40%.
+
+- "Bumb" – As before, 100%.
+
+- "Babum" – Three out of five, 60%.
+
+- "Mnau" – Three out of four, 75%.
+
+- "Mum" – Three out of three, 100%.
+
+- "Bub" – Three out of three, 100%.
+
+- "Bubu" – Four out of four, 100%.
+
+- "Bumbam" – B, U, M, B, A, M. B, U, M are Low. Three out of six, 50%.
+
+Hmm, maybe I need to accept that some words might not be standard but still phonetically valid.
+
+Let me try to make some:
+
+1. "Babu" – 75%
+2. "Bumb" – 100%
+3. "Mnau" – 75%
+4. "Mum" – 100%
+5. "Bub" – 100%
+6. "Bubu" – 100%
+7. "Mbm" – Not a word, but phonetically valid. Maybe "Mbm" – M, B, M. 100%.
+8. "Bbm" – B, B, M. 100%.
+9. "Mmn" – M, M, N. 100%.
+10. "Bn" – B, N. 100%.
+
+But some of these might not be real words, but they fit the phonetic criteria. Alternatively, I can use real words even if they don't meet the 70% exactly, but I need to ensure they do.
+
+Wait, "Babu" is a real word, meaning "doll" in some dialects. "Bumb" is a real word, meaning "boom" or "thump". "Mnau" is like "meow", but in Croatian, "mau" is the word for "meow". So "Mnau" might not be standard. "Mum" is like "mum", but in Croatian, it's "majka". So "Mum" might not be a
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši 10 riječi takvih da svaka riječ sadrži minimalno 70% fonema koji pripadaju klasi Niski (N), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I need to create 10 Croatian words where each word has at least 70% of its phonemes from the Low (N) class. The Low class includes /m/, /n/, /nj/, /b/, /p/, /u/. \n\nFirst, I should figure out what 70% means in terms of the number of phonemes. If a word has, say, 3 phonemes, 70% would mean at least 2.1, so 2 phonemes. For 4 phonemes, it's 2.8, so 3 phonemes. For 5 phonemes, 3.5, so 4. Hmm, but words can vary in length, so I need to ensure that the majority of the phonemes in each word are from the Low class.\n\nI should also remember the structure of Croatian words, which often have consonant clusters, especially at the beginning. For example, words starting with'mn' or 'bl' would be good because both consonants are from the Low class.\n\nLet me think of some words. \n\n1. \"Mnogo\" – M, N, O, G, O. Wait, O is from the Middle-Low class. So M and N are Low, but G is Middle-Low. So M and N are two out of five phonemes. That's 40%, which is below 70%. So maybe \"Mnogo\" isn't suitable. Maybe I need a shorter word or one with more Low phonemes.\n\n2. \"Mama\" – M, A, M, A. M is Low, but A is Middle. So only two Low phonemes out of four, which is 50%. Still not enough.\n\n3. \"Babu\" – B, A, B, U. B and U are Low. So three Low phonemes out of four. 75%, which is good. So \"Babu\" could work.\n\n4. \"Bunja\" – B, U, N, J, A. B, U, N are Low. That's three out of five, which is 60%. Close, but not 70%.\n\n5. \"Mlaka\" – M, L, A, K, A. M is Low, but L is Middle-Low. So only one Low phoneme. Not enough.\n\n6. \"Mnem\" – M, N, E, M. M and N are Low, but E is Middle-High. So two out of four, which is 50%. Not enough.\n\n7. \"Bumb\" – B, U, M, B. All consonants are Low. So four out of four, 100%. Perfect.\n\n8. \"Mnau\" – M, N, A, U. M and N are Low, U is Low. So three out of four, 75%. Good.\n\n9. \"Mum\" – M, U, M. All Low. 100%.\n\n10. \"Babum\" – B, A, B, U, M. B, U, M are Low. Three out of five, which is 60%. Hmm, not enough. Maybe \"Babum\" isn't suitable. Alternatively, \"Bubam\" – B, U, B, A, M. B, U, M are Low. Three out of five, still 60%.\n\nWait, maybe I need to find words with more Low phonemes. Let me think again.\n\n11. \"Mnemo\" – M, N, E, M, O. M and N are Low, O is Middle-Low. So two Low out of five, 40%. Not enough.\n\n12. \"Bunja\" – As before, three Low out of five. Maybe I can adjust it. \"Bunju\" – B, U, N, J, U. B, U, N are Low. Three out of five, still 60%.\n\n13. \"Mlada\" – M, L, A, D, A. M is Low, but L is Middle-Low. So one Low. Not enough.\n\n14. \"Mama\" – As before, only two Low. Not enough.\n\n15. \"Mmam\" – M, M, A, M. M is Low. Three out of four, 75%. But \"Mmam\" isn't a real word. Maybe \"Mmam\" is a typo or a made-up word.\n\nWait, perhaps I should focus on shorter words with more consonants from the Low class.\n\n16. \"Bum\" – B, U, M. All Low. 100%.\n\n17. \"Mn\" – Not a word. Maybe \"Mn\" is not valid.\n\n18. \"Mbm\" – M, B, M. All Low. But \"Mbm\" isn't a real word.\n\n19. \"Bbb\" – Not a word.\n\n20. \"Mmm\" – Not a word.\n\nHmm, perhaps I need to think of more common words that fit the criteria.\n\nLet me try \"Babu\" – B, A, B, U. B and U are Low. So two out of four, 50%. Not enough.\n\nWait, maybe \"Bubu\" – B, U, B, U. All consonants are Low. So four out of four, 100%. But \"Bubu\" might not be a standard word, though it's a common term for \"doll\" in some dialects.\n\nAlternatively, \"Bubam\" – B, U, B, A, M. B, U, M are Low. Three out of five, 60%.\n\nWait, maybe I'm overcomplicating. Let me list the words I have so far that meet the criteria:\n\n- \"Babu\" – 75%\n- \"Bumb\" – 100%\n- \"Mnau\" – 75%\n- \"Mum\" – 100%\n\nI need 10 words. Let me think of more.\n\n21. \"Mbn\" – Not a word.\n\n22. \"Bbm\" – Not a word.\n\n23. \"Mbm\" – Not a word.\n\n24. \"Bub\" – B, U, B. All Low. 100%.\n\n25. \"Bubu\" – As above, 100%.\n\n26. \"Mbm\" – Not a word.\n\n27. \"Mn\" – Not a word.\n\n28. \"Mbm\" – Not a word.\n\nWait, perhaps I should look for real words that fit. Let me think of some real Croatian words.\n\n- \"Mama\" – M, A, M, A. M is Low. Two out of four, 50%. Not enough.\n\n- \"Tata\" – T is Middle-High. Not suitable.\n\n- \"Baba\" – B, A, B, A. B is Low. Two out of four, 50%.\n\n- \"Buk\" – B, U, K. B and U are Low. Two out of three, 66.6%. Close, but not 70%.\n\n- \"Bukva\" – B, U, K, V, A. B and U are Low. Two out of five, 40%.\n\n- \"Bumb\" – As before, 100%.\n\n- \"Babum\" – Three out of five, 60%.\n\n- \"Mnau\" – Three out of four, 75%.\n\n- \"Mum\" – Three out of three, 100%.\n\n- \"Bub\" – Three out of three, 100%.\n\n- \"Bubu\" – Four out of four, 100%.\n\n- \"Bumbam\" – B, U, M, B, A, M. B, U, M are Low. Three out of six, 50%.\n\nHmm, maybe I need to accept that some words might not be standard but still phonetically valid.\n\nLet me try to make some:\n\n1. \"Babu\" – 75%\n2. \"Bumb\" – 100%\n3. \"Mnau\" – 75%\n4. \"Mum\" – 100%\n5. \"Bub\" – 100%\n6. \"Bubu\" – 100%\n7. \"Mbm\" – Not a word, but phonetically valid. Maybe \"Mbm\" – M, B, M. 100%.\n8. \"Bbm\" – B, B, M. 100%.\n9. \"Mmn\" – M, M, N. 100%.\n10. \"Bn\" – B, N. 100%.\n\nBut some of these might not be real words, but they fit the phonetic criteria. Alternatively, I can use real words even if they don't meet the 70% exactly, but I need to ensure they do.\n\nWait, \"Babu\" is a real word, meaning \"doll\" in some dialects. \"Bumb\" is a real word, meaning \"boom\" or \"thump\". \"Mnau\" is like \"meow\", but in Croatian, \"mau\" is the word for \"meow\". So \"Mnau\" might not be standard. \"Mum\" is like \"mum\", but in Croatian, it's \"majka\". So \"Mum\" might not be a"
+  }
+]

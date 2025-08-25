@@ -1,0 +1,133 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši 10 riječi takvih da svaka riječ sadrži minimalno 90% fonema koji pripadaju klasi Srednjeniski (SN), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Alright, so the user has given me a query where they want 10 Croatian words that have at least 90% of their phonemes from the Srednjeniski (SN) class. The SN class includes /v/, /g/, /o/, /h/, /l/, /lj/. 
+
+First, I need to understand what 90% means in terms of the number of phonemes. If a word has, say, 4 phonemes, 90% would mean at least 4 phonemes from SN. But wait, 4 out of 4 is 100%, so maybe I need to adjust. Perhaps for words with more phonemes, like 5, 90% would be 4.5, so at least 5 SN phonemes. But that might be too strict. Maybe it's better to aim for as many SN phonemes as possible, with minimal from other classes.
+
+Looking at the SN class, the vowels are /o/, and consonants are /v/, /g/, /h/, /l/, /lj/. So words that have a lot of these sounds would fit. For example, "volov" has /v/, /o/, /l/, which are all SN. "Golov" has /g/, /o/, /l/, which are all SN. 
+
+I should think of common Croatian words that use these sounds. Maybe words related to body parts, like "glav", "ruka" (but "ruka" has /r/ which is S class, so that's not good). "Oboj" has /o/, /b/ (which is N class), so that's not ideal. 
+
+Wait, "lj" is also in SN. So words like "ljubav" have /lj/, /u/ (N), /b/ (N), /a/ (S). That's only one SN phoneme, so that's not good. Maybe "lova" has /l/, /o/, /v/ – all SN. 
+
+I need to make sure each word has as many SN phonemes as possible. Let me list some potential words:
+
+1. "golov" – /g/, /o/, /l/, /v/ – all SN.
+2. "volov" – /v/, /o/, /l/, /v/ – all SN.
+3. "lova" – /l/, /o/, /v/ – all SN.
+4. "govor" – /g/, /o/, /v/, /r/ – /r/ is S class, so only 3 SN out of 4. Maybe not enough.
+5. "hvala" – /h/, /v/, /a/, /l/ – /a/ is S, so 3 SN out of 4.
+6. "ljova" – /lj/, /o/, /v/ – all SN.
+7. "golov" – same as first.
+8. "volog" – /v/, /o/, /l/, /g/ – all SN.
+9. "lovaš" – /l/, /o/, /v/, /a/, /š/ – /a/ and /š/ are not SN. So only 3 SN.
+10. "govno" – /g/, /o/, /v/, /n/, /o/ – /n/ is N class. So 3 SN.
+
+Hmm, some of these don't meet the 90% because they have other classes. Maybe I need to find words with more SN phonemes. Let's see:
+
+- "golov" – 4 SN.
+- "volov" – 4 SN.
+- "lova" – 3 SN.
+- "ljova" – 3 SN.
+- "volog" – 4 SN.
+- "govor" – 3 SN.
+- "hvala" – 3 SN.
+- "lovaš" – 3 SN.
+- "govno" – 3 SN.
+- "glav" – 3 SN.
+
+Wait, maybe "glav" is better because it's shorter. It has /g/, /l/, /a/ – /a/ is S, so only 2 SN. Not great.
+
+Alternatively, maybe "golova" – /g/, /o/, /l/, /o/, /v/ – all SN except the last /a/ if it's there. Wait, "golova" is /g/, /o/, /l/, /o/, /v/ – all SN. So that's 5 SN phonemes.
+
+Similarly, "volov" is 4 SN.
+
+I think I need to adjust the list to include words with more SN phonemes. Maybe:
+
+1. "golova" – 5 SN.
+2. "volov" – 4 SN.
+3. "lova" – 3 SN.
+4. "ljova" – 3 SN.
+5. "volog" – 4 SN.
+6. "govor" – 3 SN.
+7. "hvala" – 3 SN.
+8. "glav" – 2 SN.
+9. "govno" – 3 SN.
+10. "lovaš" – 3 SN.
+
+But some of these have only 3 SN out of 4 or 5, which might not meet the 90% threshold. Maybe I need to find longer words or words where most phonemes are SN.
+
+Alternatively, perhaps the user is okay with some non-SN phonemes as long as 90% are SN. For example, a 4-phoneme word needs at least 4 SN, which is 100%. So maybe all words should have all SN phonemes. But that might be too restrictive.
+
+In the previous response, I included words like "volov", "golov", "lova", "ljova", "volog", "govor", "hvala", "glav", "govno", "lovaš". But some of these have non-SN phonemes, like "govor" has /r/, "hvala" has /a/, etc.
+
+Perhaps I should focus on words that consist solely of SN phonemes. Let's see:
+
+- "golov" – /g/, /o/, /l/, /v/ – all SN.
+- "volov" – /v/, /o/, /l/, /v/ – all SN.
+- "lova" – /l/, /o/, /v/ – all SN.
+- "ljova" – /lj/, /o/, /v/ – all SN.
+- "volog" – /v/, /o/, /l/, /g/ – all SN.
+- "govno" – /g/, /o/, /v/, /n/, /o/ – /n/ is N, so not all SN.
+- "glav" – /g/, /l/, /a/ – /a/ is S, so not all SN.
+- "hvala" – /h/, /v/, /a/, /l/ – /a/ is S, so not all SN.
+- "lovaš" – /l/, /o/, /v/, /a/, /š/ – /a/ and /š/ are not SN.
+- "govor" – /g/, /o/, /v/, /r/ – /r/ is S, so not all SN.
+
+So, maybe the best approach is to list words that have as many SN phonemes as possible, even if they have a few from other classes. But the user specified 90%, so for a 4-phoneme word, 4 SN; for 5-phoneme, at least 5 SN (which is 100%). So perhaps all words should have all SN phonemes. But that might limit the options.
+
+Alternatively, perhaps the user is okay with some non-SN phonemes as long as the majority are SN. For example, a 5-phoneme word with 4 SN and 1 from another class would meet 80%, which is less than 90%. So maybe it's better to aim for all SN phonemes.
+
+In that case, the words would be:
+
+1. "golov" – 4 SN.
+2. "volov" – 4 SN.
+3. "lova" – 3 SN.
+4. "ljova" – 3 SN.
+5. "volog" – 4 SN.
+6. "govor" – 3 SN (but has /r/, which is S).
+7. "hvala" – 3 SN (has /a/, which is S).
+8. "glav" – 2 SN (has /a/, which is S).
+9. "govno" – 4 SN (has /n/, which is N).
+10. "lovaš" – 3 SN (has /a/ and /š/, which are S and V).
+
+Wait, but "govno" has /n/, which is N, so not all SN. So perhaps it's better to exclude words with non-SN phonemes. Then, the list would be:
+
+1. "golov"
+2. "volov"
+3. "lova"
+4. "ljova"
+5. "volog"
+
+But that's only 5 words. Maybe I need to think of more words with all SN phonemes. Let me try:
+
+- "golova" – /g/, /o/, /l/, /o/, /v/ –
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši 10 riječi takvih da svaka riječ sadrži minimalno 90% fonema koji pripadaju klasi Srednjeniski (SN), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Alright, so the user has given me a query where they want 10 Croatian words that have at least 90% of their phonemes from the Srednjeniski (SN) class. The SN class includes /v/, /g/, /o/, /h/, /l/, /lj/. \n\nFirst, I need to understand what 90% means in terms of the number of phonemes. If a word has, say, 4 phonemes, 90% would mean at least 4 phonemes from SN. But wait, 4 out of 4 is 100%, so maybe I need to adjust. Perhaps for words with more phonemes, like 5, 90% would be 4.5, so at least 5 SN phonemes. But that might be too strict. Maybe it's better to aim for as many SN phonemes as possible, with minimal from other classes.\n\nLooking at the SN class, the vowels are /o/, and consonants are /v/, /g/, /h/, /l/, /lj/. So words that have a lot of these sounds would fit. For example, \"volov\" has /v/, /o/, /l/, which are all SN. \"Golov\" has /g/, /o/, /l/, which are all SN. \n\nI should think of common Croatian words that use these sounds. Maybe words related to body parts, like \"glav\", \"ruka\" (but \"ruka\" has /r/ which is S class, so that's not good). \"Oboj\" has /o/, /b/ (which is N class), so that's not ideal. \n\nWait, \"lj\" is also in SN. So words like \"ljubav\" have /lj/, /u/ (N), /b/ (N), /a/ (S). That's only one SN phoneme, so that's not good. Maybe \"lova\" has /l/, /o/, /v/ – all SN. \n\nI need to make sure each word has as many SN phonemes as possible. Let me list some potential words:\n\n1. \"golov\" – /g/, /o/, /l/, /v/ – all SN.\n2. \"volov\" – /v/, /o/, /l/, /v/ – all SN.\n3. \"lova\" – /l/, /o/, /v/ – all SN.\n4. \"govor\" – /g/, /o/, /v/, /r/ – /r/ is S class, so only 3 SN out of 4. Maybe not enough.\n5. \"hvala\" – /h/, /v/, /a/, /l/ – /a/ is S, so 3 SN out of 4.\n6. \"ljova\" – /lj/, /o/, /v/ – all SN.\n7. \"golov\" – same as first.\n8. \"volog\" – /v/, /o/, /l/, /g/ – all SN.\n9. \"lovaš\" – /l/, /o/, /v/, /a/, /š/ – /a/ and /š/ are not SN. So only 3 SN.\n10. \"govno\" – /g/, /o/, /v/, /n/, /o/ – /n/ is N class. So 3 SN.\n\nHmm, some of these don't meet the 90% because they have other classes. Maybe I need to find words with more SN phonemes. Let's see:\n\n- \"golov\" – 4 SN.\n- \"volov\" – 4 SN.\n- \"lova\" – 3 SN.\n- \"ljova\" – 3 SN.\n- \"volog\" – 4 SN.\n- \"govor\" – 3 SN.\n- \"hvala\" – 3 SN.\n- \"lovaš\" – 3 SN.\n- \"govno\" – 3 SN.\n- \"glav\" – 3 SN.\n\nWait, maybe \"glav\" is better because it's shorter. It has /g/, /l/, /a/ – /a/ is S, so only 2 SN. Not great.\n\nAlternatively, maybe \"golova\" – /g/, /o/, /l/, /o/, /v/ – all SN except the last /a/ if it's there. Wait, \"golova\" is /g/, /o/, /l/, /o/, /v/ – all SN. So that's 5 SN phonemes.\n\nSimilarly, \"volov\" is 4 SN.\n\nI think I need to adjust the list to include words with more SN phonemes. Maybe:\n\n1. \"golova\" – 5 SN.\n2. \"volov\" – 4 SN.\n3. \"lova\" – 3 SN.\n4. \"ljova\" – 3 SN.\n5. \"volog\" – 4 SN.\n6. \"govor\" – 3 SN.\n7. \"hvala\" – 3 SN.\n8. \"glav\" – 2 SN.\n9. \"govno\" – 3 SN.\n10. \"lovaš\" – 3 SN.\n\nBut some of these have only 3 SN out of 4 or 5, which might not meet the 90% threshold. Maybe I need to find longer words or words where most phonemes are SN.\n\nAlternatively, perhaps the user is okay with some non-SN phonemes as long as 90% are SN. For example, a 4-phoneme word needs at least 4 SN, which is 100%. So maybe all words should have all SN phonemes. But that might be too restrictive.\n\nIn the previous response, I included words like \"volov\", \"golov\", \"lova\", \"ljova\", \"volog\", \"govor\", \"hvala\", \"glav\", \"govno\", \"lovaš\". But some of these have non-SN phonemes, like \"govor\" has /r/, \"hvala\" has /a/, etc.\n\nPerhaps I should focus on words that consist solely of SN phonemes. Let's see:\n\n- \"golov\" – /g/, /o/, /l/, /v/ – all SN.\n- \"volov\" – /v/, /o/, /l/, /v/ – all SN.\n- \"lova\" – /l/, /o/, /v/ – all SN.\n- \"ljova\" – /lj/, /o/, /v/ – all SN.\n- \"volog\" – /v/, /o/, /l/, /g/ – all SN.\n- \"govno\" – /g/, /o/, /v/, /n/, /o/ – /n/ is N, so not all SN.\n- \"glav\" – /g/, /l/, /a/ – /a/ is S, so not all SN.\n- \"hvala\" – /h/, /v/, /a/, /l/ – /a/ is S, so not all SN.\n- \"lovaš\" – /l/, /o/, /v/, /a/, /š/ – /a/ and /š/ are not SN.\n- \"govor\" – /g/, /o/, /v/, /r/ – /r/ is S, so not all SN.\n\nSo, maybe the best approach is to list words that have as many SN phonemes as possible, even if they have a few from other classes. But the user specified 90%, so for a 4-phoneme word, 4 SN; for 5-phoneme, at least 5 SN (which is 100%). So perhaps all words should have all SN phonemes. But that might limit the options.\n\nAlternatively, perhaps the user is okay with some non-SN phonemes as long as the majority are SN. For example, a 5-phoneme word with 4 SN and 1 from another class would meet 80%, which is less than 90%. So maybe it's better to aim for all SN phonemes.\n\nIn that case, the words would be:\n\n1. \"golov\" – 4 SN.\n2. \"volov\" – 4 SN.\n3. \"lova\" – 3 SN.\n4. \"ljova\" – 3 SN.\n5. \"volog\" – 4 SN.\n6. \"govor\" – 3 SN (but has /r/, which is S).\n7. \"hvala\" – 3 SN (has /a/, which is S).\n8. \"glav\" – 2 SN (has /a/, which is S).\n9. \"govno\" – 4 SN (has /n/, which is N).\n10. \"lovaš\" – 3 SN (has /a/ and /š/, which are S and V).\n\nWait, but \"govno\" has /n/, which is N, so not all SN. So perhaps it's better to exclude words with non-SN phonemes. Then, the list would be:\n\n1. \"golov\"\n2. \"volov\"\n3. \"lova\"\n4. \"ljova\"\n5. \"volog\"\n\nBut that's only 5 words. Maybe I need to think of more words with all SN phonemes. Let me try:\n\n- \"golova\" – /g/, /o/, /l/, /o/, /v/ –"
+  }
+]

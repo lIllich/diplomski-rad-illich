@@ -1,0 +1,76 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši 10 riječi takvih da svaka riječ sadrži minimalno 70% fonema koji pripadaju klasi Srednjeniski (SN), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I need to create 10 Croatian words where each word has at least 70% of its phonemes from the Srednjeniski (SN) class. Let me first make sure I understand the phoneme classes correctly.
+
+From the user's message, the classes are:
+
+- Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+- Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+- Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+- Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+- Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+So, the SN class includes /v/, /g/, /o/, /h/, /l/, /lj/. I need to make sure that in each word, at least 70% of the phonemes are from SN.
+
+First, I should figure out what 70% means in terms of the number of phonemes in a word. Let's assume an average word length. For example, a 5-phoneme word would need at least 4 phonemes from SN (since 70% of 5 is 3.5, rounded up to 4). Similarly, a 4-phoneme word would need at least 3 phonemes from SN.
+
+I should start by listing words that have a high number of SN phonemes. Let me think about common Croatian words and break them down into phonemes.
+
+1. **vagon** - Let's break this down. 'v' is SN, 'a' is S, 'g' is SN, 'o' is SN, 'n' is N. So, SN phonemes are 'v', 'g', 'o' – that's 3 out of 5, which is 60%. Not enough.
+
+Wait, maybe I should think of words with more SN phonemes. Let's try 'vog' – but that's not a word. Maybe 'gol' – 'g' (SN), 'o' (SN), 'l' (SN). That's 3 out of 3 – 100%. But 'gol' is a word meaning 'goal' or'sphere'. So that's one.
+
+2. **gol** – 3 SN phonemes, so 100%. Good.
+
+3. **vog** – Not a word. Maybe 'voga' – 'v', 'o', 'g', 'a'. 'v', 'o', 'g' are SN, 'a' is S. So 3 SN out of 4. 75%. That's acceptable.
+
+4. **voga** – 75% SN.
+
+5. **golov** – 'g', 'o', 'l', 'o', 'v'. All SN except none, actually. Wait, 'g', 'o', 'l', 'o', 'v' – all SN. So 100% SN. But 'golov' isn't a standard word. Maybe 'golov' as in 'head' in some dialects, but not standard.
+
+Wait, maybe I should think of other words. Let's try 'vlak' – 'v' (SN), 'l' (SN), 'a' (S), 'k' (S). So 'v' and 'l' are SN, 2 out of 4 – 50%. Not enough.
+
+How about 'gol' again? That's 100%.
+
+Another approach: think of words with 'lj', which is SN. Words like 'ljep' – 'lj' (SN), 'e' (SV), 'p' (N). So 'lj' is SN, 'e' is SV, 'p' is N. So only 1 SN out of 3. Not enough.
+
+Wait, maybe 'ljova' – 'lj', 'o', 'v', 'a'. 'lj' (SN), 'o' (SN), 'v' (SN), 'a' (S). So 3 SN out of 4 – 75%. Good.
+
+So 'ljova' – 75%.
+
+Another word: 'golov' – but as I thought before, maybe not standard. Let me check another.
+
+'gol' is good.
+
+'voga' is another.
+
+How about 'glova' – 'g', 'l', 'o', 'v', 'a'. 'g', 'l', 'o', 'v' are SN, 'a' is S.
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši 10 riječi takvih da svaka riječ sadrži minimalno 70% fonema koji pripadaju klasi Srednjeniski (SN), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I need to create 10 Croatian words where each word has at least 70% of its phonemes from the Srednjeniski (SN) class. Let me first make sure I understand the phoneme classes correctly.\n\nFrom the user's message, the classes are:\n\n- Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/\n- Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\n- Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\n- Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\n- Visoki (V): /ć/, /i/, /c/, /z/, /s/\n\nSo, the SN class includes /v/, /g/, /o/, /h/, /l/, /lj/. I need to make sure that in each word, at least 70% of the phonemes are from SN.\n\nFirst, I should figure out what 70% means in terms of the number of phonemes in a word. Let's assume an average word length. For example, a 5-phoneme word would need at least 4 phonemes from SN (since 70% of 5 is 3.5, rounded up to 4). Similarly, a 4-phoneme word would need at least 3 phonemes from SN.\n\nI should start by listing words that have a high number of SN phonemes. Let me think about common Croatian words and break them down into phonemes.\n\n1. **vagon** - Let's break this down. 'v' is SN, 'a' is S, 'g' is SN, 'o' is SN, 'n' is N. So, SN phonemes are 'v', 'g', 'o' – that's 3 out of 5, which is 60%. Not enough.\n\nWait, maybe I should think of words with more SN phonemes. Let's try 'vog' – but that's not a word. Maybe 'gol' – 'g' (SN), 'o' (SN), 'l' (SN). That's 3 out of 3 – 100%. But 'gol' is a word meaning 'goal' or'sphere'. So that's one.\n\n2. **gol** – 3 SN phonemes, so 100%. Good.\n\n3. **vog** – Not a word. Maybe 'voga' – 'v', 'o', 'g', 'a'. 'v', 'o', 'g' are SN, 'a' is S. So 3 SN out of 4. 75%. That's acceptable.\n\n4. **voga** – 75% SN.\n\n5. **golov** – 'g', 'o', 'l', 'o', 'v'. All SN except none, actually. Wait, 'g', 'o', 'l', 'o', 'v' – all SN. So 100% SN. But 'golov' isn't a standard word. Maybe 'golov' as in 'head' in some dialects, but not standard.\n\nWait, maybe I should think of other words. Let's try 'vlak' – 'v' (SN), 'l' (SN), 'a' (S), 'k' (S). So 'v' and 'l' are SN, 2 out of 4 – 50%. Not enough.\n\nHow about 'gol' again? That's 100%.\n\nAnother approach: think of words with 'lj', which is SN. Words like 'ljep' – 'lj' (SN), 'e' (SV), 'p' (N). So 'lj' is SN, 'e' is SV, 'p' is N. So only 1 SN out of 3. Not enough.\n\nWait, maybe 'ljova' – 'lj', 'o', 'v', 'a'. 'lj' (SN), 'o' (SN), 'v' (SN), 'a' (S). So 3 SN out of 4 – 75%. Good.\n\nSo 'ljova' – 75%.\n\nAnother word: 'golov' – but as I thought before, maybe not standard. Let me check another.\n\n'gol' is good.\n\n'voga' is another.\n\nHow about 'glova' – 'g', 'l', 'o', 'v', 'a'. 'g', 'l', 'o', 'v' are SN, 'a' is S."
+  }
+]

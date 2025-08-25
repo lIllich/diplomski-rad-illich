@@ -1,0 +1,117 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 90% fonema koji pripadaju klasi Visoki(V), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I need to help the user create a sentence in Croatian that's at least 100 characters long. The main requirement is that at least 90% of the phonemes belong to the "Visoki" (V) class. The V class includes /ć/, /i/, /c/, /z/, /s/. The remaining 10% can be from other classes, but I should use as few as possible.
+
+First, I should recall the V class phonemes and think of words that contain these. Maybe starting with "Ć", like "ću" or "ćelo". "I" is common, so words like "ili", "i", "mi". "C" is in words like "čin", "čak", but wait, "č" is in the Srednjevisoki (SV) class, so I need to avoid that. "Z" is in "zato", "za", "zajedno". "S" is in "samo", "sa", "s".
+
+I should focus on using these phonemes as much as possible. Let me think of a sentence structure that can include multiple V phonemes. Maybe something like "Ćući sući su zaslužni za svoje čine..." but I need to check each word's phonemes.
+
+Wait, "Ćući" has /ć/, /u/ (which is N class), /k/ (S class). Hmm, that's not ideal because I want to minimize non-V phonemes. Maybe "Ćelo je puno suncana i zelja..." but "je" has /j/ (SV), "puno" has /p/ (N), "suncana" has /s/ (V), /u/ (N), /n/ (N), /c/ (V), "zelja" has /z/ (V), /e/ (SV), /l/ (SN), /j/ (SV). That's too many non-V phonemes.
+
+Perhaps using "I" as a conjunction: "I i i i..." but that's repetitive. Maybe "Samo ćeći sući..." but "samo" has /s/ (V), /a/ (S), /m/ (N), "ćeći" has /ć/ (V), /e/ (SV), /k/ (S), which is again too many non-V.
+
+I need to find words that are mostly composed of V phonemes. "Za" is good, "zato", "zajedno". "Ću" is good, "ćelo". "I" is neutral. Maybe "Zašto ćeći sući..." but "zašto" has /š/ (SV), which is non-V.
+
+Wait, "s" is V, so "samo" is okay. "Samo ćeći..." but "samo" has /s/ (V), /a/ (S), /m/ (N), /o/ (SN). That's three non-V phonemes in one word. Not ideal.
+
+Maybe "Za samostan..." but "samostan" has /s/ (V), /a/ (S), /m/ (N), /o/ (SN), /s/ (V), /t/ (SV), /a/ (S), /n/ (N). Again, too many non-V.
+
+Perhaps it's better to use shorter words with more V phonemes. "Ću" is good, "zajedno" has /z/ (V), "samo" has /s/ (V), "i" is neutral. Maybe "Ću sami zajedno..." but "sami" has /s/ (V), /a/ (S), /m/ (N), /i/ (V). So, two non-V in "sami".
+
+This is tricky. Maybe using "i" as the main conjunction and using words like "zajedno", "za", "ću", "samo". Let me try constructing a sentence:
+
+"Ću sami zajedno ići i zaslužiti svoje mjesto u sunčanoj zelji."
+
+Now, let's break it down:
+
+- "Ću" has /ć/ (V)
+- "sami" has /s/ (V), /a/ (S), /m/ (N), /i/ (V)
+- "zajedno" has /z/ (V), /a/ (S), /j/ (SV), /e/ (SV), /d/ (S), /n/ (N), /o/ (SN)
+- "ići" has /i/ (V), /c/ (V), /i/ (V)
+- "zaslužiti" has /z/ (V), /a/ (S), /s/ (V), /l/ (SN), /u/ (N), /ž/ (S), /i/ (V), /t/ (SV), /i/ (V)
+- "svoje" has /s/ (V), /v/ (SN), /o/ (SN), /j/ (SV), /e/ (SV)
+- "mjesto" has /m/ (N), /j/ (SV), /e/ (SV), /s/ (V), /t/ (SV), /o/ (SN)
+- "u" has /u/ (N)
+- "sunčanoj" has /s/ (V), /u/ (N), /n/ (N), /č/ (SV), /a/ (S), /n/ (N), /o/ (SN), /j/ (SV)
+- "zelji" has /z/ (V), /e/ (SV), /l/ (SN), /j/ (SV), /i/ (V)
+
+This sentence has a lot of non-V phonemes, especially from the S, SN, N, and SV classes. It's not meeting the 90% V requirement.
+
+Maybe I need to focus on using only V phonemes as much as possible, even if the words are a bit abstract or less common. For example, "Ćići sući su zaslužni za svoje čine..." but again, "sući" has /s/ (V), /u/ (N), /k/ (S), /i/ (V). The /u/ and /k/ are non-V.
+
+Alternatively, maybe using "i" as the only vowel and "s", "z", "c", "ć" as consonants. "I i i i i i..." but that's just repeating "i".
+
+Perhaps "Zašto ćeći sući..." but "zašto" has /š/ (SV). Not good.
+
+Wait, "s" is V, so "samo" is okay for "s", but "a" is S. Maybe "Samo ćeći..." but "samo" has three non-V phonemes.
+
+I think it's challenging to create a meaningful sentence with 90% V phonemes. Maybe the user expects a more creative or less grammatically correct sentence, focusing on the phoneme count rather than meaning.
+
+Let me try again, focusing on V phonemes:
+
+"Ću sami zajedno ići i zaslužiti svoje mjesto u sunčanoj zelji."
+
+Counting the phonemes:
+
+Total letters: let's count the characters. The sentence is 74 characters, which is below 100. So I need to make it longer.
+
+Maybe adding more words with V phonemes: "Ću sami zajedno ići i zaslužiti svoje mjesto u sunčanoj zelji, zasigurno ćeći dobiti puno sreće."
+
+Now, the length is 101 characters. Let's check the phonemes:
+
+- "Ću" (2)
+- "sami" (4)
+- "zajedno" (7)
+- "ići" (3)
+- "zaslužiti" (9)
+- "svoje" (5)
+- "mjesto" (6)
+- "u" (1)
+- "sunčanoj" (9)
+- "zelji" (5)
+- "zasigurno" (9)
+- "ćeći" (4)
+- "dobiti" (5)
+- "puno" (4)
+- "sreće" (5)
+
+Total characters: 2+4+7+3+9+5+6+1+9+5+9+4+5+4+5 = 81, but including spaces, it's 101.
+
+Now, counting V phonemes:
+
+Each word's V phonemes:
+
+- "Ću": 2 (ć, u?) Wait, u is N class, so only ć is V.
+- "sami": s (V), a (S), m (N), i (V) → 2 V
+- "zajedno": z (V), a (S), j (SV), e (SV), d (S), n (N), o (SN) → 1 V
+- "ići": i (V), c (V), i (V) → 3 V
+- "zaslužiti": z (V), a (S), s (V), l (SN), u (N), ž (S), i (V),
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 90% fonema koji pripadaju klasi Visoki(V), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I need to help the user create a sentence in Croatian that's at least 100 characters long. The main requirement is that at least 90% of the phonemes belong to the \"Visoki\" (V) class. The V class includes /ć/, /i/, /c/, /z/, /s/. The remaining 10% can be from other classes, but I should use as few as possible.\n\nFirst, I should recall the V class phonemes and think of words that contain these. Maybe starting with \"Ć\", like \"ću\" or \"ćelo\". \"I\" is common, so words like \"ili\", \"i\", \"mi\". \"C\" is in words like \"čin\", \"čak\", but wait, \"č\" is in the Srednjevisoki (SV) class, so I need to avoid that. \"Z\" is in \"zato\", \"za\", \"zajedno\". \"S\" is in \"samo\", \"sa\", \"s\".\n\nI should focus on using these phonemes as much as possible. Let me think of a sentence structure that can include multiple V phonemes. Maybe something like \"Ćući sući su zaslužni za svoje čine...\" but I need to check each word's phonemes.\n\nWait, \"Ćući\" has /ć/, /u/ (which is N class), /k/ (S class). Hmm, that's not ideal because I want to minimize non-V phonemes. Maybe \"Ćelo je puno suncana i zelja...\" but \"je\" has /j/ (SV), \"puno\" has /p/ (N), \"suncana\" has /s/ (V), /u/ (N), /n/ (N), /c/ (V), \"zelja\" has /z/ (V), /e/ (SV), /l/ (SN), /j/ (SV). That's too many non-V phonemes.\n\nPerhaps using \"I\" as a conjunction: \"I i i i...\" but that's repetitive. Maybe \"Samo ćeći sući...\" but \"samo\" has /s/ (V), /a/ (S), /m/ (N), \"ćeći\" has /ć/ (V), /e/ (SV), /k/ (S), which is again too many non-V.\n\nI need to find words that are mostly composed of V phonemes. \"Za\" is good, \"zato\", \"zajedno\". \"Ću\" is good, \"ćelo\". \"I\" is neutral. Maybe \"Zašto ćeći sući...\" but \"zašto\" has /š/ (SV), which is non-V.\n\nWait, \"s\" is V, so \"samo\" is okay. \"Samo ćeći...\" but \"samo\" has /s/ (V), /a/ (S), /m/ (N), /o/ (SN). That's three non-V phonemes in one word. Not ideal.\n\nMaybe \"Za samostan...\" but \"samostan\" has /s/ (V), /a/ (S), /m/ (N), /o/ (SN), /s/ (V), /t/ (SV), /a/ (S), /n/ (N). Again, too many non-V.\n\nPerhaps it's better to use shorter words with more V phonemes. \"Ću\" is good, \"zajedno\" has /z/ (V), \"samo\" has /s/ (V), \"i\" is neutral. Maybe \"Ću sami zajedno...\" but \"sami\" has /s/ (V), /a/ (S), /m/ (N), /i/ (V). So, two non-V in \"sami\".\n\nThis is tricky. Maybe using \"i\" as the main conjunction and using words like \"zajedno\", \"za\", \"ću\", \"samo\". Let me try constructing a sentence:\n\n\"Ću sami zajedno ići i zaslužiti svoje mjesto u sunčanoj zelji.\"\n\nNow, let's break it down:\n\n- \"Ću\" has /ć/ (V)\n- \"sami\" has /s/ (V), /a/ (S), /m/ (N), /i/ (V)\n- \"zajedno\" has /z/ (V), /a/ (S), /j/ (SV), /e/ (SV), /d/ (S), /n/ (N), /o/ (SN)\n- \"ići\" has /i/ (V), /c/ (V), /i/ (V)\n- \"zaslužiti\" has /z/ (V), /a/ (S), /s/ (V), /l/ (SN), /u/ (N), /ž/ (S), /i/ (V), /t/ (SV), /i/ (V)\n- \"svoje\" has /s/ (V), /v/ (SN), /o/ (SN), /j/ (SV), /e/ (SV)\n- \"mjesto\" has /m/ (N), /j/ (SV), /e/ (SV), /s/ (V), /t/ (SV), /o/ (SN)\n- \"u\" has /u/ (N)\n- \"sunčanoj\" has /s/ (V), /u/ (N), /n/ (N), /č/ (SV), /a/ (S), /n/ (N), /o/ (SN), /j/ (SV)\n- \"zelji\" has /z/ (V), /e/ (SV), /l/ (SN), /j/ (SV), /i/ (V)\n\nThis sentence has a lot of non-V phonemes, especially from the S, SN, N, and SV classes. It's not meeting the 90% V requirement.\n\nMaybe I need to focus on using only V phonemes as much as possible, even if the words are a bit abstract or less common. For example, \"Ćići sući su zaslužni za svoje čine...\" but again, \"sući\" has /s/ (V), /u/ (N), /k/ (S), /i/ (V). The /u/ and /k/ are non-V.\n\nAlternatively, maybe using \"i\" as the only vowel and \"s\", \"z\", \"c\", \"ć\" as consonants. \"I i i i i i...\" but that's just repeating \"i\".\n\nPerhaps \"Zašto ćeći sući...\" but \"zašto\" has /š/ (SV). Not good.\n\nWait, \"s\" is V, so \"samo\" is okay for \"s\", but \"a\" is S. Maybe \"Samo ćeći...\" but \"samo\" has three non-V phonemes.\n\nI think it's challenging to create a meaningful sentence with 90% V phonemes. Maybe the user expects a more creative or less grammatically correct sentence, focusing on the phoneme count rather than meaning.\n\nLet me try again, focusing on V phonemes:\n\n\"Ću sami zajedno ići i zaslužiti svoje mjesto u sunčanoj zelji.\"\n\nCounting the phonemes:\n\nTotal letters: let's count the characters. The sentence is 74 characters, which is below 100. So I need to make it longer.\n\nMaybe adding more words with V phonemes: \"Ću sami zajedno ići i zaslužiti svoje mjesto u sunčanoj zelji, zasigurno ćeći dobiti puno sreće.\"\n\nNow, the length is 101 characters. Let's check the phonemes:\n\n- \"Ću\" (2)\n- \"sami\" (4)\n- \"zajedno\" (7)\n- \"ići\" (3)\n- \"zaslužiti\" (9)\n- \"svoje\" (5)\n- \"mjesto\" (6)\n- \"u\" (1)\n- \"sunčanoj\" (9)\n- \"zelji\" (5)\n- \"zasigurno\" (9)\n- \"ćeći\" (4)\n- \"dobiti\" (5)\n- \"puno\" (4)\n- \"sreće\" (5)\n\nTotal characters: 2+4+7+3+9+5+6+1+9+5+9+4+5+4+5 = 81, but including spaces, it's 101.\n\nNow, counting V phonemes:\n\nEach word's V phonemes:\n\n- \"Ću\": 2 (ć, u?) Wait, u is N class, so only ć is V.\n- \"sami\": s (V), a (S), m (N), i (V) → 2 V\n- \"zajedno\": z (V), a (S), j (SV), e (SV), d (S), n (N), o (SN) → 1 V\n- \"ići\": i (V), c (V), i (V) → 3 V\n- \"zaslužiti\": z (V), a (S), s (V), l (SN), u (N), ž (S), i (V),"
+  }
+]

@@ -1,0 +1,75 @@
+id;saturacija;klasa;vrsta;tekst;stvarna_saturacija_klase;subjektivno_zadovljstvo
+1;0,50;N;riječ;Mama;0,500000;DA
+2;0,50;N;riječ;Baba;0,500000;DA
+6;0,50;N;riječ;Pun;1,000000;NE
+8;0,50;SN;riječ;Voda;0,500000;DA
+9;0,50;SN;riječ;Gol;1,000000;NE
+10;0,50;SN;riječ;Loža;0,500000;NE
+11;0,50;SN;riječ;Vlak;0,500000;DA
+12;0,50;SN;riječ;Glava;0,600000;DA
+13;0,50;SN;riječ;Hvala;0,600000;NE
+14;0,50;SN;riječ;Ljubav;0,400000;DA
+17;0,50;SN;riječ;Hod;0,666667;NE
+21;0,50;V;riječ;Ćuš;0,333333;NE
+23;0,50;V;riječ;Ići;1,000000;NE
+29;0,80;S;riječ;Krađa;0,800000;NE
+32;0,60;S;rečenica;Mali rat ide kraj dubokog kašna, dok šećer i kruh padaju na stol, a šljunak i fiskalski pregled pokazivaju da je sve u redu.;0,381443;NE
+33;0,70;S;rečenica;Možda brat će staviti raf u kantinu, dok će ona pisati pjesmu za kudeljku.;0,327586;NE
+34;0,70;SV;rečenica;Čekam šetati u času, šetnja je lijepa čast.;0,484848;NE
+35;0,80;N;rečenica;Mama je mučni u babice, mnogo puno puno puno.;0,542857;NE
+36;0,80;S;rečenica;Brat svakog društva državu pripadajući želju stalno budući dozvoljavajući život.;0,323529;NE
+37;0,80;SV;rečenica;Često šetam po šumi i brojim svoje šagovi, teško je češći put.;0,408163;NE
+39;0,90;S;rečenica;Stara kuhinja je puna rukava. Zvuka i ručnih radova. Voda iz fontane bježi prema dnu. Zeleni cvjetovi mirisnu.;0,295455;NE
+40;0,90;SV;rečenica;Čestitamo šest đečaka i djevojčica koje su pobjegle šljunke.;0,420000;NE
+41;0,50;N;rečenica;Mama je mučno pripadala mnogim niskim nagradama, jer je njena misija bila pobjednik u mnogim najvažnijim njihovim nagradnim njorgovima.;0,312500;NE
+42;0,50;S;rečenica;Kad braća karakteriraju svoj karakter, često koriste razne metode analize.;0,428571;NE
+43;0,50;SV;rečenica;Čaček šuma šešavara šest dana je trešio šumski šljuk.;0,395349;NE
+45;0,70;S;rečenica;Na fakultetu u Zagrebu študiraju mnogi studenti iz raznih krajeva Hrvatske i drugih zemalja.;0,298701;NE
+47;0,80;SN;rečenica;Voda gura lozju, hvala ljubavi, vjetar gusar ljeto hod, vuk gura loza hren ljut.;0,366667;NE
+48;0,80;S;rečenica;Državamo karakater silne znanja i iskušene stručnost jer to je ključna osnova za dobrodošljiv razvoj i doživjet ćemo to zajedno.;0,285714;NE
+52;0,90;S;rečenica;Brada kroži krađu, rađa se nad kožom, a kroz kraj džungli, život se širi.;0,472727;NE
+54;0,50;N;riječ;Mama;0,500000;DA
+55;0,50;N;riječ;Mjesečina;0,222222;NE
+56;0,50;N;riječ;Njen;0,666667;NE
+57;0,50;N;riječ;Babica;0,333333;DA
+59;0,50;N;riječ;Mramor;0,333333;NE
+61;0,50;N;riječ;Mjed;0,250000;NE
+63;0,50;N;riječ;Njega;0,250000;NE
+64;0,50;SN;riječ;Voda;0,500000;DA
+65;0,50;SN;riječ;Gol;1,000000;NE
+66;0,50;SN;riječ;Vino;0,500000;DA
+67;0,50;SN;riječ;Vlak;0,500000;DA
+68;0,50;SN;riječ;Vrh;0,666667;NE
+70;0,50;SN;riječ;Golub;0,600000;DA
+71;0,50;SN;riječ;Vlas;0,500000;DA
+72;0,50;SN;riječ;Voz;0,666667;NE
+74;0,50;S;riječ;kovač;0,400000;NE
+75;0,50;S;riječ;kradljiv;0,571429;NE
+76;0,50;S;riječ;krađa;0,800000;NE
+77;0,50;S;riječ;karakter;0,750000;NE
+83;0,50;S;riječ;kratki;0,666667;NE
+84;0,50;SV;riječ;čest;0,750000;NE
+87;0,50;SV;riječ;đečko;0,600000;NE
+96;0,70;SN;riječ;lova;0,750000;NE
+102;0,70;SN;riječ;gol;1,000000;NE
+104;0,70;S;riječ;kada;1,000000;NE
+105;0,70;S;riječ;rad;1,000000;NE
+106;0,70;S;riječ;dak;1,000000;NE
+107;0,70;S;riječ;kar;1,000000;NE
+108;0,70;S;riječ;fa;1,000000;DA
+109;0,70;S;riječ;dakar;1,000000;NE
+110;0,70;S;riječ;raf;1,000000;NE
+111;0,70;S;riječ;žar;1,000000;NE
+112;0,70;S;riječ;krdža;1,000000;NE
+113;0,70;S;riječ;frak;1,000000;NE
+124;0,80;S;riječ;krađa;0,800000;NE
+126;0,80;S;riječ;karadža;1,000000;NE
+134;0,80;SV;riječ;Češći;0,600000;NE
+135;0,80;SV;riječ;Šetajte;0,857143;NE
+138;0,80;SV;riječ;Češće;0,800000;NE
+145;0,90;V;riječ;Zvižd;0,400000;NE
+146;0,90;V;riječ;Ivić;0,750000;NE
+147;0,90;V;riječ;Ćuća;0,500000;NE
+148;0,90;V;riječ;Zvono;0,200000;DA
+149;0,90;V;riječ;Izvan;0,400000;DA
+153;0,90;V;riječ;Zvižd;0,400000;NE

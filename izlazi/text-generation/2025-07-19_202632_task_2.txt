@@ -1,0 +1,93 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši 10 riječi takvih da svaka riječ sadrži minimalno 50% fonema koji pripadaju klasi Srednjeniski (SN), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I need to help the user by generating 10 Croatian words where each word has at least 50% of its phonemes from the Srednjeniski (SN) class. Let me break this down.
+
+First, I should recall the SN class phonemes: /v/, /g/, /o/, /h/, /l/, /lj/. Each word needs to have at least half of its phonemes from this group. For example, a 4-phoneme word needs at least 2 SN phonemes.
+
+I'll start by listing some common SN phonemes and think of words that include them. Maybe start with /v/ since it's a common consonant. Words like "voda" come to mind. Let's check: V-O-D-A. O is SN, so that's two SN phonemes out of four. That's 50%, which meets the requirement.
+
+Next, maybe "gol". G-O-L. G and O are SN, so two SN out of three. That's over 50%. Good.
+
+How about "vino"? V-I-N-O. V and O are SN, so two out of four. Exactly 50%. Perfect.
+
+"Vlak" is another one. V-L-A-K. V and L are SN, so two out of four. Also meets the requirement.
+
+"Voda" again, but maybe "voda" is too simple. Let's think of longer words. "Vozilo" has V-O-Z-I-L-O. V and O are SN, but Z is Visoki. So V and O are two SN out of five. That's 40%, which is below 50%. So that won't work.
+
+Wait, maybe "voglj" or "vogli". Let me check "vogli": V-O-G-L-I. V, O, G, L are all SN. So four SN out of five. That's 80%. Perfect.
+
+"Vrh" is another one. V-R-H. V and H are SN. So two out of three, which is 66%. Good.
+
+"Vlak" again, but maybe "vlast". V-L-A-S-T. V and L are SN. Two out of five, which is 40%. Not enough. So maybe "vlasti" would have more letters, but same SN count.
+
+Alternatively, "vlasnjak". Let's see: V-L-A-S-N-J-A-K. V and L are SN, so two out of eight. That's 25%, which is too low.
+
+Maybe "voglj" is better. Let me think of more words. "Golub" has G-O-L-U-B. G, O, L are SN. Three out of five, which is 60%. Good.
+
+"Vidov" is another option. V-I-D-O-V. V and O are SN. Two out of five, which is 40%. Not enough.
+
+Wait, maybe "vogalice". V-O-G-A-L-I-C-E. V, O, G are SN. Three out of eight, which is 37.5%. Not enough.
+
+Perhaps "vogli" is better. Let me make sure each word meets the 50% threshold.
+
+So, compiling a list:
+
+1. Voda (V, O)
+2. Gol (G, O)
+3. Vino (V, O)
+4. Vlak (V, L)
+5. Vrh (V, H)
+6. Vogli (V, O, G, L)
+7. Golub (G, O, L)
+8. Vlas (V, L)
+9. Voz (V, O)
+10. Vrhov (V, R, H, O)
+
+Wait, "Vrhov" has V and H as SN, so two out of four. 50%. Okay.
+
+I think I have enough. Each word has at least half of its phonemes from SN. I should double-check each one to ensure they meet the requirement.
+</think>
+
+Ovdje je popis odgovarajućih riječi koje zadovoljavaju uslove:
+
+1. **Voda** (V, O)
+2. **Gol** (G, O)
+3. **Vino** (V, O)
+4. **Vlak** (V, L)
+5. **Vrh** (V, H)
+6. **Vogli** (V, O, G, L)
+7. **Golub** (G, O, L)
+8. **Vlas** (V, L)
+9. **Voz** (V, O)
+10. **Vrhov** (V, H, O)
+
+ Svaka riječ sadrži minimalno 50% fonema iz klase Srednjeniski (SN).
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši 10 riječi takvih da svaka riječ sadrži minimalno 50% fonema koji pripadaju klasi Srednjeniski (SN), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I need to help the user by generating 10 Croatian words where each word has at least 50% of its phonemes from the Srednjeniski (SN) class. Let me break this down.\n\nFirst, I should recall the SN class phonemes: /v/, /g/, /o/, /h/, /l/, /lj/. Each word needs to have at least half of its phonemes from this group. For example, a 4-phoneme word needs at least 2 SN phonemes.\n\nI'll start by listing some common SN phonemes and think of words that include them. Maybe start with /v/ since it's a common consonant. Words like \"voda\" come to mind. Let's check: V-O-D-A. O is SN, so that's two SN phonemes out of four. That's 50%, which meets the requirement.\n\nNext, maybe \"gol\". G-O-L. G and O are SN, so two SN out of three. That's over 50%. Good.\n\nHow about \"vino\"? V-I-N-O. V and O are SN, so two out of four. Exactly 50%. Perfect.\n\n\"Vlak\" is another one. V-L-A-K. V and L are SN, so two out of four. Also meets the requirement.\n\n\"Voda\" again, but maybe \"voda\" is too simple. Let's think of longer words. \"Vozilo\" has V-O-Z-I-L-O. V and O are SN, but Z is Visoki. So V and O are two SN out of five. That's 40%, which is below 50%. So that won't work.\n\nWait, maybe \"voglj\" or \"vogli\". Let me check \"vogli\": V-O-G-L-I. V, O, G, L are all SN. So four SN out of five. That's 80%. Perfect.\n\n\"Vrh\" is another one. V-R-H. V and H are SN. So two out of three, which is 66%. Good.\n\n\"Vlak\" again, but maybe \"vlast\". V-L-A-S-T. V and L are SN. Two out of five, which is 40%. Not enough. So maybe \"vlasti\" would have more letters, but same SN count.\n\nAlternatively, \"vlasnjak\". Let's see: V-L-A-S-N-J-A-K. V and L are SN, so two out of eight. That's 25%, which is too low.\n\nMaybe \"voglj\" is better. Let me think of more words. \"Golub\" has G-O-L-U-B. G, O, L are SN. Three out of five, which is 60%. Good.\n\n\"Vidov\" is another option. V-I-D-O-V. V and O are SN. Two out of five, which is 40%. Not enough.\n\nWait, maybe \"vogalice\". V-O-G-A-L-I-C-E. V, O, G are SN. Three out of eight, which is 37.5%. Not enough.\n\nPerhaps \"vogli\" is better. Let me make sure each word meets the 50% threshold.\n\nSo, compiling a list:\n\n1. Voda (V, O)\n2. Gol (G, O)\n3. Vino (V, O)\n4. Vlak (V, L)\n5. Vrh (V, H)\n6. Vogli (V, O, G, L)\n7. Golub (G, O, L)\n8. Vlas (V, L)\n9. Voz (V, O)\n10. Vrhov (V, R, H, O)\n\nWait, \"Vrhov\" has V and H as SN, so two out of four. 50%. Okay.\n\nI think I have enough. Each word has at least half of its phonemes from SN. I should double-check each one to ensure they meet the requirement.\n</think>\n\nOvdje je popis odgovarajućih riječi koje zadovoljavaju uslove:\n\n1. **Voda** (V, O)\n2. **Gol** (G, O)\n3. **Vino** (V, O)\n4. **Vlak** (V, L)\n5. **Vrh** (V, H)\n6. **Vogli** (V, O, G, L)\n7. **Golub** (G, O, L)\n8. **Vlas** (V, L)\n9. **Voz** (V, O)\n10. **Vrhov** (V, H, O)\n\n Svaka riječ sadrži minimalno 50% fonema iz klase Srednjeniski (SN)."
+  }
+]

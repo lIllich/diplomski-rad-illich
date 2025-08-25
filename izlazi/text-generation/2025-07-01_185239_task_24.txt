@@ -1,0 +1,68 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši 10 riječi takvih da svaka riječ sadrži minimalno 90% fonema koji pripadaju klasi Srednjevisoki(SV), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Alright, so I need to help the user generate 10 Croatian words where each word contains at least 90% of its phonemes from the Srednjevisoki (SV) class. The SV class includes /č/, /e/, /š/, /t/, /đ/, /j/. 
+
+First, I should understand the phoneme classes correctly. The SV class has these six phonemes, and the rest are in other classes. The user wants words where 90% of the phonemes are from SV. Since most words are short, 90% would mean that in a 3-phoneme word, at least 3 out of 3 should be SV, but that's 100%. So maybe the user is okay with a small percentage of non-SV phonemes. 
+
+Wait, 90% of the phonemes must be SV. So if a word has 10 phonemes, 9 must be SV. But Croatian words are usually shorter. For example, a 5-phoneme word would need at least 4 SV phonemes. 
+
+I should look for words that are rich in SV phonemes. Let me think about some common SV phonemes: /č/, /š/, /t/, /đ/, /j/, /e/. Words with these sounds are more likely to meet the criteria.
+
+Let me start brainstorming some words. 
+
+1. "čest" – /č/, /e/, /š/, /t/. All are SV. That's 100%.
+2. "šet" – /š/, /e/, /t/. All SV. 100%.
+3. "đeč" – /đ/, /e/, /č/. All SV. 100%.
+4. "teš" – /t/, /e/, /š/. All SV. 100%.
+5. "čed" – /č/, /e/, /d/. Wait, /d/ is in S class. So 2 out of 3 SV. That's 66%, which is below 90%. I need to avoid this. Maybe "čet" – /č/, /e/, /t/. All SV. 100%.
+6. "teš" – already listed. Maybe "tešć" – but that might not be a word. Alternatively, "tešć" isn't standard. Maybe "teš" is better.
+7. "šte" – /š/, /t/, /e/. All SV. 100%.
+8. "čet" – same as above. Maybe "četva" – /č/, /e/, /t/, /v/, /a/. Here, /v/ and /a/ are non-SV. So only 3 out of 5 SV. That's 60%, which is too low. Maybe "čet" is better.
+9. "đeš" – /đ/, /e/, /š/. All SV. 100%.
+10. "teš" – again, maybe "tešć" but it's not a word. Alternatively, "teš" is the same as before.
+
+Wait, I'm repeating words. I need 10 distinct words. Let me think again.
+
+1. "čest" – 4 SV, 100%.
+2. "šet" – 3 SV, 100%.
+3. "đeč" – 3 SV, 100%.
+4. "teš" – 3 SV, 100%.
+5. "čet" – 3 SV, 100%.
+6. "šte" – 3 SV, 100%.
+7. "đeš" – 3 SV, 100%.
+8. "teš" – same as 4. Maybe "tešć" but it's not a word. Alternatively, "teš" again.
+9. "čet" – same as 5. Maybe "četva" but it has non-SV phonemes.
+10. "teš" – again.
+
+Hmm, I'm stuck. Maybe I need to look for longer words or words with multiple SV phonemes. 
+
+Let me try "čest" again. It's 4 phonemes, all SV. Good. "šet" is 3, all SV. "đeč" is 3, all SV. "teš" is 3, all SV. "čet" is 3, all SV. "šte" is 3, all SV. "đeš" is 3, all SV. Now I need more words. Maybe "četva" is too long with non-SV
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši 10 riječi takvih da svaka riječ sadrži minimalno 90% fonema koji pripadaju klasi Srednjevisoki(SV), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Alright, so I need to help the user generate 10 Croatian words where each word contains at least 90% of its phonemes from the Srednjevisoki (SV) class. The SV class includes /č/, /e/, /š/, /t/, /đ/, /j/. \n\nFirst, I should understand the phoneme classes correctly. The SV class has these six phonemes, and the rest are in other classes. The user wants words where 90% of the phonemes are from SV. Since most words are short, 90% would mean that in a 3-phoneme word, at least 3 out of 3 should be SV, but that's 100%. So maybe the user is okay with a small percentage of non-SV phonemes. \n\nWait, 90% of the phonemes must be SV. So if a word has 10 phonemes, 9 must be SV. But Croatian words are usually shorter. For example, a 5-phoneme word would need at least 4 SV phonemes. \n\nI should look for words that are rich in SV phonemes. Let me think about some common SV phonemes: /č/, /š/, /t/, /đ/, /j/, /e/. Words with these sounds are more likely to meet the criteria.\n\nLet me start brainstorming some words. \n\n1. \"čest\" – /č/, /e/, /š/, /t/. All are SV. That's 100%.\n2. \"šet\" – /š/, /e/, /t/. All SV. 100%.\n3. \"đeč\" – /đ/, /e/, /č/. All SV. 100%.\n4. \"teš\" – /t/, /e/, /š/. All SV. 100%.\n5. \"čed\" – /č/, /e/, /d/. Wait, /d/ is in S class. So 2 out of 3 SV. That's 66%, which is below 90%. I need to avoid this. Maybe \"čet\" – /č/, /e/, /t/. All SV. 100%.\n6. \"teš\" – already listed. Maybe \"tešć\" – but that might not be a word. Alternatively, \"tešć\" isn't standard. Maybe \"teš\" is better.\n7. \"šte\" – /š/, /t/, /e/. All SV. 100%.\n8. \"čet\" – same as above. Maybe \"četva\" – /č/, /e/, /t/, /v/, /a/. Here, /v/ and /a/ are non-SV. So only 3 out of 5 SV. That's 60%, which is too low. Maybe \"čet\" is better.\n9. \"đeš\" – /đ/, /e/, /š/. All SV. 100%.\n10. \"teš\" – again, maybe \"tešć\" but it's not a word. Alternatively, \"teš\" is the same as before.\n\nWait, I'm repeating words. I need 10 distinct words. Let me think again.\n\n1. \"čest\" – 4 SV, 100%.\n2. \"šet\" – 3 SV, 100%.\n3. \"đeč\" – 3 SV, 100%.\n4. \"teš\" – 3 SV, 100%.\n5. \"čet\" – 3 SV, 100%.\n6. \"šte\" – 3 SV, 100%.\n7. \"đeš\" – 3 SV, 100%.\n8. \"teš\" – same as 4. Maybe \"tešć\" but it's not a word. Alternatively, \"teš\" again.\n9. \"čet\" – same as 5. Maybe \"četva\" but it has non-SV phonemes.\n10. \"teš\" – again.\n\nHmm, I'm stuck. Maybe I need to look for longer words or words with multiple SV phonemes. \n\nLet me try \"čest\" again. It's 4 phonemes, all SV. Good. \"šet\" is 3, all SV. \"đeč\" is 3, all SV. \"teš\" is 3, all SV. \"čet\" is 3, all SV. \"šte\" is 3, all SV. \"đeš\" is 3, all SV. Now I need more words. Maybe \"četva\" is too long with non-SV"
+  }
+]

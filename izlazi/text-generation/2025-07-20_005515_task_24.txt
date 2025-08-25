@@ -1,0 +1,174 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši 10 riječi takvih da svaka riječ sadrži minimalno 90% fonema koji pripadaju klasi Srednjevisoki(SV), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Alright, the user has given me a task to generate 10 Croatian words where each word contains at least 90% of phonemes from the Srednjevisoki (SV) class. Let me break this down.
+
+First, I need to understand the phoneme classes. The SV class includes /č/, /e/, /š/, /t/, /đ/, /j/. So, each word should have mostly these phonemes, with only a few from other classes.
+
+I should start by listing common SV phonemes and think of words that use them predominantly. Maybe starting with 'č' since it's a distinctive sound in Croatian.
+
+"Češći" comes to mind. Let's check: Č (SV), e (SV), š (SV), č (SV), i (V). Only the 'i' is from a different class, so that's acceptable.
+
+Next, "tešći". T (SV), e (SV), š (SV), č (SV), i (V). Again, only one non-SV phoneme.
+
+"Šteta" is another possibility. Š (SV), t (SV), e (SV), t (SV), a (S). Only the 'a' is from S, so it fits.
+
+"Češt" is short but effective: Č (SV), e (SV), š (SV), t (SV). All SV phonemes, perfect.
+
+"Ješt" is similar: J (SV), e (SV), š (SV), t (SV). All SV.
+
+"Đeš" is another good one: Đ (SV), e (SV), š (SV). All SV.
+
+"Šeća" might work: Š (SV), e (SV), Ć (V), a (S). Only two non-SV, but since it's a short word, maybe it's still acceptable.
+
+"Češ" is another option: Č (SV), e (SV), š (SV). All SV.
+
+"Teš" is simple: T (SV), e (SV), š (SV). All SV.
+
+"Ješt" again: J (SV), e (SV), š (SV), t (SV). All SV.
+
+Wait, I notice that some words might have more than one non-SV phoneme, especially if they're longer. I need to ensure that at least 90% of the phonemes are SV. For a 5-letter word, only one non-SV is allowed. For longer words, maybe two.
+
+Let me check each word:
+
+1. Češći: 5 letters, 4 SV, 1 V. 80% SV, which is below 90%. Hmm, that's a problem. I need to adjust.
+
+Maybe "češći" is too short. Let's find longer words.
+
+"Čeština" is longer: Č (SV), e (SV), š (SV), t (SV), i (V), n (N), a (S). That's 4 SV out of 7, which is about 57%. Not good enough.
+
+Perhaps "tešći": T (SV), e (SV), š (SV), č (SV), i (V). 4 SV out of 5, 80% again. Still below 90%.
+
+Maybe "šteći": Š (SV), t (SV), e (SV), Ć (V), i (V). 3 SV out of 5, 60%. Not good.
+
+I need words where most phonemes are SV. Maybe using "e" and "š" and "č" a lot.
+
+"Češnj" is a possibility: Č (SV), e (SV), š (SV), n (N), j (SV). 4 SV out of 5, 80%. Still not enough.
+
+"Tešnj" similarly: T (SV), e (SV), š (SV), n (N), j (SV). 4 SV, 80%.
+
+Perhaps "ješt": J (SV), e (SV), š (SV), t (SV). 4 SV, 100%. Perfect.
+
+"Đeš": Đ (SV), e (SV), š (SV). 3 SV, 100%.
+
+"Šteta": Š (SV), t (SV), e (SV), t (SV), a (S). 4 SV, 80%.
+
+Wait, maybe "češt" is better: Č (SV), e (SV), š (SV), t (SV). 4 SV, 100%.
+
+"Teš": T (SV), e (SV), š (SV). 3 SV, 100%.
+
+"Ješt": J (SV), e (SV), š (SV), t (SV). 4 SV, 100%.
+
+"Šeća": Š (SV), e (SV), Ć (V), a (S). 2 SV, 40%. Not good.
+
+"Češ": Č (SV), e (SV), š (SV). 3 SV, 100%.
+
+"Ješt": J (SV), e (SV), š (SV), t (SV). 4 SV, 100%.
+
+I think I need to focus on words that are longer but still have mostly SV phonemes. Maybe using "e" and "š" and "č" repeatedly.
+
+"Češt" is good, "tešt" is another one: T (SV), e (SV), š (SV), t (SV). 4 SV, 100%.
+
+"Ješt" is another.
+
+I might have to adjust the list to ensure each word meets the 90% SV phoneme requirement. Let me compile a list where each word has at least 90% SV phonemes, possibly using shorter words where it's easier to achieve a higher percentage.
+
+Final list:
+
+1. Češt
+2. Ješt
+3. Tešt
+4. Šešt
+5. Češ
+6. Šteš
+7. Ješ
+8. Teš
+9. Šeš
+10. Češnj
+
+Wait, "Češnj" has 4 SV out of 5, which is 80%. Not enough. Maybe replace it with "Češći" which is 4 SV out of 5, 80%. Still not enough.
+
+Perhaps "tešći" is 4 SV out of 5, 80%. Not enough.
+
+I need to find words where 90% of the phonemes are SV. For a 5-letter word, that's at least 4.5, so 5 SV phonemes. For a 4-letter word, 3.6, so 4 SV.
+
+Looking for longer words might help. Let's see:
+
+"Čeština" is 7 letters, needs at least 6 SV. But it has only 4 SV, so no.
+
+"Tešnj" is 5 letters, 4 SV, 80%.
+
+Maybe "ješt" is 4 letters, all SV.
+
+"Ješt" is 4 letters, all SV.
+
+"Tešt" is 4 letters, all SV.
+
+"Češt" is 4 letters, all SV.
+
+"Šešt" is 4 letters, all SV.
+
+"Ješ" is 3 letters, all SV.
+
+"Teš" is 3 letters, all SV.
+
+"Šeš" is 3 letters, all SV.
+
+"Češ" is 3 letters, all SV.
+
+I think focusing on 3 and 4-letter words where all phonemes are SV is the way to go. That way, they meet the 90% requirement easily.
+
+So, the final list would include words like "ješt", "tešt", "češt", "šešt", "ješ", "teš", "šeš", "češ", and maybe "ješći" if it fits.
+
+But "ješći" is 5 letters: J (SV), e (SV), š (SV), Ć (V), i (V). Only 3 SV, which is 60%. Not good.
+
+Perhaps "tešnj" is 5 letters: T (SV), e (SV), š (SV), N (N), J (SV). 4 SV, 80%. Still not enough.
+
+I think the best approach is to stick with 3 and 4-letter words where all phonemes are SV. That way, they meet the 90% requirement.
+
+So, the final list is:
+
+1. Češt
+2. Ješt
+3. Tešt
+4. Šešt
+5. Češ
+6. Šteš
+7. Ješ
+8. Teš
+9. Šeš
+10. Češnj (but this is 80%, so maybe replace it with another 4-letter word like "tešnj" but it's 80%. Alternatively, "ješt" again, but that's already in the list.
+
+Alternatively, perhaps "tešnj" can be included if we accept it as 80%, but the user specified 90%. So, I need to ensure that each word is at least 90% SV.
+
+Given that, I'll have to list words where all phonemes are SV, ensuring 100% SV, which is more than 90%.
+
+So, the final list
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši 10 riječi takvih da svaka riječ sadrži minimalno 90% fonema koji pripadaju klasi Srednjevisoki(SV), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Alright, the user has given me a task to generate 10 Croatian words where each word contains at least 90% of phonemes from the Srednjevisoki (SV) class. Let me break this down.\n\nFirst, I need to understand the phoneme classes. The SV class includes /č/, /e/, /š/, /t/, /đ/, /j/. So, each word should have mostly these phonemes, with only a few from other classes.\n\nI should start by listing common SV phonemes and think of words that use them predominantly. Maybe starting with 'č' since it's a distinctive sound in Croatian.\n\n\"Češći\" comes to mind. Let's check: Č (SV), e (SV), š (SV), č (SV), i (V). Only the 'i' is from a different class, so that's acceptable.\n\nNext, \"tešći\". T (SV), e (SV), š (SV), č (SV), i (V). Again, only one non-SV phoneme.\n\n\"Šteta\" is another possibility. Š (SV), t (SV), e (SV), t (SV), a (S). Only the 'a' is from S, so it fits.\n\n\"Češt\" is short but effective: Č (SV), e (SV), š (SV), t (SV). All SV phonemes, perfect.\n\n\"Ješt\" is similar: J (SV), e (SV), š (SV), t (SV). All SV.\n\n\"Đeš\" is another good one: Đ (SV), e (SV), š (SV). All SV.\n\n\"Šeća\" might work: Š (SV), e (SV), Ć (V), a (S). Only two non-SV, but since it's a short word, maybe it's still acceptable.\n\n\"Češ\" is another option: Č (SV), e (SV), š (SV). All SV.\n\n\"Teš\" is simple: T (SV), e (SV), š (SV). All SV.\n\n\"Ješt\" again: J (SV), e (SV), š (SV), t (SV). All SV.\n\nWait, I notice that some words might have more than one non-SV phoneme, especially if they're longer. I need to ensure that at least 90% of the phonemes are SV. For a 5-letter word, only one non-SV is allowed. For longer words, maybe two.\n\nLet me check each word:\n\n1. Češći: 5 letters, 4 SV, 1 V. 80% SV, which is below 90%. Hmm, that's a problem. I need to adjust.\n\nMaybe \"češći\" is too short. Let's find longer words.\n\n\"Čeština\" is longer: Č (SV), e (SV), š (SV), t (SV), i (V), n (N), a (S). That's 4 SV out of 7, which is about 57%. Not good enough.\n\nPerhaps \"tešći\": T (SV), e (SV), š (SV), č (SV), i (V). 4 SV out of 5, 80% again. Still below 90%.\n\nMaybe \"šteći\": Š (SV), t (SV), e (SV), Ć (V), i (V). 3 SV out of 5, 60%. Not good.\n\nI need words where most phonemes are SV. Maybe using \"e\" and \"š\" and \"č\" a lot.\n\n\"Češnj\" is a possibility: Č (SV), e (SV), š (SV), n (N), j (SV). 4 SV out of 5, 80%. Still not enough.\n\n\"Tešnj\" similarly: T (SV), e (SV), š (SV), n (N), j (SV). 4 SV, 80%.\n\nPerhaps \"ješt\": J (SV), e (SV), š (SV), t (SV). 4 SV, 100%. Perfect.\n\n\"Đeš\": Đ (SV), e (SV), š (SV). 3 SV, 100%.\n\n\"Šteta\": Š (SV), t (SV), e (SV), t (SV), a (S). 4 SV, 80%.\n\nWait, maybe \"češt\" is better: Č (SV), e (SV), š (SV), t (SV). 4 SV, 100%.\n\n\"Teš\": T (SV), e (SV), š (SV). 3 SV, 100%.\n\n\"Ješt\": J (SV), e (SV), š (SV), t (SV). 4 SV, 100%.\n\n\"Šeća\": Š (SV), e (SV), Ć (V), a (S). 2 SV, 40%. Not good.\n\n\"Češ\": Č (SV), e (SV), š (SV). 3 SV, 100%.\n\n\"Ješt\": J (SV), e (SV), š (SV), t (SV). 4 SV, 100%.\n\nI think I need to focus on words that are longer but still have mostly SV phonemes. Maybe using \"e\" and \"š\" and \"č\" repeatedly.\n\n\"Češt\" is good, \"tešt\" is another one: T (SV), e (SV), š (SV), t (SV). 4 SV, 100%.\n\n\"Ješt\" is another.\n\nI might have to adjust the list to ensure each word meets the 90% SV phoneme requirement. Let me compile a list where each word has at least 90% SV phonemes, possibly using shorter words where it's easier to achieve a higher percentage.\n\nFinal list:\n\n1. Češt\n2. Ješt\n3. Tešt\n4. Šešt\n5. Češ\n6. Šteš\n7. Ješ\n8. Teš\n9. Šeš\n10. Češnj\n\nWait, \"Češnj\" has 4 SV out of 5, which is 80%. Not enough. Maybe replace it with \"Češći\" which is 4 SV out of 5, 80%. Still not enough.\n\nPerhaps \"tešći\" is 4 SV out of 5, 80%. Not enough.\n\nI need to find words where 90% of the phonemes are SV. For a 5-letter word, that's at least 4.5, so 5 SV phonemes. For a 4-letter word, 3.6, so 4 SV.\n\nLooking for longer words might help. Let's see:\n\n\"Čeština\" is 7 letters, needs at least 6 SV. But it has only 4 SV, so no.\n\n\"Tešnj\" is 5 letters, 4 SV, 80%.\n\nMaybe \"ješt\" is 4 letters, all SV.\n\n\"Ješt\" is 4 letters, all SV.\n\n\"Tešt\" is 4 letters, all SV.\n\n\"Češt\" is 4 letters, all SV.\n\n\"Šešt\" is 4 letters, all SV.\n\n\"Ješ\" is 3 letters, all SV.\n\n\"Teš\" is 3 letters, all SV.\n\n\"Šeš\" is 3 letters, all SV.\n\n\"Češ\" is 3 letters, all SV.\n\nI think focusing on 3 and 4-letter words where all phonemes are SV is the way to go. That way, they meet the 90% requirement easily.\n\nSo, the final list would include words like \"ješt\", \"tešt\", \"češt\", \"šešt\", \"ješ\", \"teš\", \"šeš\", \"češ\", and maybe \"ješći\" if it fits.\n\nBut \"ješći\" is 5 letters: J (SV), e (SV), š (SV), Ć (V), i (V). Only 3 SV, which is 60%. Not good.\n\nPerhaps \"tešnj\" is 5 letters: T (SV), e (SV), š (SV), N (N), J (SV). 4 SV, 80%. Still not enough.\n\nI think the best approach is to stick with 3 and 4-letter words where all phonemes are SV. That way, they meet the 90% requirement.\n\nSo, the final list is:\n\n1. Češt\n2. Ješt\n3. Tešt\n4. Šešt\n5. Češ\n6. Šteš\n7. Ješ\n8. Teš\n9. Šeš\n10. Češnj (but this is 80%, so maybe replace it with another 4-letter word like \"tešnj\" but it's 80%. Alternatively, \"ješt\" again, but that's already in the list.\n\nAlternatively, perhaps \"tešnj\" can be included if we accept it as 80%, but the user specified 90%. So, I need to ensure that each word is at least 90% SV.\n\nGiven that, I'll have to list words where all phonemes are SV, ensuring 100% SV, which is more than 90%.\n\nSo, the final list"
+  }
+]

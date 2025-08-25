@@ -1,0 +1,79 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši 10 riječi takvih da svaka riječ sadrži minimalno 80% fonema koji pripadaju klasi Srednji (S), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I need to come up with 10 Croatian words where each word has at least 80% of its phonemes from the Srednji (S) class. Let me first make sure I understand the S class correctly. From the given classes, S includes /a/, /k/, /r/, /d/, /dž/, /f/, /ž/. 
+
+So, each word should be made up mostly of these phonemes. Let's start by thinking of common words that have a lot of these sounds. Maybe words with 'a', 'k', 'r', 'd', etc. 
+
+First, "brad" comes to mind. Let's break it down. 'B' is in the N class, 'r' is S, 'a' is S, 'd' is S. So out of 4 letters, 3 are S. That's 75%, which is close but not quite 80%. Maybe I can adjust it. 
+
+Wait, "brad" is four letters, 3 S. 3/4 is 75%, so it's just below. Maybe I can find a longer word. Let's think of "kard". 'K' is S, 'a' is S, 'r' is S, 'd' is S. That's 4/4, 100%. Perfect. 
+
+Next, "radak". 'R' is S, 'a' is S, 'd' is S, 'a' is S, 'k' is S. All S, so 5/5, 100%. 
+
+How about "drak"? 'D' is S, 'r' is S, 'a' is S, 'k' is S. 4/4, 100%. 
+
+"Krad" is another one: 'K', 'r', 'a', 'd' – all S. 
+
+"Krađa" – 'K', 'r', 'a', 'đ', 'a'. 'Đ' is in S, so all S. 
+
+"Kafar" – 'K', 'a', 'f', 'a', 'r'. 'F' is S, so all S. 
+
+"Kradža" – 'K', 'r', 'a', 'dž', 'a'. 'Dž' is S, so all S. 
+
+"Draka" – 'D', 'r', 'a', 'k', 'a'. All S. 
+
+"Kraf" – 'K', 'r', 'a', 'f'. All S. 
+
+Wait, but "kraf" is a bit short. Maybe "kraf" is okay, but perhaps a longer word would be better. Alternatively, "kraf" could be a valid word, though I'm not sure if it's commonly used. 
+
+I think I have 10 words now, each with at least 80% S phonemes. Let me list them out again to make sure:
+
+1. Brad – 75%, maybe not enough. I'll replace it with another word. Let's think of "brad" as 75%, so I need a word with at least 80%. Maybe "brad" is too short. Let's find another word with more letters. 
+
+How about "drakar"? 'D', 'r', 'a', 'k', 'a', 'r'. All S. That's 6 letters, all S. So 100%. 
+
+So replacing "brad" with "drakar", I have 10 words. 
+
+Wait, but "drakar" might not be a common word. Maybe "kard" is better. Alternatively, "kard" is 4 letters, all S. 
+
+I think I have enough words now, each meeting the 80% requirement. Let me compile the final list.
+</think>
+
+Here is a list of 10 Croatian words where each word contains at least 80% of its phonemes from the Srednji (S) class. Each word is carefully selected to meet the criteria:
+
+1. **Kard** - /k/, /a/, /r/, /d/
+2. **Radak** - /r/, /a/, /d/, /a/, /k/
+3. **Drak** - /d/, /r/, /a/, /k/
+4. **Krad** - /k/, /r/, /a/, /d/
+5. **Krađa** - /k/, /r/, /a/, /đ/, /a/
+6. **Kafar** - /k/, /a/, /f/, /a/, /r/
+7. **Kradža** - /k/, /r/, /a/, /dž/,
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši 10 riječi takvih da svaka riječ sadrži minimalno 80% fonema koji pripadaju klasi Srednji (S), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I need to come up with 10 Croatian words where each word has at least 80% of its phonemes from the Srednji (S) class. Let me first make sure I understand the S class correctly. From the given classes, S includes /a/, /k/, /r/, /d/, /dž/, /f/, /ž/. \n\nSo, each word should be made up mostly of these phonemes. Let's start by thinking of common words that have a lot of these sounds. Maybe words with 'a', 'k', 'r', 'd', etc. \n\nFirst, \"brad\" comes to mind. Let's break it down. 'B' is in the N class, 'r' is S, 'a' is S, 'd' is S. So out of 4 letters, 3 are S. That's 75%, which is close but not quite 80%. Maybe I can adjust it. \n\nWait, \"brad\" is four letters, 3 S. 3/4 is 75%, so it's just below. Maybe I can find a longer word. Let's think of \"kard\". 'K' is S, 'a' is S, 'r' is S, 'd' is S. That's 4/4, 100%. Perfect. \n\nNext, \"radak\". 'R' is S, 'a' is S, 'd' is S, 'a' is S, 'k' is S. All S, so 5/5, 100%. \n\nHow about \"drak\"? 'D' is S, 'r' is S, 'a' is S, 'k' is S. 4/4, 100%. \n\n\"Krad\" is another one: 'K', 'r', 'a', 'd' – all S. \n\n\"Krađa\" – 'K', 'r', 'a', 'đ', 'a'. 'Đ' is in S, so all S. \n\n\"Kafar\" – 'K', 'a', 'f', 'a', 'r'. 'F' is S, so all S. \n\n\"Kradža\" – 'K', 'r', 'a', 'dž', 'a'. 'Dž' is S, so all S. \n\n\"Draka\" – 'D', 'r', 'a', 'k', 'a'. All S. \n\n\"Kraf\" – 'K', 'r', 'a', 'f'. All S. \n\nWait, but \"kraf\" is a bit short. Maybe \"kraf\" is okay, but perhaps a longer word would be better. Alternatively, \"kraf\" could be a valid word, though I'm not sure if it's commonly used. \n\nI think I have 10 words now, each with at least 80% S phonemes. Let me list them out again to make sure:\n\n1. Brad – 75%, maybe not enough. I'll replace it with another word. Let's think of \"brad\" as 75%, so I need a word with at least 80%. Maybe \"brad\" is too short. Let's find another word with more letters. \n\nHow about \"drakar\"? 'D', 'r', 'a', 'k', 'a', 'r'. All S. That's 6 letters, all S. So 100%. \n\nSo replacing \"brad\" with \"drakar\", I have 10 words. \n\nWait, but \"drakar\" might not be a common word. Maybe \"kard\" is better. Alternatively, \"kard\" is 4 letters, all S. \n\nI think I have enough words now, each meeting the 80% requirement. Let me compile the final list.\n</think>\n\nHere is a list of 10 Croatian words where each word contains at least 80% of its phonemes from the Srednji (S) class. Each word is carefully selected to meet the criteria:\n\n1. **Kard** - /k/, /a/, /r/, /d/\n2. **Radak** - /r/, /a/, /d/, /a/, /k/\n3. **Drak** - /d/, /r/, /a/, /k/\n4. **Krad** - /k/, /r/, /a/, /d/\n5. **Krađa** - /k/, /r/, /a/, /đ/, /a/\n6. **Kafar** - /k/, /a/, /f/, /a/, /r/\n7. **Kradža** - /k/, /r/, /a/, /dž/,"
+  }
+]

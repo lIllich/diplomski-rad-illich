@@ -1,0 +1,184 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 70% fonema koji pripadaju klasi Srednjevisoki(SV), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I need to create a sentence in Croatian that's at least 100 characters long and has at least 70% of the phonemes from the Srednjevisoki (SV) class. The SV class includes /č/, /e/, /š/, /t/, /đ/, /j/. The rest can be from other classes.
+
+First, I should figure out how many phonemes I need from SV. If the sentence is 100 characters, assuming each character is roughly one phoneme, I need 70 SV phonemes. But wait, not all letters are single phonemes. For example, 'č' is one phoneme, but 'š' is also one. So, each character might correspond to one phoneme, but I need to check the actual phonemes.
+
+Wait, maybe it's better to count the phonemes rather than the characters. Because some letters represent single phonemes, others might be digraphs or trigraphs. For example, 'č' is one phoneme, 'dž' is another, etc. So, the actual number of phonemes might be less than the number of characters.
+
+But the user's instruction says "minimalno 100 znakova" which is 100 characters, and "minimalno 70% fonema" from SV. So, I need to calculate 70% of the total phonemes in the sentence to be from SV.
+
+Wait, but how do I know the total number of phonemes? Because it's based on the sentence. So, perhaps I should construct a sentence with as many SV phonemes as possible, ensuring that at least 70% of the phonemes are from SV.
+
+Alternatively, maybe the user wants 70% of the characters to be from SV phonemes, but that's not clear. The original query says "minimalno 70% fonema koji pripadaju klasi SV", so it's 70% of the phonemes, not characters.
+
+So, first, I need to create a sentence with at least 100 characters, and in that sentence, 70% of the phonemes must be from SV. So, if the sentence has N phonemes, 0.7*N must be SV.
+
+But how do I calculate N? Because the number of phonemes depends on the sentence. Each letter may correspond to one or more phonemes. For example, 'lj' is one phoneme, 'đ' is another, etc.
+
+This is getting complicated. Maybe I should focus on using as many SV phonemes as possible in the sentence, making it long enough to meet the 100-character requirement, and then check if 70% of the phonemes are from SV.
+
+So, I can start by listing words that have a lot of SV phonemes. For example, words with 'č', 'š', 't', 'đ', 'j', 'e'.
+
+Let me think of some words:
+
+- čest (frequent) - has 'č', 'e', 'š' (wait, 'čest' is spelled c-h-e-s-t? No, in Croatian, it's 'čest' which is /č/ /e/ /št/. Wait, 'št' is a digraph, but in the phoneme list, 'š' is SV, 't' is SV. So 'čest' would have 'č' (SV), 'e' (SV), 'š' (SV), 't' (SV). So four SV phonemes.
+
+But wait, 'čest' is actually /č/ /e/ /št/, but 'št' is a single phoneme, which is /št/ and it's in the SV class. So 'čest' has three SV phonemes: 'č', 'e', 'št'.
+
+Hmm, maybe I should look for words with multiple SV phonemes.
+
+Alternatively, maybe using names or loanwords that have multiple SV phonemes.
+
+But perhaps it's easier to construct a sentence using words with multiple SV phonemes.
+
+Let me try to construct a sentence:
+
+"Često šećer štedimo jer je štednja čest." 
+
+Breaking it down:
+
+- Često: Č (SV), e (SV), s (V?), t (SV), o (SN). Wait, 'o' is SN, so that's not SV.
+
+Wait, maybe I should avoid using 'o' because it's SN. Let me think again.
+
+"Često šećer štedimo jer je štednja čest."
+
+Let me count the SV phonemes:
+
+- Često: Č (SV), e (SV), s (V?), t (SV), o (SN). So three SV phonemes here.
+
+But's' is in the Visoki (V) class, so not SV.
+
+Maybe I can replace 'štedimo' with another word.
+
+Alternatively, use "Često šećer štedimo jer je štednja čest."
+
+Let me count the phonemes:
+
+Često: Č, e, s, t, o → Č (SV), e (SV), t (SV) → 3 SV.
+
+šećer: š (SV), e (SV), ć (V), e (SV), r (S) → š, e, e → 3 SV.
+
+štedimo: š (SV), t (SV), e (SV), d (S), i (V), m (N) → š, t, e → 3 SV.
+
+jer: j (SV), e (SV), r (S) → j, e → 2 SV.
+
+je: j (SV), e (SV) → 2 SV.
+
+štednja: š (SV), t (SV), e (SV), d (S), n (N), j (SV), a (S) → š, t, e, j → 4 SV.
+
+čest: Č (SV), e (SV), š (SV), t (SV) → 4 SV.
+
+Total SV phonemes: 3 + 3 + 3 + 2 + 2 + 4 + 4 = 21.
+
+Total phonemes: Let's count each word's phonemes.
+
+Često: 5 phonemes.
+
+šećer: 5.
+
+štedimo: 6.
+
+jer: 3.
+
+je: 2.
+
+štednja: 7.
+
+čest: 4.
+
+Total: 5+5+6+3+2+7+4 = 32 phonemes.
+
+SV phonemes: 21.
+
+21/32 ≈ 65.6%, which is less than 70%. So I need more SV phonemes.
+
+Maybe I can extend the sentence or use more SV-rich words.
+
+Let me try adding another SV-rich word.
+
+"Često šećer štedimo jer je štednja čest i često šećer štedimo jer je štednja čest."
+
+Now, the sentence is longer. Let's count the SV phonemes again.
+
+Each "Često šećer štedimo jer je štednja čest." has 21 SV phonemes.
+
+If I repeat it, total SV phonemes would be 42, total phonemes 64.
+
+42/64 = 65.6% still. Not enough.
+
+Hmm, maybe I need a different approach. Maybe using more SV phonemes per word.
+
+Let me think of a word with multiple SV phonemes. For example, "četvrt" has Č, e, t, v, r, t. SV phonemes: Č, e, t, t → 4 SV.
+
+But 'v' is SN, 'r' is S, so not SV.
+
+Another word: "šest" → š, e, s, t. SV: š, e, t → 3 SV.
+
+"štampa" → š, t, a, m, p, a. SV: š, t → 2 SV.
+
+"čuvar" → č, u, v, a, r. SV: č → 1 SV.
+
+Hmm, maybe it's hard to find words with a lot of SV phonemes.
+
+Alternatively, maybe using names or loanwords.
+
+For example, "Šef" → š, e, f. SV: š, e → 2 SV.
+
+"Čista" → č, i, s, t, a. SV: č, t → 2 SV.
+
+"Šeta" → š, e, t, a. SV: š, e, t → 3 SV.
+
+Maybe I can construct a sentence with multiple such words.
+
+"Šeta šećer štedi čistu šetu."
+
+Let's break it down:
+
+Šeta: š, e, t, a → SV: š, e, t → 3.
+
+šećer: š, e, ć, e, r → SV: š, e, e → 3.
+
+štedi: š, t, e, d, i → SV: š, t, e → 3.
+
+čistu: č, i, s, t, u → SV: č, t → 2.
+
+šetu: š, e, t, u → SV: š, e, t → 3.
+
+Total SV: 3+3+3+2+3=14.
+
+Total phonemes: 4+5+5+5+4=23.
+
+14/23 ≈ 60.8% → still not enough.
+
+Hmm, maybe I need
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 70% fonema koji pripadaju klasi Srednjevisoki(SV), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I need to create a sentence in Croatian that's at least 100 characters long and has at least 70% of the phonemes from the Srednjevisoki (SV) class. The SV class includes /č/, /e/, /š/, /t/, /đ/, /j/. The rest can be from other classes.\n\nFirst, I should figure out how many phonemes I need from SV. If the sentence is 100 characters, assuming each character is roughly one phoneme, I need 70 SV phonemes. But wait, not all letters are single phonemes. For example, 'č' is one phoneme, but 'š' is also one. So, each character might correspond to one phoneme, but I need to check the actual phonemes.\n\nWait, maybe it's better to count the phonemes rather than the characters. Because some letters represent single phonemes, others might be digraphs or trigraphs. For example, 'č' is one phoneme, 'dž' is another, etc. So, the actual number of phonemes might be less than the number of characters.\n\nBut the user's instruction says \"minimalno 100 znakova\" which is 100 characters, and \"minimalno 70% fonema\" from SV. So, I need to calculate 70% of the total phonemes in the sentence to be from SV.\n\nWait, but how do I know the total number of phonemes? Because it's based on the sentence. So, perhaps I should construct a sentence with as many SV phonemes as possible, ensuring that at least 70% of the phonemes are from SV.\n\nAlternatively, maybe the user wants 70% of the characters to be from SV phonemes, but that's not clear. The original query says \"minimalno 70% fonema koji pripadaju klasi SV\", so it's 70% of the phonemes, not characters.\n\nSo, first, I need to create a sentence with at least 100 characters, and in that sentence, 70% of the phonemes must be from SV. So, if the sentence has N phonemes, 0.7*N must be SV.\n\nBut how do I calculate N? Because the number of phonemes depends on the sentence. Each letter may correspond to one or more phonemes. For example, 'lj' is one phoneme, 'đ' is another, etc.\n\nThis is getting complicated. Maybe I should focus on using as many SV phonemes as possible in the sentence, making it long enough to meet the 100-character requirement, and then check if 70% of the phonemes are from SV.\n\nSo, I can start by listing words that have a lot of SV phonemes. For example, words with 'č', 'š', 't', 'đ', 'j', 'e'.\n\nLet me think of some words:\n\n- čest (frequent) - has 'č', 'e', 'š' (wait, 'čest' is spelled c-h-e-s-t? No, in Croatian, it's 'čest' which is /č/ /e/ /št/. Wait, 'št' is a digraph, but in the phoneme list, 'š' is SV, 't' is SV. So 'čest' would have 'č' (SV), 'e' (SV), 'š' (SV), 't' (SV). So four SV phonemes.\n\nBut wait, 'čest' is actually /č/ /e/ /št/, but 'št' is a single phoneme, which is /št/ and it's in the SV class. So 'čest' has three SV phonemes: 'č', 'e', 'št'.\n\nHmm, maybe I should look for words with multiple SV phonemes.\n\nAlternatively, maybe using names or loanwords that have multiple SV phonemes.\n\nBut perhaps it's easier to construct a sentence using words with multiple SV phonemes.\n\nLet me try to construct a sentence:\n\n\"Često šećer štedimo jer je štednja čest.\" \n\nBreaking it down:\n\n- Često: Č (SV), e (SV), s (V?), t (SV), o (SN). Wait, 'o' is SN, so that's not SV.\n\nWait, maybe I should avoid using 'o' because it's SN. Let me think again.\n\n\"Često šećer štedimo jer je štednja čest.\"\n\nLet me count the SV phonemes:\n\n- Često: Č (SV), e (SV), s (V?), t (SV), o (SN). So three SV phonemes here.\n\nBut's' is in the Visoki (V) class, so not SV.\n\nMaybe I can replace 'štedimo' with another word.\n\nAlternatively, use \"Često šećer štedimo jer je štednja čest.\"\n\nLet me count the phonemes:\n\nČesto: Č, e, s, t, o → Č (SV), e (SV), t (SV) → 3 SV.\n\nšećer: š (SV), e (SV), ć (V), e (SV), r (S) → š, e, e → 3 SV.\n\nštedimo: š (SV), t (SV), e (SV), d (S), i (V), m (N) → š, t, e → 3 SV.\n\njer: j (SV), e (SV), r (S) → j, e → 2 SV.\n\nje: j (SV), e (SV) → 2 SV.\n\nštednja: š (SV), t (SV), e (SV), d (S), n (N), j (SV), a (S) → š, t, e, j → 4 SV.\n\nčest: Č (SV), e (SV), š (SV), t (SV) → 4 SV.\n\nTotal SV phonemes: 3 + 3 + 3 + 2 + 2 + 4 + 4 = 21.\n\nTotal phonemes: Let's count each word's phonemes.\n\nČesto: 5 phonemes.\n\nšećer: 5.\n\nštedimo: 6.\n\njer: 3.\n\nje: 2.\n\nštednja: 7.\n\nčest: 4.\n\nTotal: 5+5+6+3+2+7+4 = 32 phonemes.\n\nSV phonemes: 21.\n\n21/32 ≈ 65.6%, which is less than 70%. So I need more SV phonemes.\n\nMaybe I can extend the sentence or use more SV-rich words.\n\nLet me try adding another SV-rich word.\n\n\"Često šećer štedimo jer je štednja čest i često šećer štedimo jer je štednja čest.\"\n\nNow, the sentence is longer. Let's count the SV phonemes again.\n\nEach \"Često šećer štedimo jer je štednja čest.\" has 21 SV phonemes.\n\nIf I repeat it, total SV phonemes would be 42, total phonemes 64.\n\n42/64 = 65.6% still. Not enough.\n\nHmm, maybe I need a different approach. Maybe using more SV phonemes per word.\n\nLet me think of a word with multiple SV phonemes. For example, \"četvrt\" has Č, e, t, v, r, t. SV phonemes: Č, e, t, t → 4 SV.\n\nBut 'v' is SN, 'r' is S, so not SV.\n\nAnother word: \"šest\" → š, e, s, t. SV: š, e, t → 3 SV.\n\n\"štampa\" → š, t, a, m, p, a. SV: š, t → 2 SV.\n\n\"čuvar\" → č, u, v, a, r. SV: č → 1 SV.\n\nHmm, maybe it's hard to find words with a lot of SV phonemes.\n\nAlternatively, maybe using names or loanwords.\n\nFor example, \"Šef\" → š, e, f. SV: š, e → 2 SV.\n\n\"Čista\" → č, i, s, t, a. SV: č, t → 2 SV.\n\n\"Šeta\" → š, e, t, a. SV: š, e, t → 3 SV.\n\nMaybe I can construct a sentence with multiple such words.\n\n\"Šeta šećer štedi čistu šetu.\"\n\nLet's break it down:\n\nŠeta: š, e, t, a → SV: š, e, t → 3.\n\nšećer: š, e, ć, e, r → SV: š, e, e → 3.\n\nštedi: š, t, e, d, i → SV: š, t, e → 3.\n\nčistu: č, i, s, t, u → SV: č, t → 2.\n\nšetu: š, e, t, u → SV: š, e, t → 3.\n\nTotal SV: 3+3+3+2+3=14.\n\nTotal phonemes: 4+5+5+5+4=23.\n\n14/23 ≈ 60.8% → still not enough.\n\nHmm, maybe I need"
+  }
+]

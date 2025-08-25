@@ -1,0 +1,66 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši 10 riječi takvih da svaka riječ sadrži minimalno 60% fonema koji pripadaju klasi Niski (N), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I need to come up with 10 Croatian words where each word has at least 60% of its phonemes from the Low (N) class. Let me break this down.
+
+First, I should understand what the Low (N) class includes. From the user's message, the Low class has the phonemes /m/, /n/, /nj/, /b/, /p/, /u/. So, any word that uses these sounds can contribute to the 60% requirement.
+
+Now, each word needs to have at least 60% of its phonemes from N. Let's say a word has 5 phonemes. 60% of 5 is 3, so at least 3 phonemes need to be from N. Similarly, for a 4-phoneme word, 60% is 2.4, so at least 3 phonemes from N. Wait, actually, 60% of 4 is 2.4, so we'd round up to 3. Hmm, maybe I should calculate it precisely for each word length.
+
+But maybe it's easier to aim for words where the majority of their sounds are from N. So, I can think of words that have multiple N-class phonemes.
+
+Let me think of some Croatian words and check their phonemes.
+
+1. "mom" - /mɒm/ (in Croatian, it's "mom" which is /mɒm/). Phonemes: /m/, /ɒ/, /m/. So, two /m/'s and one /ɒ/. /m/ is N, /ɒ/ is S. So, 2/3 ≈ 66.6% N. That works.
+
+2. "brb" - Wait, "brb" isn't a Croatian word. Maybe "brb" is "bye" in some slang, but in Croatian, it's "Ćao". Let me think of another word. Maybe "brb" isn't suitable. Let me think of "brb" as /b/, /r/, /b/. /b/ is N, /r/ is S. So, 2/3 ≈ 66.6% N. Wait, but "brb" isn't a real word. Maybe "brb" is a typo. Let me think of "brb" as a possible word, but I'm not sure. Maybe I should find another word.
+
+3. "bbm" - Hmm, not a word. Maybe "bbm" isn't valid. Let me think of "bbm" as /b/, /b/, /m/. All N-class. So, 100% N. That's good, but is "bbm" a word? Probably not. Maybe I should think of "bbm" as a possible typo or a non-word. Let me try another approach.
+
+4. "bumba" - /bʌmbʌ/. Phonemes: /b/, /ʌ/, /m/, /b/, /ʌ/. So, /b/ and /m/ are N. /ʌ/ is S. So, 3 N phonemes out of 5. 3/5 = 60%. Perfect.
+
+5. "mmam" - /mæm/. Wait, that's "mom" again. Maybe "mmam" is a variation, but in Croatian, it's "mom". So, same as the first word.
+
+6. "mmbb" - Not a word. Maybe "mmbb" isn't valid. Let me think of another word.
+
+7. "bbmm" - Also not a word. Maybe I should look for real words.
+
+8. "bbnn" - Not a word. Maybe "bbnn" isn't valid.
+
+9. "bmm" - /bmm/. Phonemes: /b/, /m/, /m/. All N. 100% N. But is "bmm" a word? Probably not. Maybe "bmm" is a typo.
+
+10. "bmmm" - Not a word either.
+
+Hmm, maybe I should think of longer words or words with more N-class phonemes. Let me try "brb" again, but I'm not sure if it's a real word. Alternatively, maybe "brb" is a typo for "brb" as in "bye", but in Croatian, it's "Ćao". So, maybe I should avoid that.
+
+Let me try "brb" as a possible word, even if it's not standard. So, /b/, /r/, /b/. Two /b/'s and one /r/. /b/ is N, /r/ is S. So, 2/3 ≈ 66.6% N. That would work, but it's not a real word. Maybe I should find another word.
+
+
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši 10 riječi takvih da svaka riječ sadrži minimalno 60% fonema koji pripadaju klasi Niski (N), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I need to come up with 10 Croatian words where each word has at least 60% of its phonemes from the Low (N) class. Let me break this down.\n\nFirst, I should understand what the Low (N) class includes. From the user's message, the Low class has the phonemes /m/, /n/, /nj/, /b/, /p/, /u/. So, any word that uses these sounds can contribute to the 60% requirement.\n\nNow, each word needs to have at least 60% of its phonemes from N. Let's say a word has 5 phonemes. 60% of 5 is 3, so at least 3 phonemes need to be from N. Similarly, for a 4-phoneme word, 60% is 2.4, so at least 3 phonemes from N. Wait, actually, 60% of 4 is 2.4, so we'd round up to 3. Hmm, maybe I should calculate it precisely for each word length.\n\nBut maybe it's easier to aim for words where the majority of their sounds are from N. So, I can think of words that have multiple N-class phonemes.\n\nLet me think of some Croatian words and check their phonemes.\n\n1. \"mom\" - /mɒm/ (in Croatian, it's \"mom\" which is /mɒm/). Phonemes: /m/, /ɒ/, /m/. So, two /m/'s and one /ɒ/. /m/ is N, /ɒ/ is S. So, 2/3 ≈ 66.6% N. That works.\n\n2. \"brb\" - Wait, \"brb\" isn't a Croatian word. Maybe \"brb\" is \"bye\" in some slang, but in Croatian, it's \"Ćao\". Let me think of another word. Maybe \"brb\" isn't suitable. Let me think of \"brb\" as /b/, /r/, /b/. /b/ is N, /r/ is S. So, 2/3 ≈ 66.6% N. Wait, but \"brb\" isn't a real word. Maybe \"brb\" is a typo. Let me think of \"brb\" as a possible word, but I'm not sure. Maybe I should find another word.\n\n3. \"bbm\" - Hmm, not a word. Maybe \"bbm\" isn't valid. Let me think of \"bbm\" as /b/, /b/, /m/. All N-class. So, 100% N. That's good, but is \"bbm\" a word? Probably not. Maybe I should think of \"bbm\" as a possible typo or a non-word. Let me try another approach.\n\n4. \"bumba\" - /bʌmbʌ/. Phonemes: /b/, /ʌ/, /m/, /b/, /ʌ/. So, /b/ and /m/ are N. /ʌ/ is S. So, 3 N phonemes out of 5. 3/5 = 60%. Perfect.\n\n5. \"mmam\" - /mæm/. Wait, that's \"mom\" again. Maybe \"mmam\" is a variation, but in Croatian, it's \"mom\". So, same as the first word.\n\n6. \"mmbb\" - Not a word. Maybe \"mmbb\" isn't valid. Let me think of another word.\n\n7. \"bbmm\" - Also not a word. Maybe I should look for real words.\n\n8. \"bbnn\" - Not a word. Maybe \"bbnn\" isn't valid.\n\n9. \"bmm\" - /bmm/. Phonemes: /b/, /m/, /m/. All N. 100% N. But is \"bmm\" a word? Probably not. Maybe \"bmm\" is a typo.\n\n10. \"bmmm\" - Not a word either.\n\nHmm, maybe I should think of longer words or words with more N-class phonemes. Let me try \"brb\" again, but I'm not sure if it's a real word. Alternatively, maybe \"brb\" is a typo for \"brb\" as in \"bye\", but in Croatian, it's \"Ćao\". So, maybe I should avoid that.\n\nLet me try \"brb\" as a possible word, even if it's not standard. So, /b/, /r/, /b/. Two /b/'s and one /r/. /b/ is N, /r/ is S. So, 2/3 ≈ 66.6% N. That would work, but it's not a real word. Maybe I should find another word.\n\n"
+  }
+]

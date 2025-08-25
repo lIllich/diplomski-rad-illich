@@ -1,0 +1,78 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši 10 riječi takvih da svaka riječ sadrži minimalno 60% fonema koji pripadaju klasi Srednjevisoki(SV), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I need to come up with 10 Croatian words where each word has at least 60% of its phonemes from the SV (Srednjevisoki) class. First, I should recall what the SV class includes. From the user's message, the SV class has the following phonemes: /č/, /e/, /š/, /t/, /đ/, /j/.
+
+Each word needs to have at least 60% of its letters (since each letter roughly corresponds to a phoneme in Croatian) from the SV class. So, for a 5-letter word, at least 3 letters should be from SV. For a 6-letter word, at least 4 letters should be from SV, and so on.
+
+I should think of common Croatian words that fit this criterion. Let me start brainstorming some words.
+
+1. "čest" - Let's break it down: č (SV), e (SV), s (V), t (SV). So, 3 out of 4 letters are SV. 75% which is above 60%. Good.
+
+2. "šetaj" - š (SV), e (SV), t (SV), a (S), j (SV). That's 4 SV out of 5 letters. 80% - excellent.
+
+3. "češći" - č (SV), e (SV), š (SV), ĉ (V), i (V). Wait, ĉ is not in the SV class. Hmm, maybe "češći" isn't the best example. Alternatively, "čȅšći" might have a different breakdown. Maybe I should think of another word.
+
+Wait, perhaps "čȅšći" is correct. Let me check: č (SV), ȅ (which is e, SV), š (SV), ĉ (V), i (V). So, 3 SV out of 5 letters. 60% exactly. That's acceptable.
+
+4. "šteta" - š (SV), t (SV), e (SV), t (SV), a (S). So, 4 SV out of 5 letters. 80% - good.
+
+5. "đeš" - đ (SV), e (SV), š (SV). 3 out of 3 letters, 100% - perfect.
+
+6. "teško" - t (SV), e (SV), š (SV), k (S), o (SN). So, 3 SV out of 5 letters. 60% - exactly meets the requirement.
+
+7. "čȅst" - č (SV), ȅ (e, SV), s (V), t (SV). 3 SV out of 4 letters. 75% - good.
+
+8. "šȅdži" - š (SV), ȅ (e, SV), dž (SV), i (V). Wait, "šȅdži" is 4 letters: š, ȅ, dž, i. So, 3 SV out of 4 letters. 75% - good.
+
+9. "čȅšt" - č (SV), ȅ (e, SV), š (SV), t (SV). 4 SV out of 4 letters. 100% - perfect.
+
+10. "tešt" - t (SV), e (SV), š (SV), t (SV). 4 SV out of 4 letters. 100% - excellent.
+
+Wait, I think I might have made a mistake with "tešt". Let me check: t, e, š, t. All are SV except maybe 'e' which is SV. So yes, all four letters are SV. Good.
+
+Let me review each word to ensure they meet the 60% requirement:
+
+1. čest: 3/4 SV - 75% ✔️
+2. šetaj: 4/5 SV - 80% ✔️
+3. čȅšći: 3/5 SV - 60% ✔️
+4. šteta: 4/5 SV - 80% ✔️
+5. đeš: 3/3 SV - 100% ✔️
+6. teško: 3/5 SV - 60% ✔️
+7. čȅst: 3/4 SV - 75% ✔️
+8. šȅdži: 3/4 SV - 75% ✔️
+9. čȅšt: 4/4 SV - 100% ✔️
+10. tešt: 4/4 SV - 100% ✔️
+
+All words meet the requirement. I think this should work.
+</think>
+
+Here are 
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši 10 riječi takvih da svaka riječ sadrži minimalno 60% fonema koji pripadaju klasi Srednjevisoki(SV), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I need to come up with 10 Croatian words where each word has at least 60% of its phonemes from the SV (Srednjevisoki) class. First, I should recall what the SV class includes. From the user's message, the SV class has the following phonemes: /č/, /e/, /š/, /t/, /đ/, /j/.\n\nEach word needs to have at least 60% of its letters (since each letter roughly corresponds to a phoneme in Croatian) from the SV class. So, for a 5-letter word, at least 3 letters should be from SV. For a 6-letter word, at least 4 letters should be from SV, and so on.\n\nI should think of common Croatian words that fit this criterion. Let me start brainstorming some words.\n\n1. \"čest\" - Let's break it down: č (SV), e (SV), s (V), t (SV). So, 3 out of 4 letters are SV. 75% which is above 60%. Good.\n\n2. \"šetaj\" - š (SV), e (SV), t (SV), a (S), j (SV). That's 4 SV out of 5 letters. 80% - excellent.\n\n3. \"češći\" - č (SV), e (SV), š (SV), ĉ (V), i (V). Wait, ĉ is not in the SV class. Hmm, maybe \"češći\" isn't the best example. Alternatively, \"čȅšći\" might have a different breakdown. Maybe I should think of another word.\n\nWait, perhaps \"čȅšći\" is correct. Let me check: č (SV), ȅ (which is e, SV), š (SV), ĉ (V), i (V). So, 3 SV out of 5 letters. 60% exactly. That's acceptable.\n\n4. \"šteta\" - š (SV), t (SV), e (SV), t (SV), a (S). So, 4 SV out of 5 letters. 80% - good.\n\n5. \"đeš\" - đ (SV), e (SV), š (SV). 3 out of 3 letters, 100% - perfect.\n\n6. \"teško\" - t (SV), e (SV), š (SV), k (S), o (SN). So, 3 SV out of 5 letters. 60% - exactly meets the requirement.\n\n7. \"čȅst\" - č (SV), ȅ (e, SV), s (V), t (SV). 3 SV out of 4 letters. 75% - good.\n\n8. \"šȅdži\" - š (SV), ȅ (e, SV), dž (SV), i (V). Wait, \"šȅdži\" is 4 letters: š, ȅ, dž, i. So, 3 SV out of 4 letters. 75% - good.\n\n9. \"čȅšt\" - č (SV), ȅ (e, SV), š (SV), t (SV). 4 SV out of 4 letters. 100% - perfect.\n\n10. \"tešt\" - t (SV), e (SV), š (SV), t (SV). 4 SV out of 4 letters. 100% - excellent.\n\nWait, I think I might have made a mistake with \"tešt\". Let me check: t, e, š, t. All are SV except maybe 'e' which is SV. So yes, all four letters are SV. Good.\n\nLet me review each word to ensure they meet the 60% requirement:\n\n1. čest: 3/4 SV - 75% ✔️\n2. šetaj: 4/5 SV - 80% ✔️\n3. čȅšći: 3/5 SV - 60% ✔️\n4. šteta: 4/5 SV - 80% ✔️\n5. đeš: 3/3 SV - 100% ✔️\n6. teško: 3/5 SV - 60% ✔️\n7. čȅst: 3/4 SV - 75% ✔️\n8. šȅdži: 3/4 SV - 75% ✔️\n9. čȅšt: 4/4 SV - 100% ✔️\n10. tešt: 4/4 SV - 100% ✔️\n\nAll words meet the requirement. I think this should work.\n</think>\n\nHere are "
+  }
+]

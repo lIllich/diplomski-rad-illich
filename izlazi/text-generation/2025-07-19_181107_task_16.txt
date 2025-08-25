@@ -1,0 +1,136 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 80% fonema koji pripadaju klasi Niski (N), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I need to help the user by creating a sentence in Croatian that's at least 100 characters long. The main requirement is that at least 80% of the phonemes belong to the "Niski" (Low) class. The Low class includes /m/, /n/, /nj/, /b/, /p/, and /u/. The remaining 20% can be from other classes.
+
+First, I should understand what 80% of 100 characters means. That would be 80 characters, so 80 phonemes. Wait, actually, each character isn't necessarily a phoneme, especially in Croatian where some letters represent digraphs or trigraphs, like "nj" or "đ". So I need to count the number of phonemes, not the number of characters.
+
+But wait, the user said "minimalno 100 znakova" which is characters, and "minimalno 80% fonema". So I think it's 80% of the phonemes in the sentence must be from the N class. So if the sentence has, say, 100 phonemes, 80 of them must be N class.
+
+But that's a bit tricky because the number of phonemes isn't the same as the number of characters. For example, "lj" is one character but represents a single phoneme. So I need to calculate the number of phonemes in the sentence and ensure that 80% of them are from the N class.
+
+Let me think of some words that have a lot of N class phonemes. Words with "m", "n", "nj", "b", "p", and "u".
+
+For example, "mamun" is a word, but it's not standard. Maybe "mama" (mother) is better. "mama" has two "m"s and two "a"s. So two N class phonemes.
+
+Wait, "a" is in the S class, so it's not N. So "mama" has two "m"s, which are N class, and two "a"s, which are S class. So only 50% N.
+
+I need to find words with more N class phonemes. Maybe "mumnj" – but that's not a word. Maybe "mumb" – no, that's not a word either.
+
+Alternatively, I can create a sentence with many "m", "n", "nj", "b", "p", and "u". Maybe something like "Mama muče munje." Let's break it down.
+
+"Mama" has two "m"s (N), two "a"s (S). "muče" has "m" (N), "u" (N), "č" (SV), "e" (SV). So in "muče", two N phonemes. "munje" has "m" (N), "u" (N), "n" (N), "j" (SV). So three N phonemes.
+
+So the sentence "Mama muče munje." has:
+
+Mama: 2 N
+muče: 2 N
+munje: 3 N
+Total N: 7
+Other phonemes: "a", "č", "e", "j" – 4.
+
+So total phonemes: 11. 7/11 is about 63%, which is below 80%. So I need a longer sentence with more N phonemes.
+
+Maybe add more words. Let's try "Mama muče munje, mada je mrtva." Breaking it down:
+
+Mama: 2 N
+muče: 2 N
+munje: 3 N
+mada: "m" (N), "a" (S), "d" (S) – 1 N
+je: "j" (SV), "e" (SV) – 0 N
+mrtva: "m" (N), "r" (S), "t" (SV), "v" (SN), "a" (S) – 1 N
+Total N: 2+2+3+1+1 = 9
+Other phonemes: 11
+Total phonemes: 20
+9/20 = 45% – still too low.
+
+Hmm, maybe I should use more words with multiple N phonemes. Let's try "Mama muče munje, mubni su mrtvi." 
+
+Mama: 2 N
+muče: 2 N
+munje: 3 N
+mubni: "m" (N), "u" (N), "b" (N), "n" (N), "i" (V) – 4 N
+su: "s" (V), "u" (N) – 1 N
+mrtvi: "m" (N), "r" (S), "t" (SV), "v" (SN), "i" (V) – 1 N
+Total N: 2+2+3+4+1+1 = 13
+Other phonemes: 7
+Total phonemes: 20
+13/20 = 65% – still not enough.
+
+I need to get to 80%, which is 80% of the total phonemes. Let's say the sentence has 100 phonemes, 80 must be N. That's a lot. Maybe it's easier to create a sentence with many N phonemes.
+
+Perhaps using alliterations. Let's try "Mama muče mumi, mada su mrtvi." 
+
+Mama: 2 N
+muče: 2 N
+mumi: "m" (N), "u" (N), "m" (N), "i" (V) – 3 N
+mada: 1 N
+su: 1 N
+mrtvi: 1 N
+Total N: 2+2+3+1+1+1 = 10
+Other phonemes: let's see, "č", "e", "m", "u", "m", "i", "m", "a", "d", "a", "s", "u", "m", "r", "t", "v", "i" – maybe 10 other phonemes.
+Total phonemes: 20
+10/20 = 50% – still not enough.
+
+Maybe I need to use more N phonemes in each word. Let's try "Mama muče mumbane." 
+
+Mama: 2 N
+muče: 2 N
+mumbane: "m" (N), "u" (N), "m" (N), "b" (N), "a" (S), "n" (N), "e" (SV) – 5 N
+Total N: 2+2+5 = 9
+Other phonemes: "a", "n", "e" – 3
+Total phonemes: 12
+9/12 = 75% – close, but still below 80%.
+
+Maybe add another word: "Mama muče mumbane, mada su mrtvi." 
+
+Mama: 2 N
+muče: 2 N
+mumbane: 5 N
+mada: 1 N
+su: 1 N
+mrtvi: 1 N
+Total N: 2+2+5+1+1+1 = 12
+Other phonemes: "a", "n", "e", "m", "a", "d", "a", "s", "u", "m", "r", "t", "v", "i" – 14
+Total phonemes: 26
+12/26 ≈ 46% – no, that's worse.
+
+Wait, maybe I'm overcomplicating. Let me think of a sentence where almost every word has multiple N phonemes. Maybe something like "Mama muče mumi, mada su mrtvi." But as before, it's 10 N out of 20, which is 50%.
+
+Alternatively, maybe using "n" and "nj" more. Let's try "Njutn je napao na njegovu najmlađu sestru." 
+
+Njutn: "nj" (N), "u" (N), "t" (SV), "n" (N) – 3 N
+je: "j" (SV), "e" (SV) – 0 N
+napao: "n" (N), "a" (S), "p" (N), "a" (S), "o" (SN) – 2 N
+na: "n" (N), "a" (S) – 1 N
+njegovu: "nj" (N), "e" (SV), "g" (SN), "o" (SN), "v" (SN), "u" (N) – 2 N
+najmlađu: "n" (N), "a" (S), "j" (SV), "m" (N), "l" (SN), "a" (S), "đ" (SV), "u" (N) – 3 N
+sestru: "s" (V), "e" (SV), "s" (V), "t" (SV), "r" (S), "u"
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 80% fonema koji pripadaju klasi Niski (N), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I need to help the user by creating a sentence in Croatian that's at least 100 characters long. The main requirement is that at least 80% of the phonemes belong to the \"Niski\" (Low) class. The Low class includes /m/, /n/, /nj/, /b/, /p/, and /u/. The remaining 20% can be from other classes.\n\nFirst, I should understand what 80% of 100 characters means. That would be 80 characters, so 80 phonemes. Wait, actually, each character isn't necessarily a phoneme, especially in Croatian where some letters represent digraphs or trigraphs, like \"nj\" or \"đ\". So I need to count the number of phonemes, not the number of characters.\n\nBut wait, the user said \"minimalno 100 znakova\" which is characters, and \"minimalno 80% fonema\". So I think it's 80% of the phonemes in the sentence must be from the N class. So if the sentence has, say, 100 phonemes, 80 of them must be N class.\n\nBut that's a bit tricky because the number of phonemes isn't the same as the number of characters. For example, \"lj\" is one character but represents a single phoneme. So I need to calculate the number of phonemes in the sentence and ensure that 80% of them are from the N class.\n\nLet me think of some words that have a lot of N class phonemes. Words with \"m\", \"n\", \"nj\", \"b\", \"p\", and \"u\".\n\nFor example, \"mamun\" is a word, but it's not standard. Maybe \"mama\" (mother) is better. \"mama\" has two \"m\"s and two \"a\"s. So two N class phonemes.\n\nWait, \"a\" is in the S class, so it's not N. So \"mama\" has two \"m\"s, which are N class, and two \"a\"s, which are S class. So only 50% N.\n\nI need to find words with more N class phonemes. Maybe \"mumnj\" – but that's not a word. Maybe \"mumb\" – no, that's not a word either.\n\nAlternatively, I can create a sentence with many \"m\", \"n\", \"nj\", \"b\", \"p\", and \"u\". Maybe something like \"Mama muče munje.\" Let's break it down.\n\n\"Mama\" has two \"m\"s (N), two \"a\"s (S). \"muče\" has \"m\" (N), \"u\" (N), \"č\" (SV), \"e\" (SV). So in \"muče\", two N phonemes. \"munje\" has \"m\" (N), \"u\" (N), \"n\" (N), \"j\" (SV). So three N phonemes.\n\nSo the sentence \"Mama muče munje.\" has:\n\nMama: 2 N\nmuče: 2 N\nmunje: 3 N\nTotal N: 7\nOther phonemes: \"a\", \"č\", \"e\", \"j\" – 4.\n\nSo total phonemes: 11. 7/11 is about 63%, which is below 80%. So I need a longer sentence with more N phonemes.\n\nMaybe add more words. Let's try \"Mama muče munje, mada je mrtva.\" Breaking it down:\n\nMama: 2 N\nmuče: 2 N\nmunje: 3 N\nmada: \"m\" (N), \"a\" (S), \"d\" (S) – 1 N\nje: \"j\" (SV), \"e\" (SV) – 0 N\nmrtva: \"m\" (N), \"r\" (S), \"t\" (SV), \"v\" (SN), \"a\" (S) – 1 N\nTotal N: 2+2+3+1+1 = 9\nOther phonemes: 11\nTotal phonemes: 20\n9/20 = 45% – still too low.\n\nHmm, maybe I should use more words with multiple N phonemes. Let's try \"Mama muče munje, mubni su mrtvi.\" \n\nMama: 2 N\nmuče: 2 N\nmunje: 3 N\nmubni: \"m\" (N), \"u\" (N), \"b\" (N), \"n\" (N), \"i\" (V) – 4 N\nsu: \"s\" (V), \"u\" (N) – 1 N\nmrtvi: \"m\" (N), \"r\" (S), \"t\" (SV), \"v\" (SN), \"i\" (V) – 1 N\nTotal N: 2+2+3+4+1+1 = 13\nOther phonemes: 7\nTotal phonemes: 20\n13/20 = 65% – still not enough.\n\nI need to get to 80%, which is 80% of the total phonemes. Let's say the sentence has 100 phonemes, 80 must be N. That's a lot. Maybe it's easier to create a sentence with many N phonemes.\n\nPerhaps using alliterations. Let's try \"Mama muče mumi, mada su mrtvi.\" \n\nMama: 2 N\nmuče: 2 N\nmumi: \"m\" (N), \"u\" (N), \"m\" (N), \"i\" (V) – 3 N\nmada: 1 N\nsu: 1 N\nmrtvi: 1 N\nTotal N: 2+2+3+1+1+1 = 10\nOther phonemes: let's see, \"č\", \"e\", \"m\", \"u\", \"m\", \"i\", \"m\", \"a\", \"d\", \"a\", \"s\", \"u\", \"m\", \"r\", \"t\", \"v\", \"i\" – maybe 10 other phonemes.\nTotal phonemes: 20\n10/20 = 50% – still not enough.\n\nMaybe I need to use more N phonemes in each word. Let's try \"Mama muče mumbane.\" \n\nMama: 2 N\nmuče: 2 N\nmumbane: \"m\" (N), \"u\" (N), \"m\" (N), \"b\" (N), \"a\" (S), \"n\" (N), \"e\" (SV) – 5 N\nTotal N: 2+2+5 = 9\nOther phonemes: \"a\", \"n\", \"e\" – 3\nTotal phonemes: 12\n9/12 = 75% – close, but still below 80%.\n\nMaybe add another word: \"Mama muče mumbane, mada su mrtvi.\" \n\nMama: 2 N\nmuče: 2 N\nmumbane: 5 N\nmada: 1 N\nsu: 1 N\nmrtvi: 1 N\nTotal N: 2+2+5+1+1+1 = 12\nOther phonemes: \"a\", \"n\", \"e\", \"m\", \"a\", \"d\", \"a\", \"s\", \"u\", \"m\", \"r\", \"t\", \"v\", \"i\" – 14\nTotal phonemes: 26\n12/26 ≈ 46% – no, that's worse.\n\nWait, maybe I'm overcomplicating. Let me think of a sentence where almost every word has multiple N phonemes. Maybe something like \"Mama muče mumi, mada su mrtvi.\" But as before, it's 10 N out of 20, which is 50%.\n\nAlternatively, maybe using \"n\" and \"nj\" more. Let's try \"Njutn je napao na njegovu najmlađu sestru.\" \n\nNjutn: \"nj\" (N), \"u\" (N), \"t\" (SV), \"n\" (N) – 3 N\nje: \"j\" (SV), \"e\" (SV) – 0 N\nnapao: \"n\" (N), \"a\" (S), \"p\" (N), \"a\" (S), \"o\" (SN) – 2 N\nna: \"n\" (N), \"a\" (S) – 1 N\nnjegovu: \"nj\" (N), \"e\" (SV), \"g\" (SN), \"o\" (SN), \"v\" (SN), \"u\" (N) – 2 N\nnajmlađu: \"n\" (N), \"a\" (S), \"j\" (SV), \"m\" (N), \"l\" (SN), \"a\" (S), \"đ\" (SV), \"u\" (N) – 3 N\nsestru: \"s\" (V), \"e\" (SV), \"s\" (V), \"t\" (SV), \"r\" (S), \"u\""
+  }
+]

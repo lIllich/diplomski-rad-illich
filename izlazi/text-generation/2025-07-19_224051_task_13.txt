@@ -1,0 +1,135 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši 10 riječi takvih da svaka riječ sadrži minimalno 70% fonema koji pripadaju klasi Srednji (S), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I need to come up with 10 Croatian words where each word has at least 70% of its phonemes from the Srednji (S) class. Let me first make sure I understand the classes correctly.
+
+The S class includes the following phonemes: /a/, /k/, /r/, /d/, /dž/, /f/, /ž/. So any word that has at least 70% of its letters corresponding to these phonemes will satisfy the requirement.
+
+First, I should figure out what 70% means in terms of letters. If a word has, say, 3 letters, 70% would be at least 2 letters from the S class. If a word has 4 letters, it needs at least 3 letters from S. For longer words, the percentage might be easier to meet.
+
+I should think of common Croatian words that fit this criterion. Maybe starting with short words and building up. Let me jot down some possible words and check their phonemes.
+
+1. "kada" – k, a, d, a. All letters are in S class. So that's 100%.
+2. "drugo" – d, r, u, g, o. Wait, u and o are not in S. So that's only 2 out of 5 letters, which is 40%. Doesn't meet 70%.
+3. "kratki" – k, r, a, t, k, i. t and i are not in S. So 4 out of 6 letters. 66.6%, which is just below 70%. Hmm, not enough.
+4. "rad" – r, a, d. All S class. 100%.
+5. "dak" – d, a, k. All S. 100%.
+6. "kar" – k, a, r. All S. 100%.
+7. "fa" – f, a. Both S. 100%.
+8. "žir" – ž, i, r. i is not S. So 2 out of 3. 66.6%. Not enough.
+9. "šak" – š is SV, a and k are S. So 2/3, 66.6%. Not enough.
+10. "čak" – č is SV, a and k are S. Again 2/3. Not enough.
+
+Hmm, maybe I need to look for longer words or words where more letters are from S. Let's try some longer words.
+
+11. "dakar" – d, a, k, a, r. All S. 100%.
+12. "raf" – r, a, f. All S. 100%.
+13. "žar" – ž, a, r. All S. 100%.
+14. "krdža" – k, r, dž, a. All S. 100%.
+15. "frak" – f, r, a, k. All S. 100%.
+
+Wait, these are all 100%, but the requirement is 70%. Maybe I can include some words with a mix, but still maintaining the 70% threshold.
+
+Let me try "kroza" – k, r, o, z, a. o and z are not S. So 3 out of 5 letters. 60%. Not enough.
+
+How about "kadaš" – k, a, d, a, š. š is SV. So 4 out of 5 letters. 80%. That works.
+
+Another one: "dakarš" – d, a, k, a, r, š. 5 out of 6 letters are S. 83.3%. Good.
+
+Wait, but I'm supposed to come up with 10 words, so maybe I can mix some with 100% and some with just above 70%.
+
+Let me compile a list:
+
+1. "kada" – 100%
+2. "rad" – 100%
+3. "dak" – 100%
+4. "kar" – 100%
+5. "fa" – 100%
+6. "dakar" – 100%
+7. "raf" – 100%
+8. "žar" – 100%
+9. "krdža" – 100%
+10. "frak" – 100%
+
+Wait, but all these are 100%. Maybe the user wants a mix. Let me try to find some that have exactly 70%.
+
+For example, a 5-letter word needs at least 4 letters from S. Let's see.
+
+"druga" – d, r, u, g, a. u and g are not S. So 3 out of 5. 60%. Not enough.
+
+"drak" – d, r, a, k. All S. 100%.
+
+"frak" – as above.
+
+"rak" – r, a, k. 100%.
+
+"kar" – same.
+
+Maybe "kroža" – k, r, o, ž, a. o is not S. So 4 out of 5. 80%. Good.
+
+Another one: "dakar" – as above.
+
+Wait, perhaps I can use "žarka" – ž, a, r, k, a. All S. 100%.
+
+Alternatively, "žark" – ž, a, r, k. All S. 100%.
+
+I think it's challenging to find words with exactly 70% because the phoneme classes are specific. Most words either have all or many S phonemes. Maybe the user is okay with some words being 100% as long as they meet the 70% requirement.
+
+So, compiling 10 words, all of which have at least 70% S phonemes, some at 100%:
+
+1. "kada" – k, a, d, a
+2. "rad" – r, a, d
+3. "dak" – d, a, k
+4. "kar" – k, a, r
+5. "fa" – f, a
+6. "dakar" – d, a, k, a, r
+7. "raf" – r, a, f
+8. "žar" – ž, a, r
+9. "krdža" – k, r, dž, a
+10. "frak" – f, r, a, k
+
+These should all meet the 70% requirement, with some being 100%.
+</think>
+
+Here is a list of 10 Croatian words, each containing at least 70% of their phonemes from the Srednji (S) class:
+
+1. "kada" – k, a, d, a
+2. "rad" – r, a, d
+3. "dak" – d, a, k
+4. "kar" – k, a, r
+5. "fa" – f, a
+6. "dakar" – d, a, k, a, r
+7. "raf" – r, a, f
+8. "žar" – ž, a, r
+9. "krdža" – k, r, dž, a
+10. "frak" – f, r, a, k
+
+Each of these words meets the requirement, with some achieving 100% of their phonemes from the S class.
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši 10 riječi takvih da svaka riječ sadrži minimalno 70% fonema koji pripadaju klasi Srednji (S), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I need to come up with 10 Croatian words where each word has at least 70% of its phonemes from the Srednji (S) class. Let me first make sure I understand the classes correctly.\n\nThe S class includes the following phonemes: /a/, /k/, /r/, /d/, /dž/, /f/, /ž/. So any word that has at least 70% of its letters corresponding to these phonemes will satisfy the requirement.\n\nFirst, I should figure out what 70% means in terms of letters. If a word has, say, 3 letters, 70% would be at least 2 letters from the S class. If a word has 4 letters, it needs at least 3 letters from S. For longer words, the percentage might be easier to meet.\n\nI should think of common Croatian words that fit this criterion. Maybe starting with short words and building up. Let me jot down some possible words and check their phonemes.\n\n1. \"kada\" – k, a, d, a. All letters are in S class. So that's 100%.\n2. \"drugo\" – d, r, u, g, o. Wait, u and o are not in S. So that's only 2 out of 5 letters, which is 40%. Doesn't meet 70%.\n3. \"kratki\" – k, r, a, t, k, i. t and i are not in S. So 4 out of 6 letters. 66.6%, which is just below 70%. Hmm, not enough.\n4. \"rad\" – r, a, d. All S class. 100%.\n5. \"dak\" – d, a, k. All S. 100%.\n6. \"kar\" – k, a, r. All S. 100%.\n7. \"fa\" – f, a. Both S. 100%.\n8. \"žir\" – ž, i, r. i is not S. So 2 out of 3. 66.6%. Not enough.\n9. \"šak\" – š is SV, a and k are S. So 2/3, 66.6%. Not enough.\n10. \"čak\" – č is SV, a and k are S. Again 2/3. Not enough.\n\nHmm, maybe I need to look for longer words or words where more letters are from S. Let's try some longer words.\n\n11. \"dakar\" – d, a, k, a, r. All S. 100%.\n12. \"raf\" – r, a, f. All S. 100%.\n13. \"žar\" – ž, a, r. All S. 100%.\n14. \"krdža\" – k, r, dž, a. All S. 100%.\n15. \"frak\" – f, r, a, k. All S. 100%.\n\nWait, these are all 100%, but the requirement is 70%. Maybe I can include some words with a mix, but still maintaining the 70% threshold.\n\nLet me try \"kroza\" – k, r, o, z, a. o and z are not S. So 3 out of 5 letters. 60%. Not enough.\n\nHow about \"kadaš\" – k, a, d, a, š. š is SV. So 4 out of 5 letters. 80%. That works.\n\nAnother one: \"dakarš\" – d, a, k, a, r, š. 5 out of 6 letters are S. 83.3%. Good.\n\nWait, but I'm supposed to come up with 10 words, so maybe I can mix some with 100% and some with just above 70%.\n\nLet me compile a list:\n\n1. \"kada\" – 100%\n2. \"rad\" – 100%\n3. \"dak\" – 100%\n4. \"kar\" – 100%\n5. \"fa\" – 100%\n6. \"dakar\" – 100%\n7. \"raf\" – 100%\n8. \"žar\" – 100%\n9. \"krdža\" – 100%\n10. \"frak\" – 100%\n\nWait, but all these are 100%. Maybe the user wants a mix. Let me try to find some that have exactly 70%.\n\nFor example, a 5-letter word needs at least 4 letters from S. Let's see.\n\n\"druga\" – d, r, u, g, a. u and g are not S. So 3 out of 5. 60%. Not enough.\n\n\"drak\" – d, r, a, k. All S. 100%.\n\n\"frak\" – as above.\n\n\"rak\" – r, a, k. 100%.\n\n\"kar\" – same.\n\nMaybe \"kroža\" – k, r, o, ž, a. o is not S. So 4 out of 5. 80%. Good.\n\nAnother one: \"dakar\" – as above.\n\nWait, perhaps I can use \"žarka\" – ž, a, r, k, a. All S. 100%.\n\nAlternatively, \"žark\" – ž, a, r, k. All S. 100%.\n\nI think it's challenging to find words with exactly 70% because the phoneme classes are specific. Most words either have all or many S phonemes. Maybe the user is okay with some words being 100% as long as they meet the 70% requirement.\n\nSo, compiling 10 words, all of which have at least 70% S phonemes, some at 100%:\n\n1. \"kada\" – k, a, d, a\n2. \"rad\" – r, a, d\n3. \"dak\" – d, a, k\n4. \"kar\" – k, a, r\n5. \"fa\" – f, a\n6. \"dakar\" – d, a, k, a, r\n7. \"raf\" – r, a, f\n8. \"žar\" – ž, a, r\n9. \"krdža\" – k, r, dž, a\n10. \"frak\" – f, r, a, k\n\nThese should all meet the 70% requirement, with some being 100%.\n</think>\n\nHere is a list of 10 Croatian words, each containing at least 70% of their phonemes from the Srednji (S) class:\n\n1. \"kada\" – k, a, d, a\n2. \"rad\" – r, a, d\n3. \"dak\" – d, a, k\n4. \"kar\" – k, a, r\n5. \"fa\" – f, a\n6. \"dakar\" – d, a, k, a, r\n7. \"raf\" – r, a, f\n8. \"žar\" – ž, a, r\n9. \"krdža\" – k, r, dž, a\n10. \"frak\" – f, r, a, k\n\nEach of these words meets the requirement, with some achieving 100% of their phonemes from the S class."
+  }
+]

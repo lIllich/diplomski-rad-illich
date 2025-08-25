@@ -1,0 +1,125 @@
+== SYSTEM ==
+Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. 
+
+Klase fonema u hrvatskom jeziku su:
+Niski (N): /m/, /n/, /nj/, /b/, /p/, /u/
+Srednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/
+Srednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/
+Srednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/
+Visoki (V): /ć/, /i/, /c/, /z/, /s/
+
+== USER ==
+Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 60% fonema koji pripadaju klasi Srednjevisoki(SV), a preostali fonemi mogu biti iz drugih klasa fonema.
+
+== ASSISTANT ==
+Okay, so I need to create a sentence in Croatian that's at least 100 characters long, and at least 60% of the phonemes should belong to the Srednjevisoki (SV) class. The SV class includes /č/, /e/, /š/, /t/, /đ/, /j/. The remaining phonemes can be from other classes.
+
+First, I should recall the structure of Croatian sentences. They typically have a subject, verb, and object, and often include additional information like time, place, etc. To make it longer, I might need to add more clauses or descriptive phrases.
+
+I need to think of words that contain SV phonemes. Let's brainstorm some words:
+
+- "čest" (often) has /č/ and /e/
+- "šest" (six) has /š/ and /e/
+- "teško" (hard) has /t/, /e/, /š/
+- "đeda" (grandfather) has /đ/ and /e/
+- "ešte" (still) has /e/ and /š/
+- "jet" (go) has /j/ and /e/
+- "čin" (act) has /č/ and /i/ (but /i/ is in V class, so maybe not)
+- "šteta" (damage) has /š/, /t/, /e/
+- "čuvar" (guard) has /č/, /u/ (N class), /v/ (SN), /r/ (S)
+- "teškoću" (hardship) has /t/, /e/, /š/, /k/ (S class), /u/ (N class)
+
+Hmm, maybe I can combine these words into a sentence. Let's try to create a context where someone is doing something hard or facing challenges.
+
+"Čest šest teškoću đeda ešte jet šteta." Let's break this down:
+
+- "Čest" (often) - /č/, /e/, /s/ (V)
+- "šest" (six) - /š/, /e/, /s/ (V)
+- "teškoću" (hardship) - /t/, /e/, /š/, /k/, /u/
+- "đeda" (grandfather) - /đ/, /e/, /d/, /a/
+- "ešte" (still) - /e/, /š/, /t/, /e/
+- "jet" (go) - /j/, /e/, /t/
+- "šteta" (damage) - /š/, /t/, /e/, /t/, /a/
+
+Wait, this might not make complete sense. Maybe I need to adjust the sentence structure for better meaning.
+
+Alternatively, think of a story: "Čest šest teškoću đeda ešte jet šteta." Maybe it translates to "Often six difficulties grandfather still goes damage." That doesn't make much sense. Perhaps I need to rephrase.
+
+Let me try again: "Čest šest teškoću đeda ešte jet šteta." Maybe "Čest šest teškoću đeda ešte jet šteta." Still not clear. Maybe I should use "eštejet" as one word? Or adjust the sentence.
+
+Alternatively, "Čest šest teškoću đeda ešte jet šteta." Maybe it's better to use "eštejet" as a single word, but that's not a real word. Alternatively, "ešte je šteta." So the sentence could be: "Čest šest teškoću đeda ešte je šteta." Now, that makes more sense: "Often six difficulties grandfather still is damage." Still not perfect, but closer.
+
+Now, let's count the phonemes. Each word:
+
+- "Čest": /č/, /e/, /s/ (SV: 2/3)
+- "šest": /š/, /e/, /s/ (SV: 2/3)
+- "teškoću": /t/, /e/, /š/, /k/, /o/, /u/ (SV: 3/6)
+- "đeda": /đ/, /e/, /d/, /a/ (SV: 2/4)
+- "ešte": /e/, /š/, /t/, /e/ (SV: 3/4)
+- "je": /j/, /e/ (SV: 2/2)
+- "šteta": /š/, /t/, /e/, /t/, /a/ (SV: 3/5)
+
+Total SV phonemes: 2+2+3+2+3+2+3 = 17
+Total phonemes: 3+3+6+4+4+2+5 = 27
+17/27 ≈ 63% which is above 60%.
+
+But the sentence might not make perfect sense. Maybe I can adjust it to make more sense while keeping the SV phonemes.
+
+Alternatively, use "Čest šest teškoću đeda ešte je šteta." Let's see:
+
+"Čest šest teškoću đeda ešte je šteta." (Often six difficulties grandfather still is damage.)
+
+Perhaps it's better to say "Čest šest teškoću đeda ešte je šteta." Maybe "ešte je šteta" means "still is damage," which could imply that despite the grandfather's efforts, damage still occurs.
+
+Now, checking the length: The sentence is "Čest šest teškoću đeda ešte je šteta." Let's count the characters including spaces: "Čest šest teškoću đeda ešte je šteta." That's 35 characters, which is way below 100. So I need to make it longer.
+
+Perhaps add more details or repeat some words. For example:
+
+"Čest šest teškoću đeda ešte je šteta, čest šest teškoću đeda ešte je šteta." Now it's longer, but it's repetitive.
+
+Alternatively, add more clauses or descriptive phrases. Maybe include time or place.
+
+"Čest šest teškoću đeda ešte je šteta, čest šest teškoću đeda ešte je šteta, čest šest teškoću đeda ešte je šteta." Now it's longer, but it's still repetitive.
+
+Alternatively, vary the sentence structure: "Čest šest teškoću đeda ešte je šteta, teškoću ešte je šteta." But this might not add much.
+
+Alternatively, use different SV words to make the sentence more varied and longer.
+
+"Čest šest teškoću đeda ešte je šteta, čest jet šteta." Now, the sentence is: "Čest šest teškoću đeda ešte je šteta, čest jet šteta." Let's count the characters: 51, still too short.
+
+I need to reach at least 100 characters. So perhaps I need to expand the sentence with more clauses or descriptive phrases.
+
+"Čest šest teškoću đeda ešte je šteta, čest jet šteta, teškoću ešte je šteta, đeda ešte je šteta." Now, the sentence is longer: 67 characters. Still not 100.
+
+Alternatively, add more words with SV phonemes. For example, "teškoću ešte je šteta, čest jet šteta, đeda ešte je šteta, teškoću ešte je šteta." Now, it's 76 characters.
+
+Still need more. Maybe add a time reference: "Čest šest teškoću đeda ešte je šteta danas, čest jet šteta, teškoću ešte je šteta, đeda ešte je šteta." Now, it's 85 characters.
+
+Still not 100. Maybe add "svaki dan" (every day): "Čest šest teškoću đeda ešte je šteta danas, svaki dan čest jet šteta, teškoću ešte je šteta, đeda ešte je šteta." Now, it's 100 characters.
+
+Let me check the SV phonemes:
+
+- "Čest": /č/, /e/, /s/ (SV: 2)
+- "šest": /š/, /e/, /s/ (SV: 2)
+- "teškoću": /t/, /e/, /š/, /k/, /o/, /u/ (SV: 3)
+- "đeda": /đ/, /e/, /d/, /a/ (SV: 2)
+- "ešte": /e/, /š/, /t/, /e/ (SV: 3)
+- "je": /j/, /e/ (SV: 2)
+- "šteta": /š/, /t/, /e
+
+
+=== JSON FORMAT ===
+[
+  {
+    "role": "system",
+    "content": "Ti si asistent specijaliziran za lingvistiku i fonetiku hrvatskog jezika. Tvoj zadatak je generirati riječi prema specifičnim fonetskim zahtjevima i provjeriti njihovu valjanost. Koristi svoje znanje o hrvatskom standardnom jeziku i fonemima da bi stvorio odgovarajuće riječi. \n\nKlase fonema u hrvatskom jeziku su:\nNiski (N): /m/, /n/, /nj/, /b/, /p/, /u/\nSrednjeniski (SN): /v/, /g/, /o/, /h/, /l/, /lj/\nSrednji (S): /a/, /k/, /r/, /d/, /dž/, /f/, /ž/\nSrednjevisoki (SV): /č/, /e/, /š/, /t/, /đ/, /j/\nVisoki (V): /ć/, /i/, /c/, /z/, /s/"
+  },
+  {
+    "role": "user",
+    "content": "Napiši rečenicu od minimalno 100 znakova, a koja sadrži minimalno 60% fonema koji pripadaju klasi Srednjevisoki(SV), a preostali fonemi mogu biti iz drugih klasa fonema."
+  },
+  {
+    "role": "assistant",
+    "content": "Okay, so I need to create a sentence in Croatian that's at least 100 characters long, and at least 60% of the phonemes should belong to the Srednjevisoki (SV) class. The SV class includes /č/, /e/, /š/, /t/, /đ/, /j/. The remaining phonemes can be from other classes.\n\nFirst, I should recall the structure of Croatian sentences. They typically have a subject, verb, and object, and often include additional information like time, place, etc. To make it longer, I might need to add more clauses or descriptive phrases.\n\nI need to think of words that contain SV phonemes. Let's brainstorm some words:\n\n- \"čest\" (often) has /č/ and /e/\n- \"šest\" (six) has /š/ and /e/\n- \"teško\" (hard) has /t/, /e/, /š/\n- \"đeda\" (grandfather) has /đ/ and /e/\n- \"ešte\" (still) has /e/ and /š/\n- \"jet\" (go) has /j/ and /e/\n- \"čin\" (act) has /č/ and /i/ (but /i/ is in V class, so maybe not)\n- \"šteta\" (damage) has /š/, /t/, /e/\n- \"čuvar\" (guard) has /č/, /u/ (N class), /v/ (SN), /r/ (S)\n- \"teškoću\" (hardship) has /t/, /e/, /š/, /k/ (S class), /u/ (N class)\n\nHmm, maybe I can combine these words into a sentence. Let's try to create a context where someone is doing something hard or facing challenges.\n\n\"Čest šest teškoću đeda ešte jet šteta.\" Let's break this down:\n\n- \"Čest\" (often) - /č/, /e/, /s/ (V)\n- \"šest\" (six) - /š/, /e/, /s/ (V)\n- \"teškoću\" (hardship) - /t/, /e/, /š/, /k/, /u/\n- \"đeda\" (grandfather) - /đ/, /e/, /d/, /a/\n- \"ešte\" (still) - /e/, /š/, /t/, /e/\n- \"jet\" (go) - /j/, /e/, /t/\n- \"šteta\" (damage) - /š/, /t/, /e/, /t/, /a/\n\nWait, this might not make complete sense. Maybe I need to adjust the sentence structure for better meaning.\n\nAlternatively, think of a story: \"Čest šest teškoću đeda ešte jet šteta.\" Maybe it translates to \"Often six difficulties grandfather still goes damage.\" That doesn't make much sense. Perhaps I need to rephrase.\n\nLet me try again: \"Čest šest teškoću đeda ešte jet šteta.\" Maybe \"Čest šest teškoću đeda ešte jet šteta.\" Still not clear. Maybe I should use \"eštejet\" as one word? Or adjust the sentence.\n\nAlternatively, \"Čest šest teškoću đeda ešte jet šteta.\" Maybe it's better to use \"eštejet\" as a single word, but that's not a real word. Alternatively, \"ešte je šteta.\" So the sentence could be: \"Čest šest teškoću đeda ešte je šteta.\" Now, that makes more sense: \"Often six difficulties grandfather still is damage.\" Still not perfect, but closer.\n\nNow, let's count the phonemes. Each word:\n\n- \"Čest\": /č/, /e/, /s/ (SV: 2/3)\n- \"šest\": /š/, /e/, /s/ (SV: 2/3)\n- \"teškoću\": /t/, /e/, /š/, /k/, /o/, /u/ (SV: 3/6)\n- \"đeda\": /đ/, /e/, /d/, /a/ (SV: 2/4)\n- \"ešte\": /e/, /š/, /t/, /e/ (SV: 3/4)\n- \"je\": /j/, /e/ (SV: 2/2)\n- \"šteta\": /š/, /t/, /e/, /t/, /a/ (SV: 3/5)\n\nTotal SV phonemes: 2+2+3+2+3+2+3 = 17\nTotal phonemes: 3+3+6+4+4+2+5 = 27\n17/27 ≈ 63% which is above 60%.\n\nBut the sentence might not make perfect sense. Maybe I can adjust it to make more sense while keeping the SV phonemes.\n\nAlternatively, use \"Čest šest teškoću đeda ešte je šteta.\" Let's see:\n\n\"Čest šest teškoću đeda ešte je šteta.\" (Often six difficulties grandfather still is damage.)\n\nPerhaps it's better to say \"Čest šest teškoću đeda ešte je šteta.\" Maybe \"ešte je šteta\" means \"still is damage,\" which could imply that despite the grandfather's efforts, damage still occurs.\n\nNow, checking the length: The sentence is \"Čest šest teškoću đeda ešte je šteta.\" Let's count the characters including spaces: \"Čest šest teškoću đeda ešte je šteta.\" That's 35 characters, which is way below 100. So I need to make it longer.\n\nPerhaps add more details or repeat some words. For example:\n\n\"Čest šest teškoću đeda ešte je šteta, čest šest teškoću đeda ešte je šteta.\" Now it's longer, but it's repetitive.\n\nAlternatively, add more clauses or descriptive phrases. Maybe include time or place.\n\n\"Čest šest teškoću đeda ešte je šteta, čest šest teškoću đeda ešte je šteta, čest šest teškoću đeda ešte je šteta.\" Now it's longer, but it's still repetitive.\n\nAlternatively, vary the sentence structure: \"Čest šest teškoću đeda ešte je šteta, teškoću ešte je šteta.\" But this might not add much.\n\nAlternatively, use different SV words to make the sentence more varied and longer.\n\n\"Čest šest teškoću đeda ešte je šteta, čest jet šteta.\" Now, the sentence is: \"Čest šest teškoću đeda ešte je šteta, čest jet šteta.\" Let's count the characters: 51, still too short.\n\nI need to reach at least 100 characters. So perhaps I need to expand the sentence with more clauses or descriptive phrases.\n\n\"Čest šest teškoću đeda ešte je šteta, čest jet šteta, teškoću ešte je šteta, đeda ešte je šteta.\" Now, the sentence is longer: 67 characters. Still not 100.\n\nAlternatively, add more words with SV phonemes. For example, \"teškoću ešte je šteta, čest jet šteta, đeda ešte je šteta, teškoću ešte je šteta.\" Now, it's 76 characters.\n\nStill need more. Maybe add a time reference: \"Čest šest teškoću đeda ešte je šteta danas, čest jet šteta, teškoću ešte je šteta, đeda ešte je šteta.\" Now, it's 85 characters.\n\nStill not 100. Maybe add \"svaki dan\" (every day): \"Čest šest teškoću đeda ešte je šteta danas, svaki dan čest jet šteta, teškoću ešte je šteta, đeda ešte je šteta.\" Now, it's 100 characters.\n\nLet me check the SV phonemes:\n\n- \"Čest\": /č/, /e/, /s/ (SV: 2)\n- \"šest\": /š/, /e/, /s/ (SV: 2)\n- \"teškoću\": /t/, /e/, /š/, /k/, /o/, /u/ (SV: 3)\n- \"đeda\": /đ/, /e/, /d/, /a/ (SV: 2)\n- \"ešte\": /e/, /š/, /t/, /e/ (SV: 3)\n- \"je\": /j/, /e/ (SV: 2)\n- \"šteta\": /š/, /t/, /e"
+  }
+]
