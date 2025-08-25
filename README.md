@@ -1,4 +1,4 @@
-# Audiorehabilitacijski projekt - veliki jezični modeli i sinteza govora
+# Diplomski rad - Evaluacija jezičnih modela za potrebe audiorehabilitacije
 
 Ovaj repozitorij sadrži sve relevantne materijale, skripte i rezultate povezane s diplomskim radom na temu **Evaluacija jezičnih modela za potrebe audiorehabilitacije**. Projekt uključuje generiranje jezičnog materijala pomoću velikih jezičnih modela (LLM) te sintezu govora (TTS) na hrvatskom jeziku, kao i evaluaciju dobivenih rezultata.
 
