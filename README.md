@@ -32,32 +32,6 @@ Ovaj repozitorij sadrži sve relevantne materijale, skripte i rezultate povezane
 
 ---
 
-## Kako koristiti
-
-1. **Generiranje teksta (LLM):**  
-   Pokrenite skriptu `DeepSeek-R1-Distill-Qwen-32B_v1.py` s odgovarajućim ulaznim JSON datotekama (nalaze se u `ulazi/`). Generirani tekst bit će spremljen u direktorij `izlazi/text-generation/`.
-
-2. **Sinesteza govora (TTS):**  
-   Na izlazne tekstualne datoteke primijenite `speecht5_finetuned_voxpopuli_hr_v1.py` za generiranje audio snimki u `izlazi/text-to-speech/`.
-
-3. **Evaluacija i analiza:**  
-   Upotrijebite dostupne Excel i CSV datoteke u `rezultati/` za kvantitativnu i kvalitativnu procjenu performansi modela.
-
-4. **Provjera računalnog okruženja:**  
-   Skripta `cuda-test.py` može pomoći pri provjeri ispravne instalacije CUDA podrške za ubrzavanje izvođenja modela korištenjem GPU-a.
-
----
-
 ## Reference
 
 Ovaj repozitorij prati eksperimentalni rad i analize opisane u diplomskom radu Luka Illicha pod nazivom _Evaluacija jezičnih modela za potrebe audiorehabilitacije_ (Sveučilište u Rijeci, Tehnički fakultet, 2025).
-
----
-
-## Kontakt
-
-Za dodatna pitanja ili prijedloge, molimo kontaktirajte autora rada.
-
----
-
-*Napomena:* Ovaj repozitorij zahtijeva Python okruženje s instaliranim paketima `transformers`, `torch`, `librosa` i ostalim navedenim u diplomskom radu kako bi se moglo reproducirati generiranje i sinteza govora.
